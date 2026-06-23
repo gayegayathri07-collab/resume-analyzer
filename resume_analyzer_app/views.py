@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from .ai_service import get_ai_analysis
 import json
 from reportlab.pdfgen import canvas
@@ -9,6 +9,10 @@ from pypdf import PdfReader
 # New home view for the landing page
 def home(request):
     return render(request, 'resume_analyzer_app/upload.html')
+
+def analyze_resume(request):
+    # Nee resume analysis code ikkada untadi
+    return JsonResponse({"result": "Analysis complete"})
 
 def upload_resume(request):
     analysis = None
