@@ -6,49 +6,45 @@ from reportlab.pdfgen import canvas
 import io
 from pypdf import PdfReader
 
-# Rectified home view to render home.html
+# Home view to render the upload page
 def home(request):
     return render(request, 'home.html')
 
-def analyze_resume(request):
-    # Nee resume analysis code ikkada untadi
-    return JsonResponse({"result": "Analysis complete"})
-
-from django.views.decorators.csrf import csrf_exempt
-
-@csrf_exempt
+# Resume upload and analysis view (Database removed for Vercel)
 def upload_resume(request):
     analysis = None
+    error_msg = None
     if request.method == 'POST' and 'resume' in request.FILES:
-        resume = request.FILES['resume']
-        
-        # Real PDF Parsing
         try:
+            resume = request.FILES['resume']
+            
+            # Real PDF Parsing
             reader = PdfReader(resume)
             resume_text = ""
             for page in reader.pages:
                 resume_text += page.extract_text() + "\n"
-        except:
-            resume_text = "Could not parse PDF"
             
-        # Call AI
-        ai_response = get_ai_analysis(resume_text)
-        
-        # Parse JSON from AI
-        try:
-            analysis = json.loads(ai_response.replace('```json', '').replace('```', ''))
-        except:
-            analysis = {"error": "AI response parsing failed"}
-        
-        # Save to session
-        request.session['last_analysis'] = analysis
+            # Call AI
+            ai_response = get_ai_analysis(resume_text)
             
-    return render(request, 'resume_analyzer_app/upload.html', {'analysis': analysis})
+            # Parse JSON from AI
+            try:
+                analysis = json.loads(ai_response.replace('```json', '').replace('```', ''))
+            except:
+                error_msg = "AI response parsing failed"
+        except Exception as e:
+            error_msg = str(e)
+            
+    return render(request, 'home.html', {'analysis': analysis, 'error': error_msg})
 
+# API Endpoint Placeholder
 def analyze_resume_api(request):
     return HttpResponse("API Endpoint Placeholder", status=200)
 
+# PDF Export view
 def export_pdf(request):
+    # This might fail in Vercel if session is not configured, 
+    # but for now keeping it as requested.
     analysis = request.session.get('last_analysis')
     if not analysis:
         return HttpResponse("No analysis found", status=404)
@@ -56,11 +52,8 @@ def export_pdf(request):
     buffer = io.BytesIO()
     p = canvas.Canvas(buffer)
     p.drawString(100, 800, "Resume Analysis Report")
-    
-    # Safely get ATS score
     score = analysis.get('ats_score', 'N/A')
     p.drawString(100, 780, f"ATS Score: {score}")
-    
     p.showPage()
     p.save()
     
