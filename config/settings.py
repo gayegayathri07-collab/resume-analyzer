@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Securely load SECRET_KEY from environment variables
 SECRET_KEY = os.environ.get('SECRET_KEY', 'dummy-for-local')
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
-ALLOWED_HOSTS = ['ai-resume-analyzer.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['Shafeeka911.pythonanywhere.com', 'localhost', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
