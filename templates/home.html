@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Analyzer | Professional Career Optimizer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Inter', sans-serif; }</style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+    <nav class="bg-white shadow-sm p-4 sticky top-0 z-10">
+        <div class="max-w-5xl mx-auto flex justify-between items-center">
+            <span class="text-2xl font-bold text-indigo-600">AI Resume Analyzer</span>
+        </div>
+    </nav>
+    <main class="max-w-3xl mx-auto mt-12 px-6">
+        <div class="text-center mb-10">
+            <h1 class="text-4xl font-extrabold mb-4">Analyze Your Resume in 10 Seconds</h1>
+            <p class="text-slate-600">Get AI-driven insights to improve your ATS score.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100">
+            <form id="uploadForm" class="space-y-6">
+                {% csrf_token %}
+                <div id="drop-zone" class="border-2 border-dashed border-indigo-200 rounded-xl p-12 text-center hover:border-indigo-500 transition cursor-pointer bg-indigo-50/30">
+                    <input type="file" id="resume" name="resume" accept=".pdf" class="hidden">
+                    <label for="resume" class="cursor-pointer">
+                        <p class="text-lg font-semibold text-indigo-700" id="file-label">Click to Upload Resume</p>
+                        <p class="text-sm text-slate-500">PDF only (Max 5MB)</p>
+                    </label>
+                </div>
+                <button type="submit" id="submit-btn" class="w-full bg-indigo-600 text-white font-bold py-4 rounded-xl hover:bg-indigo-700 transition">Analyze My Resume</button>
+            </form>
+        </div>
+        <div id="results" class="mt-12 hidden">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                <h2 class="text-2xl font-bold mb-4">Analysis Result</h2>
+                <div id="result-content" class="text-slate-700 whitespace-pre-wrap"></div>
+            </div>
+        </div>
+    </main>
+    <script src="/static/app.js"></script>
+</body>
+</html>
