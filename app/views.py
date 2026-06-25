@@ -4,7 +4,7 @@ from django.shortcuts import render
 from django.conf import settings
 from .services.analyzer_service import get_ai_analysis # Updated import path
 
-def home(request):
+def index(request):
     return render(request, 'home.html')
 
 def upload_resume(request):
