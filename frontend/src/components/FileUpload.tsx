@@ -30,7 +30,7 @@ export default function FileUpload({ onTextExtracted }: FileUploadProps) {
     formData.append('resume', file);
 
     try {
-      const res = await fetch('/api/upload', {
+      const res = await fetch('https://gayi.pythonanywhere.com/api/upload', {
         method: 'POST',
         body: formData,
       });

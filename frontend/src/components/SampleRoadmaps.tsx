@@ -22,7 +22,10 @@ export default function SampleRoadmaps({ roadmaps }: SampleRoadmapsProps) {
   );
 }
 
-function PdfViewer({ url, title }: { url: string; title: string }) {
+const API_BASE = 'https://gayi.pythonanywhere.com';
+
+function PdfViewer({ url: propUrl, title }: { url: string; title: string }) {
+  const url = propUrl.startsWith('/') ? `${API_BASE}${propUrl}` : propUrl;
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [error, setError] = useState('');

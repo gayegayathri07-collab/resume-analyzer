@@ -64,7 +64,7 @@ function App() {
     setLoading(true);
     setError('');
     try {
-      const res = await fetch('/api/analyze', {
+      const res = await fetch('https://gayi.pythonanywhere.com/api/analyze', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
