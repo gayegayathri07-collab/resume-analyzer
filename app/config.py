@@ -22,4 +22,6 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
-Path(settings.upload_dir).mkdir(parents=True, exist_ok=True)
+# Path(settings.upload_dir).mkdir(parents=True, exist_ok=True)
+# Commented out mkdir because Vercel filesystem is read-only
+
