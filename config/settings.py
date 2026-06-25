@@ -4,10 +4,10 @@ import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# Vercel needs a SECRET_KEY. Add this to Vercel Environment Variables!
-SECRET_KEY = os.environ.get('SECRET_KEY', 'a-very-secret-key-that-should-be-in-vercel-settings')
+# Vercel Environment Variables - MANDATORY
+SECRET_KEY = os.environ.get('SECRET_KEY', 'default-unsafe-key-for-dev-only')
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh', 'localhost', '127.0.0.1', '*']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -18,7 +18,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'app',
+    'resume_analyzer_app',
 ]
 
 MIDDLEWARE = [
@@ -35,11 +35,12 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'config.urls'
 WSGI_APPLICATION = 'config.wsgi.application'
 
-# Use PostgreSQL via DATABASE_URL environment variable, or fallback to sqlite if not set
+# PostgreSQL is mandatory for production on Vercel
 DATABASES = {
     'default': dj_database_url.config(
-        default='sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3'),
-        conn_max_age=600
+        default=os.environ.get('DATABASE_URL'),
+        conn_max_age=600,
+        ssl_require=True
     )
 }
 
