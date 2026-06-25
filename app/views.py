@@ -14,3 +14,7 @@ def upload_resume(request):
 
 def export_pdf(request):
     return JsonResponse({'message': 'PDF export temporarily disabled'})
+
+# Add the missing API function
+def analyze_resume_api(request):
+    return JsonResponse({'message': 'API Endpoint Placeholder'})
