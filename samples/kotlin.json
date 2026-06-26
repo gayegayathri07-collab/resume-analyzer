@@ -1,0 +1,496 @@
+{
+  "slug": "kotlin",
+  "title": "Kotlin",
+  "description": "Step by step guide to learning Kotlin in 2026",
+  "type": "skill",
+  "total_topics": 52,
+  "total_subtopics": 101,
+  "learning_sequence": [
+    {
+      "topic": "Introduction to Kotlin",
+      "items": [
+        {
+          "label": "Why use Kotlin",
+          "id": "4PrkkoZ5fY-oow0O-bVhu"
+        },
+        {
+          "label": "Java Interoperability",
+          "id": "id1ai__oCcB32i2hsiesC"
+        },
+        {
+          "label": "History of Kotlin",
+          "id": "SLF_-a7Uwsl-fEqYiCIvF"
+        },
+        {
+          "label": "Setting up the Environment",
+          "id": "KbmJGmWEr_kxFYoFb-JC9"
+        }
+      ]
+    },
+    {
+      "topic": "Variables",
+      "items": [
+        {
+          "label": "val vs var",
+          "id": "vDWwBv0KF_S88cQFtnDVB"
+        }
+      ]
+    },
+    {
+      "topic": "Collections",
+      "items": [
+        {
+          "label": "Lists",
+          "id": "0iZ9qfst8yw08cTW8d-Nx"
+        },
+        {
+          "label": "read-only vs mutable",
+          "id": "D4G8DOX5b39Rxw2FtgnjQ"
+        },
+        {
+          "label": "Iterators",
+          "id": "H1794CAM_XqNJVT1LkXRG"
+        }
+      ]
+    },
+    {
+      "topic": "Printing data",
+      "items": [
+        {
+          "label": "String Templates",
+          "id": "oQe1JVwYnLDNfvi-s7BQX"
+        }
+      ]
+    },
+    {
+      "topic": "Conditional Expressions",
+      "items": []
+    },
+    {
+      "topic": "Exceptions",
+      "items": [
+        {
+          "label": "Throwing Exceptions",
+          "id": "8_u8eKhWHESek7pfpaOln"
+        }
+      ]
+    },
+    {
+      "topic": "Standard functions",
+      "items": [
+        {
+          "label": "parameters",
+          "id": "9IIvovotEnTiNzVovWOiW"
+        },
+        {
+          "label": "varargs",
+          "id": "B2cxzgsEpeSzGATX4WNeO"
+        },
+        {
+          "label": "return",
+          "id": "gVXXMYVlZZ5CHPBwGlGmZ"
+        }
+      ]
+    },
+    {
+      "topic": "Function Types",
+      "items": [
+        {
+          "label": "Higher-order Functions﻿",
+          "id": "Q9MQRfJuvXL3YluwJ1CfF"
+        },
+        {
+          "label": "Lambda Functions",
+          "id": "cFExAjlc_ATE8V9EWE5on"
+        },
+        {
+          "label": "Anonymous Functions",
+          "id": "7BYTt5_wILzkbYmQW1Xny"
+        }
+      ]
+    },
+    {
+      "topic": "Extension Functions",
+      "items": []
+    },
+    {
+      "topic": "Sequences",
+      "items": []
+    },
+    {
+      "topic": "Class Members",
+      "items": [
+        {
+          "label": "Methods",
+          "id": "9tLiTYbNf9WnisvwBhObC"
+        },
+        {
+          "label": "Constructors",
+          "id": "xkT2UmeP9c37giF169aWD"
+        },
+        {
+          "label": "Nested & Inner Classes",
+          "id": "tjCG72uQt87-fIoBBzy0s"
+        },
+        {
+          "label": "Object Declarations",
+          "id": "migCYrzhAQ4keUk1MHPpZ"
+        }
+      ]
+    },
+    {
+      "topic": "Coroutines Best practices",
+      "items": []
+    },
+    {
+      "topic": "Property Delegates",
+      "items": []
+    },
+    {
+      "topic": "Standard Library",
+      "items": [
+        {
+          "label": "Default Imports",
+          "id": "cPiTsuFCkMZciOr9Wp9ID"
+        }
+      ]
+    },
+    {
+      "topic": "Kotlin Libraries",
+      "items": []
+    },
+    {
+      "topic": "Documentation",
+      "items": [
+        {
+          "label": "Dokka",
+          "id": "vlMxe68Xp-YrC3gUXfzwr"
+        },
+        {
+          "label": "KDoc",
+          "id": "ipV1RoEkn9-yKD98nB4dC"
+        }
+      ]
+    },
+    {
+      "topic": "Build Tools",
+      "items": []
+    },
+    {
+      "topic": "CI/CD Tools",
+      "items": [
+        {
+          "label": "TeamCity",
+          "id": "aIG_7-igm_LSR3ybAPz0j"
+        }
+      ]
+    },
+    {
+      "topic": "IDEs",
+      "items": [
+        {
+          "label": "IntelliJ IDEA",
+          "id": "2z9t6nLOZuiyGi6DAhNmI"
+        }
+      ]
+    },
+    {
+      "topic": "Data types",
+      "items": [
+        {
+          "label": "Type Inference",
+          "id": "YX5BhDgJ5NjASPc7kYySG"
+        }
+      ]
+    },
+    {
+      "topic": "Loops",
+      "items": []
+    },
+    {
+      "topic": "I/O",
+      "items": [
+        {
+          "label": "Writing & Reading Files",
+          "id": "D56NrdWDFS-vQdALQOKXV"
+        },
+        {
+          "label": "Buffered Streams",
+          "id": "xCfSwvrdrSOYdEIdsxEuw"
+        }
+      ]
+    },
+    {
+      "topic": "Kotlin Multiplatform",
+      "items": [
+        {
+          "label": "Compose Multiplatform",
+          "id": "gwD16v8OnLvgfsn2zx780"
+        }
+      ]
+    },
+    {
+      "topic": "Comments",
+      "items": []
+    },
+    {
+      "topic": "Kotlin/Java",
+      "items": [
+        {
+          "label": "Kotlin from Java",
+          "id": "qBuo_kgC-0ugiRCvR5JwQ"
+        },
+        {
+          "label": "Spring Boot",
+          "id": "By2b4Ukz6QjAUPFvqBx6g"
+        },
+        {
+          "label": "Java from Kotlin",
+          "id": "I_Ecet4Q1QQXHoIvt2OqK"
+        }
+      ]
+    },
+    {
+      "topic": "Kotlin/Native",
+      "items": [
+        {
+          "label": "Swift/Objective-C Interop.",
+          "id": "aEvbW7AtLvvtol4qEQofe"
+        }
+      ]
+    },
+    {
+      "topic": "Kotlin Scripting",
+      "items": []
+    },
+    {
+      "topic": "Server-side Apps",
+      "items": [
+        {
+          "label": "Ktor",
+          "id": "q546Dq42Z3-WN-FOll4K1"
+        },
+        {
+          "label": "Quarkus",
+          "id": "MzV6A_0Sa9LhgalNmhwq8"
+        }
+      ]
+    },
+    {
+      "topic": "Data Analysis",
+      "items": [
+        {
+          "label": "Kotlin Notebooks",
+          "id": "n4AFoCcKqnGRRWuD0Ud-9"
+        },
+        {
+          "label": "Kotlin DataFrame",
+          "id": "AarV0h4U6Ol3auLGOW3iZ"
+        },
+        {
+          "label": "Kandy",
+          "id": "JIivSHQvSotmFIpqUc5rJ"
+        }
+      ]
+    },
+    {
+      "topic": "AI Development",
+      "items": [
+        {
+          "label": "Koog",
+          "id": "a5IDGzg8-FppJWCmhcq9q"
+        }
+      ]
+    },
+    {
+      "topic": "Ranges",
+      "items": []
+    },
+    {
+      "topic": "Progressions",
+      "items": []
+    },
+    {
+      "topic": "Local Functions",
+      "items": []
+    },
+    {
+      "topic": "Member Functions",
+      "items": []
+    },
+    {
+      "topic": "Tail-recursive Functions",
+      "items": []
+    },
+    {
+      "topic": "main Function",
+      "items": []
+    },
+    {
+      "topic": "Creating Instances",
+      "items": []
+    },
+    {
+      "topic": "Defining Classess",
+      "items": []
+    },
+    {
+      "topic": "Extension Functions",
+      "items": []
+    },
+    {
+      "topic": "Inheritance",
+      "items": []
+    },
+    {
+      "topic": "Visibility Modifiers",
+      "items": []
+    },
+    {
+      "topic": "Coroutines",
+      "items": []
+    },
+    {
+      "topic": "Suspending Functions",
+      "items": []
+    },
+    {
+      "topic": "Coroutines Builders",
+      "items": []
+    },
+    {
+      "topic": "Coroutines Behavior",
+      "items": []
+    },
+    {
+      "topic": "Asynchronous Flow",
+      "items": []
+    },
+    {
+      "topic": "Understanding Packages",
+      "items": []
+    },
+    {
+      "topic": "Importing Packages",
+      "items": []
+    },
+    {
+      "topic": "Kotlin/JavaScript",
+      "items": []
+    },
+    {
+      "topic": "Kotlin/WASM",
+      "items": []
+    },
+    {
+      "topic": "Code Organization",
+      "items": []
+    },
+    {
+      "topic": "Competitive Programming",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "Abstract Class",
+    "Aggregate Operations",
+    "Android Jetpack",
+    "Android SDK",
+    "Android Studio",
+    "Anonymous Functions",
+    "Arrays",
+    "Booleans",
+    "Buffered Streams",
+    "Build Tool API",
+    "C Interoperability",
+    "Catching Exceptions",
+    "Characters",
+    "Class Generics",
+    "Compose Multiplatform",
+    "Constructors",
+    "Coroutines",
+    "Creating Files",
+    "Data Classes",
+    "Date & Time",
+    "Default Imports",
+    "Dokka",
+    "Enum Class",
+    "Filtering",
+    "Floats",
+    "Gradle",
+    "Gradle Pluggins",
+    "Grouping",
+    "Higher-order Functions﻿",
+    "History of Kotlin",
+    "I/O Library",
+    "Inline Class",
+    "Integers",
+    "IntelliJ IDEA",
+    "Interfaces",
+    "Iterators",
+    "JVM Metadata",
+    "Java Interoperability",
+    "Java from Kotlin",
+    "KDoc",
+    "Kandy",
+    "Koog",
+    "Kotlin DataFrame",
+    "Kotlin Notebooks",
+    "Kotlin from Java",
+    "Kotline Notebook",
+    "Ktor",
+    "Label Loops",
+    "Lambda Functions",
+    "Lists",
+    "Maps",
+    "Maven",
+    "Methods",
+    "Nested & Inner Classes",
+    "Nullability Check Operators",
+    "Nullable vs Non-nullable",
+    "Object Declarations",
+    "Opt-in Requirements",
+    "Ordering",
+    "Properties",
+    "Quarkus",
+    "Retrieving Collection Parts",
+    "Retrieving single elements",
+    "Safe Casts",
+    "Sealed Class",
+    "Serialization",
+    "Sets",
+    "Setting up the Environment",
+    "Spring",
+    "Spring Boot",
+    "String Templates",
+    "Strings",
+    "Swift/Objective-C Interop.",
+    "TeamCity",
+    "Test Library",
+    "Throwing Exceptions",
+    "Transformations",
+    "Type Aliases",
+    "Type Checks & Casts",
+    "Type Inference",
+    "Unsigned Integers",
+    "Vert.x",
+    "What is Null Safety?",
+    "Why use Kotlin",
+    "Writing & Reading Files",
+    "break & continue",
+    "for",
+    "if",
+    "parameters",
+    "plus & minus Operators",
+    "print & println",
+    "read-only vs mutable",
+    "return",
+    "val vs var",
+    "varargs",
+    "when",
+    "while"
+  ],
+  "source": "https://roadmap.sh/kotlin",
+  "created_at": "2025-09-08T17:47:20.662Z",
+  "updated_at": "2026-02-26T08:35:47.767Z"
+}

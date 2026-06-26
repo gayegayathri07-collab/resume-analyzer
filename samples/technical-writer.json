@@ -1,0 +1,280 @@
+{
+  "slug": "technical-writer",
+  "title": "Technical Writer",
+  "description": "Roadmap for anyone looking for a career in technical writing in 2026",
+  "type": "role",
+  "total_topics": 21,
+  "total_subtopics": 63,
+  "learning_sequence": [
+    {
+      "topic": "Introduction",
+      "items": [
+        {
+          "label": "Who is a Technical Writer?",
+          "id": "ZRGsokU313Ky-anWbWK6q"
+        },
+        {
+          "label": "What is Technical Writing?",
+          "id": "jl1FsQ5-WGKeFyaILNt_p"
+        },
+        {
+          "label": "Role of Technical Writers inOrganizations",
+          "id": "j69erqfosSZMDlmKcnnn0"
+        },
+        {
+          "label": "Forms of Technical Writing",
+          "id": "cNeT1dJDfgn0ndPzSxhSL"
+        },
+        {
+          "label": "Growth as a Technical Writer",
+          "id": "FVxNjbDBxgf6vkZWw1Awt"
+        }
+      ]
+    },
+    {
+      "topic": "Required Skills",
+      "items": [
+        {
+          "label": "Written Communication Proficiency",
+          "id": "7-3tqRUpntoQP4nK_nul5"
+        }
+      ]
+    },
+    {
+      "topic": "Tooling",
+      "items": [
+        {
+          "label": "Publishing Tools",
+          "id": "jC3ZrpskBqzxiV6SKf4Uf"
+        },
+        {
+          "label": "Plagiarism Checker",
+          "id": "cSZbTOB0FPPOlGzy-MkSi"
+        },
+        {
+          "label": "Git / Version Control",
+          "id": "ffJyulu9GPB_TDqjeJYyV"
+        },
+        {
+          "label": "Research Tools",
+          "id": "0XWiraeoicNBbaGYQnNZr"
+        }
+      ]
+    },
+    {
+      "topic": "Best Practices",
+      "items": [
+        {
+          "label": "Story Telling",
+          "id": "27muFD1Ld1gF6hhIh22sG"
+        },
+        {
+          "label": "Subtle Selling",
+          "id": "lxSSjgtqJk-PtRp4hARDw"
+        },
+        {
+          "label": "Content Structure",
+          "id": "Ezz2e4lYLD_bdNNwvsV_y"
+        },
+        {
+          "label": "Call to Actions",
+          "id": "a1ChwDwztjZBi79y38AGa"
+        },
+        {
+          "label": "References",
+          "id": "8qSL2esjsA3YYuB4d7B9z"
+        },
+        {
+          "label": "Crafting Great Titles",
+          "id": "WmOvQYlnedX0QgC5Adeen"
+        },
+        {
+          "label": "Content Objectives & Intent",
+          "id": "7FGMPztd6ouvqemcGhIol"
+        },
+        {
+          "label": "User Persona",
+          "id": "UuV51vM2JT_LFFXORSwru"
+        },
+        {
+          "label": "Writing Style Guides",
+          "id": "cnEVPsqZqs9ZdyqmOuLGA"
+        }
+      ]
+    },
+    {
+      "topic": "Content Research",
+      "items": [
+        {
+          "label": "Topic Score",
+          "id": "SX4vL_JEHrwqHdThyqKKO"
+        }
+      ]
+    },
+    {
+      "topic": "Types of Technical Content",
+      "items": [
+        {
+          "label": "How-to Guides",
+          "id": "C-eVVtF6Yabp2a6XvMeh_"
+        }
+      ]
+    },
+    {
+      "topic": "Technical Content Marketing",
+      "items": []
+    },
+    {
+      "topic": "Content SEO",
+      "items": []
+    },
+    {
+      "topic": "Top-funnel Content",
+      "items": [
+        {
+          "label": "Pillar Content",
+          "id": "wBDjGa2PgdmeXxHnILFjY"
+        }
+      ]
+    },
+    {
+      "topic": "Mid-funnel Content",
+      "items": [
+        {
+          "label": "Generic Gated Content",
+          "id": "XDX2QxMUkUok2fcS3tFki"
+        }
+      ]
+    },
+    {
+      "topic": "Content Optimization",
+      "items": []
+    },
+    {
+      "topic": "Content Analysis",
+      "items": [
+        {
+          "label": "Content Aging & Timelines",
+          "id": "JgdrXG7MX1gGuNG9uyubA"
+        }
+      ]
+    },
+    {
+      "topic": "Content Distribution",
+      "items": [
+        {
+          "label": "Canonical Link",
+          "id": "NIxIhMEOxrUR8nbjbF_Fp"
+        },
+        {
+          "label": "Content Distribution Channels",
+          "id": "m9-DqsQfeukmhjhIfCph-"
+        },
+        {
+          "label": "Content Distribution Amplification Strategies",
+          "id": "_cAGbAswDhOqpoiiikPbD"
+        }
+      ]
+    },
+    {
+      "topic": "Developer Docs",
+      "items": []
+    },
+    {
+      "topic": "API Reference",
+      "items": []
+    },
+    {
+      "topic": "Help Content",
+      "items": []
+    },
+    {
+      "topic": "Bottom-funnel Content",
+      "items": []
+    },
+    {
+      "topic": "Release Notes / Product Announcements",
+      "items": []
+    },
+    {
+      "topic": "Customer Case-Studies",
+      "items": []
+    },
+    {
+      "topic": "Frequently Asked Questions",
+      "items": []
+    },
+    {
+      "topic": "Technical Website Copy",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "API Definitions",
+    "Awareness Blog Posts",
+    "Backlinking",
+    "Blogging Platforms",
+    "Buyer Journey & Content Funnel",
+    "Call to Actions",
+    "Canonical Link",
+    "Communities & Forums",
+    "Comparative Posts",
+    "Content Aging & Timelines",
+    "Content Distribution Amplification Strategies",
+    "Content Distribution Channels",
+    "Content Objectives & Intent",
+    "Content Structure",
+    "Conversion Tracking",
+    "Crafting Great Titles",
+    "Developer Journey",
+    "Developer Support",
+    "Docs Generation Tools",
+    "Docs Structure",
+    "Editing Tools",
+    "Forms of Technical Writing",
+    "General Product Prose",
+    "Generic Gated Content",
+    "Git / Version Control",
+    "Growth as a Technical Writer",
+    "How-to Guides",
+    "ICP & Buyer Persona",
+    "Keyword Volume",
+    "Language Proficiency",
+    "Link Shorteners / Tracking",
+    "Long-Tail Keywords",
+    "Markdown",
+    "OpenGraph Data",
+    "Pillar Content",
+    "Plagiarism Checker",
+    "Platform Support",
+    "Platform Tracking and Metrics",
+    "Product Content",
+    "Publishing Tools",
+    "References",
+    "Research Reports",
+    "Research Tools",
+    "Role of Technical Writers inOrganizations",
+    "SEO Keywords",
+    "SEO Tools",
+    "Search Trends",
+    "Short-tail Keywords",
+    "Story Telling",
+    "Subtle Selling",
+    "Support Request Evaluation",
+    "Technology Expertise",
+    "Topic Score",
+    "Troubleshooting",
+    "Tutorials",
+    "User Goals",
+    "User Persona",
+    "What is Technical Writing?",
+    "White-papers",
+    "Who is a Technical Writer?",
+    "Writing Style Guides",
+    "Written Communication Proficiency",
+    "eBook"
+  ],
+  "source": "https://roadmap.sh/technical-writer",
+  "created_at": "2025-05-14T10:07:04.326Z",
+  "updated_at": "2026-02-26T08:49:57.817Z"
+}

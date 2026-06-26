@@ -1,0 +1,319 @@
+{
+  "slug": "django",
+  "title": "Django",
+  "description": "Step-by-step guide to becoming a Django Developer in 2026",
+  "type": "skill",
+  "total_topics": 32,
+  "total_subtopics": 81,
+  "learning_sequence": [
+    {
+      "topic": "Introduction",
+      "items": [
+        {
+          "label": "How the Web Works",
+          "id": "Xrcl09I9ZShOwhAWynsO6"
+        },
+        {
+          "label": "Why use web frameworks",
+          "id": "xdxitF1Foo6W9Pj6-2Be1"
+        },
+        {
+          "label": "The MVC Model",
+          "id": "CXrUh4hBN7fhXShUhtO5n"
+        }
+      ]
+    },
+    {
+      "topic": "Projects & Apps",
+      "items": []
+    },
+    {
+      "topic": "Running your Project",
+      "items": []
+    },
+    {
+      "topic": "Request Reponse Flow",
+      "items": []
+    },
+    {
+      "topic": "Views",
+      "items": [
+        {
+          "label": "Function-based views",
+          "id": "3k2Fo1-qldnE38HLtAtvv"
+        },
+        {
+          "label": "Class-based views",
+          "id": "49YSIjTsb6Lnv39AukGrD"
+        }
+      ]
+    },
+    {
+      "topic": "Templates",
+      "items": []
+    },
+    {
+      "topic": "Template Inheritance",
+      "items": []
+    },
+    {
+      "topic": "Models",
+      "items": [
+        {
+          "label": "Custom fields",
+          "id": "7dV6o6DnKkv6TX7KCbnzC"
+        }
+      ]
+    },
+    {
+      "topic": "Model inheritance",
+      "items": []
+    },
+    {
+      "topic": "Setting up the Database",
+      "items": []
+    },
+    {
+      "topic": "Middleware",
+      "items": [
+        {
+          "label": "Customization",
+          "id": "oCxrIu2UfV6loYn8ncaLu"
+        }
+      ]
+    },
+    {
+      "topic": "Django Admin",
+      "items": [
+        {
+          "label": "Admin Customization",
+          "id": "KHoau3Pz7o951L8Ivryk0"
+        }
+      ]
+    },
+    {
+      "topic": "Authorization",
+      "items": [
+        {
+          "label": "Users & Permissions",
+          "id": "hxVeLMj_jQYPNqMPcT8FW"
+        }
+      ]
+    },
+    {
+      "topic": "Authentication",
+      "items": [
+        {
+          "label": "Built-in user model",
+          "id": "SEEiAOOxLGUaZi3wYncUm"
+        },
+        {
+          "label": "Custom user model",
+          "id": "F0OPk3bIoeXhIRthKg9MD"
+        },
+        {
+          "label": "django-allauth",
+          "id": "YKyWtsxm1HcVsA56iyEOJ"
+        }
+      ]
+    },
+    {
+      "topic": "Static Files",
+      "items": [
+        {
+          "label": "Whitenoise",
+          "id": "oUjfjCRymVJs4HzmMeks5"
+        }
+      ]
+    },
+    {
+      "topic": "Logging",
+      "items": []
+    },
+    {
+      "topic": "Debugging",
+      "items": [
+        {
+          "label": "Error Pages",
+          "id": "mxo_Wwx0To8CaOxBMSQyI"
+        },
+        {
+          "label": "debug_toolbar",
+          "id": "OSkwgXDOhm6oyk_VlUbUc"
+        },
+        {
+          "label": "PDB, IPDB",
+          "id": "WRHWs75DbhuiVZm1XMe7z"
+        },
+        {
+          "label": "django_silk",
+          "id": "i8me37ZwzObjy1-JbrRjf"
+        }
+      ]
+    },
+    {
+      "topic": "Django Test Framework",
+      "items": [
+        {
+          "label": "pytest",
+          "id": "K2dNQ69laFT853CFniJrZ"
+        },
+        {
+          "label": "unittest & TestCase",
+          "id": "iKzWEV8ymBEh_J2ppKZjF"
+        }
+      ]
+    },
+    {
+      "topic": "Django Shell",
+      "items": []
+    },
+    {
+      "topic": "Django REST Framework",
+      "items": [
+        {
+          "label": "Serializers",
+          "id": "aJ0jM_zjUJkt0wVfJQYt7"
+        }
+      ]
+    },
+    {
+      "topic": "Django ORM",
+      "items": []
+    },
+    {
+      "topic": "Customizing Views",
+      "items": []
+    },
+    {
+      "topic": "Django Ninja",
+      "items": []
+    },
+    {
+      "topic": "Deployment",
+      "items": [
+        {
+          "label": "Production Checklist",
+          "id": "PsDSs7qC_M3l-Ang1wTZe"
+        }
+      ]
+    },
+    {
+      "topic": "DTL Syntax",
+      "items": []
+    },
+    {
+      "topic": "Model methods",
+      "items": []
+    },
+    {
+      "topic": "Model relationships",
+      "items": []
+    },
+    {
+      "topic": "Migrations",
+      "items": []
+    },
+    {
+      "topic": "Message Framework",
+      "items": []
+    },
+    {
+      "topic": "Installing Django",
+      "items": []
+    },
+    {
+      "topic": "Pagination",
+      "items": []
+    },
+    {
+      "topic": "Virtual envs",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "Admin Customization",
+    "Aggregations",
+    "Asynchronous Django",
+    "Background Tasks",
+    "Built-in user model",
+    "CSRF",
+    "Caching",
+    "Celery",
+    "Class-based views",
+    "Comments",
+    "Create, Update, Delete",
+    "CreateView",
+    "Custom fields",
+    "Custom user model",
+    "Customization",
+    "DeleteView",
+    "DetailView",
+    "Django Forms",
+    "Error Pages",
+    "Field options",
+    "Fields types",
+    "Filtering & lookups",
+    "Filters",
+    "Filters & custom filters",
+    "Fixtures",
+    "Form Validation",
+    "Formatters",
+    "Function-based views",
+    "Generic views",
+    "Handlers",
+    "How the Web Works",
+    "ListView",
+    "Localization",
+    "Loggers",
+    "MariaDB",
+    "Model Forms",
+    "MySQL",
+    "Named URLs",
+    "PDB, IPDB",
+    "Path converters",
+    "PostgreSQL",
+    "Production Checklist",
+    "Query Optimization",
+    "Querying data",
+    "Raw SQL",
+    "Regex Paths",
+    "Reverse URL",
+    "Routers",
+    "Routing Middleware",
+    "SQLite",
+    "Serializers",
+    "Signals",
+    "Tags & custom tags",
+    "The MVC Model",
+    "Transactions",
+    "URL patterns",
+    "UpdateView",
+    "Users & Permissions",
+    "Variables",
+    "Views & ViewSets",
+    "Whitenoise",
+    "Why use web frameworks",
+    "admin.py",
+    "debug_toolbar",
+    "django-allauth",
+    "django_silk",
+    "for",
+    "if",
+    "manage.py",
+    "media",
+    "migrations",
+    "models.py",
+    "pytest",
+    "settings.py",
+    "static",
+    "templates",
+    "tests.py",
+    "unittest & TestCase",
+    "urls.py",
+    "views.py"
+  ],
+  "source": "https://roadmap.sh/django",
+  "created_at": "2025-12-18T15:45:54.798Z",
+  "updated_at": "2026-02-26T08:25:03.150Z"
+}

@@ -1,0 +1,293 @@
+{
+  "slug": "cpp",
+  "title": "C++",
+  "description": "Step by step guide to becoming a C++ developer in 2026",
+  "type": "skill",
+  "total_topics": 20,
+  "total_subtopics": 107,
+  "learning_sequence": [
+    {
+      "topic": "Introduction to Language",
+      "items": [
+        {
+          "label": "What is C++?",
+          "id": "x_28LiDVshqWns_aIBsdx"
+        },
+        {
+          "label": "Why use C++",
+          "id": "tl6VCQ5IEGDVyFcgj7jDm"
+        },
+        {
+          "label": "C vs C++",
+          "id": "2Ag0t3LPryTF8khHLRfy-"
+        }
+      ]
+    },
+    {
+      "topic": "Setting up your Environment",
+      "items": [
+        {
+          "label": "Installing C++",
+          "id": "0J_ltQEJh2g28OE2ZEYJj"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Operations",
+      "items": [
+        {
+          "label": "Arithmetic Operators",
+          "id": "8aOSpZLWwZv_BEYiurhyR"
+        }
+      ]
+    },
+    {
+      "topic": "Control Flow & Statements",
+      "items": [
+        {
+          "label": "for / while / do while loops",
+          "id": "_IP_e1K9LhNHilYTDh7L5"
+        }
+      ]
+    },
+    {
+      "topic": "Functions",
+      "items": [
+        {
+          "label": "Operator Overloading",
+          "id": "llCBeut_uc9IAe2oi4KZ9"
+        }
+      ]
+    },
+    {
+      "topic": "Data Types",
+      "items": [
+        {
+          "label": "Static Typing",
+          "id": "f1djN0GxoeVPr_0cl6vMq"
+        }
+      ]
+    },
+    {
+      "topic": "Pointers and References",
+      "items": [
+        {
+          "label": "References",
+          "id": "uUzRKa9wGzdUwwmAg3FWr"
+        }
+      ]
+    },
+    {
+      "topic": "Structuring Codebase",
+      "items": [
+        {
+          "label": "Scope",
+          "id": "dKCYmxDNZubCVcR5rf8b-"
+        }
+      ]
+    },
+    {
+      "topic": "Structures and Classes",
+      "items": []
+    },
+    {
+      "topic": "Exception Handling",
+      "items": [
+        {
+          "label": "Exit Codes",
+          "id": "oWygnpwHq2poXQMTTSCpl"
+        }
+      ]
+    },
+    {
+      "topic": "Language Concepts",
+      "items": [
+        {
+          "label": "auto (Automatic Type Deduction)",
+          "id": "CG01PTVgHtjfKvsJkJLGl"
+        }
+      ]
+    },
+    {
+      "topic": "Standard Library + STL",
+      "items": []
+    },
+    {
+      "topic": "Templates",
+      "items": []
+    },
+    {
+      "topic": "Idioms",
+      "items": [
+        {
+          "label": "Non-Copyable / Non-Moveable",
+          "id": "xjUaIp8gGxkN-cp8emJ2M"
+        }
+      ]
+    },
+    {
+      "topic": "Standards",
+      "items": [
+        {
+          "label": "C++ 11 / 14",
+          "id": "T6rCTv9Dxkm-tEA-l9XEv"
+        },
+        {
+          "label": "C++ 23",
+          "id": "sxbbKtg7kMNbkx7fXhjR9"
+        }
+      ]
+    },
+    {
+      "topic": "Debuggers",
+      "items": []
+    },
+    {
+      "topic": "Compilers",
+      "items": [
+        {
+          "label": "Compiler Stages",
+          "id": "DVckzBUMgk_lWThVkLyAT"
+        },
+        {
+          "label": "Compilers and Features",
+          "id": "hSG6Aux39X0cXi6ADy2al"
+        }
+      ]
+    },
+    {
+      "topic": "Build Systems",
+      "items": [
+        {
+          "label": "CMAKE",
+          "id": "ysnXvSHGBMMozBJyXpHl5"
+        }
+      ]
+    },
+    {
+      "topic": "Package Managers",
+      "items": []
+    },
+    {
+      "topic": "Working with Libraries",
+      "items": [
+        {
+          "label": "Library Inclusion",
+          "id": "5mNqH_AEiLxUmgurNW1Fq"
+        }
+      ]
+    }
+  ],
+  "subtopics_list": [
+    "Access Violations",
+    "Algorithms",
+    "Argument Dependent Lookup (ADL)",
+    "Arithmetic Operators",
+    "Bitwise Operators",
+    "Boost",
+    "C vs C++",
+    "C++ 0x",
+    "C++ 11 / 14",
+    "C++ 17",
+    "C++ 20",
+    "C++ 23",
+    "CMAKE",
+    "CRTP",
+    "Catch2",
+    "Code Editors / IDEs",
+    "Compiler Stages",
+    "Compilers and Features",
+    "Conan",
+    "Containers",
+    "Copy and Swap",
+    "Copy on Write",
+    "Date / Time",
+    "Debugging Symbols",
+    "Diamond Inheritance",
+    "Dynamic Polymorphism",
+    "Dynamic Typing",
+    "Erase-Remove",
+    "Exceptions",
+    "Exit Codes",
+    "Forward Declaration",
+    "Full Template Specialization",
+    "Function Overloading",
+    "GDB",
+    "Headers / CPP Files",
+    "Installing C++",
+    "Iterators",
+    "Lambdas",
+    "Library Inclusion",
+    "Licensing",
+    "Lifetime of Objects",
+    "Logical Operators",
+    "Macros",
+    "Makefile",
+    "Memory Leakage",
+    "Memory Model",
+    "Multiple Inheritance",
+    "Multithreading",
+    "Name Mangling",
+    "Namespaces",
+    "New/Delete Operators",
+    "Ninja",
+    "Non-Copyable / Non-Moveable",
+    "NuGet",
+    "Object Oriented Programming",
+    "OpenCV",
+    "Operator Overloading",
+    "Orbit Profiler",
+    "POCO",
+    "Partial Template Specialization",
+    "Pimpl",
+    "PyTorch C++",
+    "Qt",
+    "RAII",
+    "RTTI",
+    "Raw Pointers",
+    "References",
+    "Rule of Zero, Five, Three",
+    "Running your First Program",
+    "SFINAE",
+    "Scope",
+    "Smart Pointers",
+    "Spack",
+    "Static Polymorphism",
+    "Static Typing",
+    "Template Specialization",
+    "Tensorflow",
+    "Type Casting",
+    "Type Traits",
+    "Undefined Behavior (UB)",
+    "Understanding Debugger Messages",
+    "Variadic Templates",
+    "Virtual Methods",
+    "Virtual Tables",
+    "What is C++?",
+    "Why use C++",
+    "WinDBg",
+    "auto (Automatic Type Deduction)",
+    "const_cast",
+    "dynamic_cast",
+    "fmt",
+    "for / while / do while loops",
+    "gRPC",
+    "gtest / gmock",
+    "if else / switch / goto",
+    "iostream",
+    "opencl",
+    "protobuf",
+    "pybind11",
+    "ranges_v3",
+    "reinterpret_cast",
+    "shared_ptr",
+    "spdlog",
+    "static_cast",
+    "unique_ptr",
+    "vcpkg",
+    "weak_ptr"
+  ],
+  "source": "https://roadmap.sh/cpp",
+  "created_at": "2025-05-14T10:07:04.180Z",
+  "updated_at": "2026-01-27T14:07:02.858Z"
+}

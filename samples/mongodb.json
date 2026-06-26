@@ -1,0 +1,254 @@
+{
+  "slug": "mongodb",
+  "title": "MongoDB",
+  "description": "Step by step guide to learning MongoDB in 2026",
+  "type": "skill",
+  "total_topics": 11,
+  "total_subtopics": 95,
+  "learning_sequence": [
+    {
+      "topic": "MongoDB Basics",
+      "items": [
+        {
+          "label": "What is MongoDB?",
+          "id": "tJljSlb5S_tZLZhZHHd_I"
+        },
+        {
+          "label": "SQL vs NoSQL",
+          "id": "cMfsRtvzvDZZJ0TqeUOxm"
+        },
+        {
+          "label": "When to use MongoDB?",
+          "id": "qh8MEbXKPVt8mqlarhUj0"
+        },
+        {
+          "label": "What is MongoDB Atlas?",
+          "id": "1UXfFROvcunyhkx0zB_1S"
+        },
+        {
+          "label": "MongoDB Terminology",
+          "id": "1pCWjSvjvbox5OpyWJ8Kv"
+        }
+      ]
+    },
+    {
+      "topic": "Data Model & Data Types",
+      "items": []
+    },
+    {
+      "topic": "Collections & Methods",
+      "items": [
+        {
+          "label": "update() and relevant",
+          "id": "liGbnGyQaG-Vqt6cuB91N"
+        },
+        {
+          "label": "find() and relevant",
+          "id": "iMpCEXRDXg0Kq9OFNywbI"
+        },
+        {
+          "label": "delete() and relevant",
+          "id": "qjoLxSkfKbzG1sZUXnyw9"
+        },
+        {
+          "label": "insert() and relevant",
+          "id": "mXdn4u5CiQRDE83qMiWZX"
+        },
+        {
+          "label": "bulkWrite() and relevant",
+          "id": "yc2HqhjhIV6UU_2P-ykKB"
+        },
+        {
+          "label": "Counting Documents",
+          "id": "hC83jKoO_XFI83WpsdN_Z"
+        },
+        {
+          "label": "validate()",
+          "id": "4h8NdcdXmNqJxLkVJqPtX"
+        }
+      ]
+    },
+    {
+      "topic": "Query Operators",
+      "items": []
+    },
+    {
+      "topic": "Performance Optimization",
+      "items": [
+        {
+          "label": "Atlas Search Indexes",
+          "id": "YidhAuVk_VGukx_FfJSz2"
+        }
+      ]
+    },
+    {
+      "topic": "Aggregation",
+      "items": [
+        {
+          "label": "Pipelines, Stages and Operators",
+          "id": "eDks8Jmsbq3_nHgLydyxP"
+        }
+      ]
+    },
+    {
+      "topic": "Transactions",
+      "items": []
+    },
+    {
+      "topic": "Developer Tools",
+      "items": []
+    },
+    {
+      "topic": "Scaling MongoDB",
+      "items": [
+        {
+          "label": "Replicasets",
+          "id": "QrHT-H12AV4-V-y_nzmNk"
+        },
+        {
+          "label": "Sharded Clusters",
+          "id": "CijW3HCjVRZHQIBsQ9_0H"
+        },
+        {
+          "label": "Tuning Configuration",
+          "id": "iVDxuERBjKMBHueEfqP0x"
+        },
+        {
+          "label": "Indexing",
+          "id": "XjB0uOnsYl4edzZWpQ-nm"
+        },
+        {
+          "label": "Query Optimization",
+          "id": "4L9UQ4oaaK3wZwOLIMa6T"
+        }
+      ]
+    },
+    {
+      "topic": "MongoDB Security",
+      "items": [
+        {
+          "label": "Kerberos Authentication",
+          "id": "YuzMOO7kf2tO6V6WehqF_"
+        },
+        {
+          "label": "LDAP Proxy Auth",
+          "id": "NoDNdno9UOlMrOC0Wga9E"
+        },
+        {
+          "label": "MongoDB Audit",
+          "id": "w1L-yFBM2AyeNBFyH5skW"
+        },
+        {
+          "label": "X.509 Certificate Auth",
+          "id": "NV39oWwr7iB_dnlnD_Q6Y"
+        },
+        {
+          "label": "Role-based Access Control",
+          "id": "yRJ6jeysFXBpwLEqvrdKk"
+        }
+      ]
+    },
+    {
+      "topic": "Creating Indexes",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "$all",
+    "$and",
+    "$elemMatch",
+    "$eq",
+    "$exclude",
+    "$exists",
+    "$group",
+    "$gt",
+    "$gte",
+    "$in",
+    "$include",
+    "$limit",
+    "$lookup",
+    "$lt",
+    "$lte",
+    "$match",
+    "$ne",
+    "$nin",
+    "$nor",
+    "$not",
+    "$or",
+    "$project",
+    "$regex",
+    "$size",
+    "$skip",
+    "$slice",
+    "$sort",
+    "$sum",
+    "$type",
+    "$unwind",
+    "Array",
+    "Atlas Search Indexes",
+    "BSON vs JSON",
+    "Binary Data",
+    "Boolean",
+    "Client-Side Field Level",
+    "Compound",
+    "Counting Documents",
+    "Cursors",
+    "Date",
+    "Decimal128",
+    "Double",
+    "Elastic Search",
+    "Embedded Objects & Arrays",
+    "Encryption at Rest",
+    "Expiring",
+    "Geospatial Indexes",
+    "Indexing",
+    "Int32/Int",
+    "Int64 / Long",
+    "JavaScript",
+    "Kafka",
+    "Kerberos Authentication",
+    "LDAP Proxy Auth",
+    "Language Drivers",
+    "Max Key",
+    "Min Key",
+    "MongoDB Audit",
+    "MongoDB Terminology",
+    "Null",
+    "Object",
+    "Object ID",
+    "Pipelines, Stages and Operators",
+    "Query Optimization",
+    "Queryable Encryption",
+    "Read / Write Concerns",
+    "Regular Expression",
+    "Replicasets",
+    "Retryable Reads / Writes",
+    "Role-based Access Control",
+    "SQL vs NoSQL",
+    "Sharded Clusters",
+    "Single Field",
+    "Spark",
+    "String",
+    "Symbol",
+    "TLS / SSL Encryption",
+    "Text",
+    "Timestamp",
+    "Tuning Configuration",
+    "Undefined",
+    "What is MongoDB Atlas?",
+    "What is MongoDB?",
+    "When to use MongoDB?",
+    "X.509 Certificate Auth",
+    "bulkWrite() and relevant",
+    "delete() and relevant",
+    "find() and relevant",
+    "insert() and relevant",
+    "mongodump",
+    "mongorestore",
+    "update() and relevant",
+    "validate()"
+  ],
+  "source": "https://roadmap.sh/mongodb",
+  "created_at": "2025-06-26T17:19:06.733Z",
+  "updated_at": "2026-02-26T08:42:07.519Z"
+}

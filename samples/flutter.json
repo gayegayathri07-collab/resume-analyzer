@@ -1,0 +1,323 @@
+{
+  "slug": "flutter",
+  "title": "Flutter",
+  "description": "Step by step guide to becoming a Flutter developer in 2026",
+  "type": "skill",
+  "total_topics": 20,
+  "total_subtopics": 88,
+  "learning_sequence": [
+    {
+      "topic": "Basics of Dart",
+      "items": [
+        {
+          "label": "Dart Pad",
+          "id": "vR38pAZOfI55R7N7NLY5N"
+        },
+        {
+          "label": "Control Flow Statements",
+          "id": "keS-4La_a227quDYYbOJT"
+        },
+        {
+          "label": "Functions",
+          "id": "Pek6vOO-qKCetTznCGv6f"
+        },
+        {
+          "label": "Built-in Types",
+          "id": "TT6HoilzgmS8CAPiTTKZ0"
+        },
+        {
+          "label": "Variables",
+          "id": "P-SbMLN-AaNMss_7X0_5N"
+        }
+      ]
+    },
+    {
+      "topic": "Development Environment",
+      "items": []
+    },
+    {
+      "topic": "Widgets",
+      "items": [
+        {
+          "label": "Responsive Widgets",
+          "id": "lCpJQ8GZp5KhpGO4Sttgu"
+        },
+        {
+          "label": "Inherited Widgets",
+          "id": "DKt8U-iZcrXU5gWGRONqZ"
+        },
+        {
+          "label": "Stateless Widgets",
+          "id": "e-m4iKuK6NqFaQLE5viNI"
+        },
+        {
+          "label": "Stateful Widgets",
+          "id": "07tpSQeeMLKggWwdUXAej"
+        },
+        {
+          "label": "Styled Widgets",
+          "id": "wBSdmrVPv3Zuys3X8VvBm"
+        }
+      ]
+    },
+    {
+      "topic": "Repo Hosting Services",
+      "items": [
+        {
+          "label": "GitHub",
+          "id": "V0R4VyQ64Bwwj6O8XbZyF"
+        }
+      ]
+    },
+    {
+      "topic": "Design Principles",
+      "items": [
+        {
+          "label": "Dependency Injection",
+          "id": "fhPl9rycPa1r10fuEuNhi"
+        },
+        {
+          "label": "OOP",
+          "id": "1-dfwbhXgeRT3VVq3RSRv"
+        },
+        {
+          "label": "SOLID Principles",
+          "id": "VKqo4dAcy-JiZo7Lw5jeg"
+        },
+        {
+          "label": "Design Patterns",
+          "id": "MLdt_37kpF2eV0oy56GZF"
+        }
+      ]
+    },
+    {
+      "topic": "Package Managers",
+      "items": []
+    },
+    {
+      "topic": "Working with APIs",
+      "items": [
+        {
+          "label": "JSON Serialize / Deserialize",
+          "id": "TMHrKxnciIpd8F1WLjray"
+        }
+      ]
+    },
+    {
+      "topic": "Storage",
+      "items": [
+        {
+          "label": "SQLite",
+          "id": "NPaqiuUpzQbrsXA5XNI7U"
+        },
+        {
+          "label": "Shared Preferences",
+          "id": "Fdv7Nu26Egtl9tklKn5-8"
+        },
+        {
+          "label": "Firebase",
+          "id": "EVd1rLBHjKbtgkIE7InS7"
+        }
+      ]
+    },
+    {
+      "topic": "Advanced Dart",
+      "items": [
+        {
+          "label": "Functional Programming",
+          "id": "x5q_bWpxmpJFK8eaWZxuY"
+        },
+        {
+          "label": "Lambdas",
+          "id": "tMeuk-nsFMx3kVS7Yn4T0"
+        },
+        {
+          "label": "Async / Await",
+          "id": "_guWOSGfTpErGkzs69g1R"
+        }
+      ]
+    },
+    {
+      "topic": "State Management",
+      "items": [
+        {
+          "label": "ValueNotifier",
+          "id": "aRmdyC2pzmR9r1ybU2CTP"
+        },
+        {
+          "label": "Riverpod",
+          "id": "KWT-Lu-HCeA3GdZawD0a7"
+        },
+        {
+          "label": "Provider",
+          "id": "MfqUMirRIEiM7pr5NiGF_"
+        }
+      ]
+    },
+    {
+      "topic": "Reactive Programming",
+      "items": []
+    },
+    {
+      "topic": "Animations",
+      "items": [
+        {
+          "label": "Animated Widget",
+          "id": "yRY8MJuXxhDV6Hd-hTMRu"
+        },
+        {
+          "label": "Animated Builder",
+          "id": "M6iJ0VZWB8mreItlxvvqI"
+        },
+        {
+          "label": "Curved Animation",
+          "id": "F1kbyjRR2uHRbTe90LTFP"
+        },
+        {
+          "label": "Opacity",
+          "id": "aet6mLBkB1BtxI8e7x-h3"
+        }
+      ]
+    },
+    {
+      "topic": "Testing",
+      "items": [
+        {
+          "label": "Integration Testing",
+          "id": "2RqGKWi13TLleTT7KpdZV"
+        }
+      ]
+    },
+    {
+      "topic": "Dev Tools",
+      "items": [
+        {
+          "label": "Flutter Inspector",
+          "id": "ehlGkYI3dqzu3B1pkhg9t"
+        }
+      ]
+    },
+    {
+      "topic": "CI / CD",
+      "items": []
+    },
+    {
+      "topic": "Analytics",
+      "items": [
+        {
+          "label": "Firebase Analytics",
+          "id": "g2qXhkk6oGaBJy8Y2JOwW"
+        }
+      ]
+    },
+    {
+      "topic": "Deployment",
+      "items": []
+    },
+    {
+      "topic": "Working with Assets",
+      "items": []
+    },
+    {
+      "topic": "Version Control Systems",
+      "items": []
+    },
+    {
+      "topic": "Flutter Internals",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "3 Trees",
+    "Android Studio",
+    "Animated Builder",
+    "Animated Widget",
+    "Animation Controller",
+    "AppStore",
+    "Async / Await",
+    "Authentication",
+    "BDD",
+    "BLoC",
+    "Bitrise",
+    "Built-in Types",
+    "ChangeNotifier",
+    "Cloud Functions",
+    "Codemagic",
+    "Collections",
+    "Control Flow Statements",
+    "Core Libraries",
+    "Cupertino Widgets",
+    "Curved Animation",
+    "Dart Pad",
+    "Dependency Injection",
+    "Design Patterns",
+    "FVM",
+    "Fast Lane",
+    "Firebase",
+    "Firebase Analytics",
+    "Firebase App Dist",
+    "Firestore",
+    "Flutter CLI",
+    "Flutter Inspector",
+    "Flutter Outline",
+    "Fonts",
+    "Functional Programming",
+    "Functions",
+    "Futures",
+    "GetX",
+    "Git",
+    "GitHub",
+    "GitHub Actions",
+    "Google Analytics",
+    "GraphQL",
+    "Guidelines & Protocols",
+    "Hero",
+    "Images",
+    "Immutability",
+    "Inherited Widgets",
+    "Integration Testing",
+    "IntelliJ Idea",
+    "Isolates",
+    "JSON Serialize / Deserialize",
+    "Lambdas",
+    "Lists",
+    "Material Widgets",
+    "Memory Allocation",
+    "Mix Panel",
+    "OOP",
+    "Opacity",
+    "Operators",
+    "Other File Types",
+    "Playstore",
+    "Provider",
+    "Push Notifications",
+    "RESTful APIs",
+    "Redux",
+    "Remote Config",
+    "Render Objects",
+    "Responsive Widgets",
+    "Riverpod",
+    "RxDart",
+    "SOLID Principles",
+    "SQLite",
+    "Segment",
+    "Shared Preferences",
+    "Stateful Widgets",
+    "Stateless Widgets",
+    "Storage",
+    "Streams",
+    "Styled Widgets",
+    "TDD",
+    "Unit Testing",
+    "VS Code",
+    "ValueNotifier",
+    "Variables",
+    "Web Sockets",
+    "Widget Testing",
+    "flutter pub / dart pub",
+    "pub.dev"
+  ],
+  "source": "https://roadmap.sh/flutter",
+  "created_at": "2025-06-27T17:20:53.406Z",
+  "updated_at": "2026-01-06T16:31:57.099Z"
+}

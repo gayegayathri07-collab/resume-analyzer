@@ -1,0 +1,419 @@
+{
+  "slug": "terraform",
+  "title": "Terraform",
+  "description": "Step by step guide to learn Terraform in 2026",
+  "type": "skill",
+  "total_topics": 23,
+  "total_subtopics": 87,
+  "learning_sequence": [
+    {
+      "topic": "Introduction",
+      "items": [
+        {
+          "label": "What is Infrastructure as Code?",
+          "id": "twR3k9D-qDr1CbyW6K0Fs"
+        },
+        {
+          "label": "What is Terraform?",
+          "id": "CU9V3iRdssamsG-xMouXT"
+        },
+        {
+          "label": "Usecases and Benefits",
+          "id": "hRIDJHIxWc5Iav7tsu8l-"
+        },
+        {
+          "label": "CaC vs IaC",
+          "id": "UsINvx84pBF1hp8XoLF4c"
+        },
+        {
+          "label": "Installing Terraform",
+          "id": "AYtBLFU1nowEq-EVlXrEZ"
+        }
+      ]
+    },
+    {
+      "topic": "Hashicorp Config. Language (HCL)",
+      "items": [
+        {
+          "label": "What is HCL?",
+          "id": "Hma2IgatFME8STHPwpeMG"
+        },
+        {
+          "label": "Basic Syntax",
+          "id": "LaD0H7XhoEEaXbcwjxAbw"
+        }
+      ]
+    },
+    {
+      "topic": "Project Initialization",
+      "items": []
+    },
+    {
+      "topic": "Providers",
+      "items": [
+        {
+          "label": "Terraform Registry",
+          "id": "iIjUG_N_mQtLHG25v4-xg"
+        },
+        {
+          "label": "Configuring Providers",
+          "id": "JJ-QhLWqT0luis_kVDVHW"
+        },
+        {
+          "label": "Versions",
+          "id": "bnQ2YLHd7E-vRxX3PnUEX"
+        }
+      ]
+    },
+    {
+      "topic": "Resources",
+      "items": [
+        {
+          "label": "Resource Behavior",
+          "id": "BgZu7Xao5GjR8StVL7qhM"
+        },
+        {
+          "label": "Resource Lifecycle",
+          "id": "76kp98rvph_8UOXZR-PBC"
+        },
+        {
+          "label": "Meta Arguments",
+          "id": "TPd00dRndj1P8674KTTrm"
+        }
+      ]
+    },
+    {
+      "topic": "Variables",
+      "items": [
+        {
+          "label": "Variable Definition File",
+          "id": "rdphcVd-Vq972y4H8CxIj"
+        },
+        {
+          "label": "Local Values",
+          "id": "1mFih8uFs3Lc-1PLgwiAU"
+        }
+      ]
+    },
+    {
+      "topic": "Outputs",
+      "items": [
+        {
+          "label": "Preconditions",
+          "id": "DB-p_S4Ce4tDWF4wDiGSt"
+        }
+      ]
+    },
+    {
+      "topic": "Format & Validate",
+      "items": [
+        {
+          "label": "terraform fmt",
+          "id": "78bGm8J5Y1I8H4qioOvWb"
+        },
+        {
+          "label": "terraform validate",
+          "id": "wdYLjB-tKg76B7YcnhevQ"
+        },
+        {
+          "label": "TFLint",
+          "id": "YftsQYpcqJqBKPjy5tWOq"
+        }
+      ]
+    },
+    {
+      "topic": "Deployment",
+      "items": [
+        {
+          "label": "terraform apply",
+          "id": "LDpj-LY_SOXzno04D-Y25"
+        }
+      ]
+    },
+    {
+      "topic": "Clean Up",
+      "items": [
+        {
+          "label": "terraform destroy",
+          "id": "LPI13FILvkD55hWcWbPrV"
+        }
+      ]
+    },
+    {
+      "topic": "State",
+      "items": [
+        {
+          "label": "Remote State",
+          "id": "pDm08NBVwGf9rAIZC_ZIR"
+        }
+      ]
+    },
+    {
+      "topic": "Best Practices for State",
+      "items": []
+    },
+    {
+      "topic": "Modules",
+      "items": [
+        {
+          "label": "Root vs Child Modules",
+          "id": "6W4_akHG9YtvN6dpbZnG-"
+        }
+      ]
+    },
+    {
+      "topic": "Provisioners",
+      "items": [
+        {
+          "label": "When to Use?",
+          "id": "CmmoshFC1dKE4y3SMN2bl"
+        },
+        {
+          "label": "Creation / Destroy Time",
+          "id": "CJfCpRN_oVf6n_EfLNJSV"
+        },
+        {
+          "label": "file provisioner",
+          "id": "Qch8k6e4pS8OlmG_sI0hH"
+        },
+        {
+          "label": "local-exec provisioner",
+          "id": "g2F5-nX4Aw-xWZiypNbnL"
+        },
+        {
+          "label": "remote-exec provisioner",
+          "id": "JQE3_KakBXZdMVP_pPFNS"
+        },
+        {
+          "label": "Custom Provisioners",
+          "id": "HEr-BBxE3jRKTqRnguds1"
+        }
+      ]
+    },
+    {
+      "topic": "Data Sources",
+      "items": []
+    },
+    {
+      "topic": "Inspect / Modify State",
+      "items": []
+    },
+    {
+      "topic": "Template Files",
+      "items": []
+    },
+    {
+      "topic": "Workspaces",
+      "items": []
+    },
+    {
+      "topic": "CI / CD Integration",
+      "items": [
+        {
+          "label": "GitHub Actions",
+          "id": "weIlGqGN15U8BH1yE9moA"
+        },
+        {
+          "label": "Circle CI",
+          "id": "6OoAdvikyp0byMH2oZhyQ"
+        },
+        {
+          "label": "GitLab CI",
+          "id": "fH27mGrdnkDQCrGGDFU6p"
+        },
+        {
+          "label": "Jenkins",
+          "id": "qFpaqOSoefTyKxmI-FRZt"
+        }
+      ]
+    },
+    {
+      "topic": "Testing",
+      "items": [
+        {
+          "label": "Unit Testing",
+          "id": "V7_NnDIY1MefV_xjCCsnI"
+        },
+        {
+          "label": "Contract Testing",
+          "id": "bjozhkpOI9UjjNfmT5HhY"
+        },
+        {
+          "label": "Integration Testing",
+          "id": "ENkLj3z6hR2cKT7rBhYp5"
+        },
+        {
+          "label": "End to End Testing",
+          "id": "QqwlAtz7VfrMtNEGpT5Sa"
+        },
+        {
+          "label": "Testing Modules",
+          "id": "H3_So6qX-s2131WHGR_GO"
+        }
+      ]
+    },
+    {
+      "topic": "Scaling Terraform",
+      "items": [
+        {
+          "label": "Splitting Large State",
+          "id": "zCU02_5Pide5BZiuMuqEU"
+        },
+        {
+          "label": "Parallelism",
+          "id": "RtwZy60ruRpskmgr1qYYf"
+        },
+        {
+          "label": "Deployment Workflow",
+          "id": "wL3WWhjPEgFmumOmCPRDf"
+        },
+        {
+          "label": "Terragrunt",
+          "id": "AEtW6j2GcfZz7IXk4sM6c"
+        },
+        {
+          "label": "Infracost",
+          "id": "oANePqjkwtNMwvV-_W0B7"
+        }
+      ]
+    },
+    {
+      "topic": "Security",
+      "items": [
+        {
+          "label": "Secret Management",
+          "id": "uVz9WwVAgMu1ZU0qjqVnc"
+        },
+        {
+          "label": "Compliance / Sentinel",
+          "id": "z0PcbgpHbR6Fm07-On4P8"
+        },
+        {
+          "label": "Terrascan",
+          "id": "NSWG79dEygyl6pb54wLrE"
+        }
+      ]
+    },
+    {
+      "topic": "HCP",
+      "items": [
+        {
+          "label": "What and when to use HCP?",
+          "id": "K_7dB-5cCYzGbwYXXaoiY"
+        },
+        {
+          "label": "Enterprise Features",
+          "id": "elW7IMBSF0ydmlb7rtI1o"
+        },
+        {
+          "label": "Authentication",
+          "id": "RPcsyhIG027uP7KF0hwaY"
+        },
+        {
+          "label": "Workspaces",
+          "id": "JoUWF6AQoreELxFHNi9oo"
+        },
+        {
+          "label": "VCS Integration",
+          "id": "Z6dG92afC8SGwCFNTx4ac"
+        },
+        {
+          "label": "Run Tasks",
+          "id": "nU1WoRtxRF9KeNhzuwNUB"
+        }
+      ]
+    }
+  ],
+  "subtopics_list": [
+    "-replace option in apply",
+    "Authentication",
+    "Basic Syntax",
+    "CaC vs IaC",
+    "Checkov",
+    "Circle CI",
+    "Compliance / Sentinel",
+    "Configuring Providers",
+    "Contract Testing",
+    "Creating Local Modules",
+    "Creation / Destroy Time",
+    "Custom Provisioners",
+    "Deployment Workflow",
+    "End to End Testing",
+    "Enterprise Features",
+    "Environment Variables",
+    "GitHub Actions",
+    "GitLab CI",
+    "Import Existing Resources",
+    "Infracost",
+    "Input Variables",
+    "Inputs / Outputs",
+    "Installing Terraform",
+    "Integration Testing",
+    "Jenkins",
+    "KICS",
+    "Local Values",
+    "Meta Arguments",
+    "Modules Best Practices",
+    "Output Syntax",
+    "Parallelism",
+    "Preconditions",
+    "Published Modules Usage",
+    "Remote State",
+    "Resource Behavior",
+    "Resource Lifecycle",
+    "Root vs Child Modules",
+    "Run Tasks",
+    "Secret Management",
+    "Sensitive Data",
+    "Sensitive Outputs",
+    "Splitting Large State",
+    "Splitting State Files",
+    "State Locking",
+    "TFLint",
+    "Terraform Registry",
+    "Terragrunt",
+    "Terrascan",
+    "Testing Modules",
+    "Trivy",
+    "Type Constraints",
+    "Unit Testing",
+    "Usecases and Benefits",
+    "VCS Integration",
+    "Validation Rules",
+    "Variable Definition File",
+    "Version Management",
+    "Versioning",
+    "Versions",
+    "What and when to use HCP?",
+    "What is HCL?",
+    "What is Infrastructure as Code?",
+    "What is Terraform?",
+    "When to Use?",
+    "Workspaces",
+    "count",
+    "depends_on",
+    "file provisioner",
+    "for_each",
+    "graph",
+    "lifecycle",
+    "list",
+    "local-exec provisioner",
+    "mv",
+    "output",
+    "provider",
+    "remote-exec provisioner",
+    "rm",
+    "show",
+    "state force-unlock",
+    "state pull / push",
+    "state replace-provider",
+    "terraform apply",
+    "terraform destroy",
+    "terraform fmt",
+    "terraform plan",
+    "terraform validate"
+  ],
+  "source": "https://roadmap.sh/terraform",
+  "created_at": "2025-05-14T10:07:04.256Z",
+  "updated_at": "2026-02-26T08:40:23.441Z"
+}

@@ -44,12 +44,14 @@ def load_sample_roadmaps():
     import re
     samples_dir = Path(settings.BASE_DIR).parent / 'samples'
     roadmaps = []
+    seen_names = set()
     if not samples_dir.exists():
         return roadmaps
     for f in sorted(samples_dir.glob('*.json')):
         try:
             data = json.loads(f.read_text(encoding='utf-8'))
             name = f.stem.replace('-', ' ').replace('_', ' ').title()
+            seen_names.add(name.lower())
             roadmaps.append({'name': name, 'filename': f.name, 'url': f'/api/samples/{f.name}'})
         except Exception as e:
             print(f'Failed to load roadmap {f.name}: {e}')
@@ -61,6 +63,8 @@ def load_sample_roadmaps():
                 continue
 
             name = f.stem.replace('-', ' ').replace('_', ' ').title()
+            if name.lower() in seen_names:
+                continue
             roadmaps.append({'name': name, 'filename': f.name, 'url': f'/api/samples/{f.name}'})
         except Exception as e:
             print(f'Failed to load roadmap PDF {f.name}: {e}')
@@ -100,8 +104,12 @@ def sample_roadmap_file(request, filename):
     if not file_path.exists() or not file_path.is_file():
         from django.http import JsonResponse
         return JsonResponse({'error': 'File not found'}, status=404)
+
+    ext = Path(filename).suffix.lower()
+    content_type = 'application/json' if ext == '.json' else 'application/pdf'
+
     from django.http import FileResponse
-    resp = FileResponse(open(file_path, 'rb'), filename=filename, content_type='application/pdf')
+    resp = FileResponse(open(file_path, 'rb'), filename=filename, content_type=content_type)
     resp['X-Frame-Options'] = 'ALLOWALL'
     resp['Access-Control-Allow-Origin'] = '*'
     return resp

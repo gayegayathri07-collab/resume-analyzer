@@ -1,0 +1,267 @@
+{
+  "slug": "android",
+  "title": "Android",
+  "description": "Step by step guide to becoming an Android developer in 2026",
+  "type": "role",
+  "total_topics": 15,
+  "total_subtopics": 98,
+  "learning_sequence": [
+    {
+      "topic": "Pick a Language",
+      "items": [
+        {
+          "label": "Kotlin",
+          "id": "qIzUv8-GgQnkqChEdgD50"
+        }
+      ]
+    },
+    {
+      "topic": "The Fundamentals",
+      "items": [
+        {
+          "label": "Development IDE",
+          "id": "ZRGsokU313Ky-anWbWK6q"
+        },
+        {
+          "label": "Basics of Kotlin",
+          "id": "jl1FsQ5-WGKeFyaILNt_p"
+        },
+        {
+          "label": "Basics of OOP",
+          "id": "j69erqfosSZMDlmKcnnn0"
+        },
+        {
+          "label": "Data Structures and Algorithms",
+          "id": "cNeT1dJDfgn0ndPzSxhSL"
+        },
+        {
+          "label": "What is and how to use Gradle?",
+          "id": "FVxNjbDBxgf6vkZWw1Awt"
+        },
+        {
+          "label": "Create a Basic Hello World App",
+          "id": "5m_7DvInF8C_4Ml1xVI6L"
+        }
+      ]
+    },
+    {
+      "topic": "Distribution",
+      "items": [
+        {
+          "label": "Google Playstore",
+          "id": "HgRdgi2Hu4C8YLG5PXfoo"
+        },
+        {
+          "label": "Firebase Distribution",
+          "id": "T7q_quNaIAuGi96OdnDT1"
+        },
+        {
+          "label": "Signed APK",
+          "id": "_FSlD_qTz5Xo0x3pB6sZI"
+        }
+      ]
+    },
+    {
+      "topic": "App Components",
+      "items": [
+        {
+          "label": "Activity",
+          "id": "nwuVlPmzwJ17mtVQ8Hi9w"
+        }
+      ]
+    },
+    {
+      "topic": "Interface & Navigation",
+      "items": [
+        {
+          "label": "Jetpack Compose",
+          "id": "60Vm-77rseUqpMiFvp-dA"
+        },
+        {
+          "label": "App Shortcuts",
+          "id": "xV475jHTlLuHtpHZeXb7P"
+        }
+      ]
+    },
+    {
+      "topic": "Design & Architecture",
+      "items": []
+    },
+    {
+      "topic": "Storage",
+      "items": [
+        {
+          "label": "Shared Preferences",
+          "id": "PKql1HY0PLMfp50FRELXL"
+        },
+        {
+          "label": "DataStore",
+          "id": "GWq3s1iTxQOp1BstHscJ9"
+        },
+        {
+          "label": "Room Database",
+          "id": "Bfg4So5RlI09zFNcburJd"
+        },
+        {
+          "label": "File System",
+          "id": "A4kdaj6AFueUgPI7hwKi5"
+        }
+      ]
+    },
+    {
+      "topic": "Network",
+      "items": []
+    },
+    {
+      "topic": "Asynchronism",
+      "items": []
+    },
+    {
+      "topic": "Common Services",
+      "items": []
+    },
+    {
+      "topic": "Linting",
+      "items": []
+    },
+    {
+      "topic": "Testing",
+      "items": []
+    },
+    {
+      "topic": "Debugging",
+      "items": [
+        {
+          "label": "Jetpack Benchmark",
+          "id": "ACUJlDDR0jqEohsFzWEoQ"
+        }
+      ]
+    },
+    {
+      "topic": "Version Control",
+      "items": [
+        {
+          "label": "GitHub",
+          "id": "H-2eb8fLwz8IKYXbeSVKK"
+        },
+        {
+          "label": "Bitbucket",
+          "id": "5LFZdUiFYYU_1sYsouyan"
+        },
+        {
+          "label": "GitLab",
+          "id": "Q47BtQphp59NkkZoeNXmP"
+        },
+        {
+          "label": "Git",
+          "id": "rqSZ2ATeHbOdIQE9Jlb0B"
+        }
+      ]
+    },
+    {
+      "topic": "Security",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "Activity",
+    "Activity LifeCycle",
+    "Animations",
+    "Apollo-Android",
+    "App Shortcuts",
+    "Authentication",
+    "Basics of Kotlin",
+    "Basics of OOP",
+    "Bitbucket",
+    "BottomSheet",
+    "Box",
+    "Broadcast Receiver",
+    "Builder Pattern",
+    "Button",
+    "Card",
+    "Chucker",
+    "Cloud Messaging",
+    "Column / Row",
+    "Constraint",
+    "ConstraintLayout",
+    "Content Provider",
+    "Coroutines",
+    "Crashlytics",
+    "Create a Basic Hello World App",
+    "Dagger",
+    "Data Structures and Algorithms",
+    "DataStore",
+    "Dependency Injection",
+    "Detekt",
+    "Development IDE",
+    "Dialog",
+    "Drawer",
+    "Espresso",
+    "Explicit Intents",
+    "Factory Pattern",
+    "File System",
+    "FireStore",
+    "Firebase Distribution",
+    "Flow",
+    "Fragments",
+    "Git",
+    "GitHub",
+    "GitLab",
+    "Google Admob",
+    "Google Maps",
+    "Google Play Services",
+    "Google Playstore",
+    "Hilt",
+    "Icon",
+    "Image",
+    "ImageView",
+    "Implicit Intents",
+    "Intent",
+    "Intent Filters",
+    "JUnit",
+    "Java",
+    "Jetpack Benchmark",
+    "Jetpack Compose",
+    "Koin",
+    "Kotlin",
+    "Ktlint",
+    "Lazy Column / Row",
+    "Leak Canary",
+    "LiveData",
+    "MVC",
+    "MVI",
+    "MVP",
+    "MVVM",
+    "NavHost",
+    "Navigation Components",
+    "Observer Pattern",
+    "OkHttp",
+    "RecycleView",
+    "Remote Config",
+    "Repository Pattern",
+    "Retro",
+    "Room Database",
+    "RxJava",
+    "RxKotlin",
+    "Scaffold",
+    "Services",
+    "Shared Preferences",
+    "Side effects",
+    "Signed APK",
+    "State Changes",
+    "TabRow",
+    "Tasks & Backstack",
+    "Text",
+    "TextField",
+    "TextView",
+    "Threads",
+    "Timber",
+    "ViewModel state",
+    "What is and how to use Gradle?",
+    "WorkManager",
+    "remember / State"
+  ],
+  "source": "https://roadmap.sh/android",
+  "created_at": "2025-05-14T10:07:03.825Z",
+  "updated_at": "2026-06-12T09:13:05.979Z"
+}

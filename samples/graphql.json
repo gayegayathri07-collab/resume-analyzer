@@ -1,0 +1,181 @@
+{
+  "slug": "graphql",
+  "title": "GraphQL",
+  "description": "Step by step guide to learn GraphQL in 2026",
+  "type": "skill",
+  "total_topics": 9,
+  "total_subtopics": 57,
+  "learning_sequence": [
+    {
+      "topic": "Introduction",
+      "items": [
+        {
+          "label": "Problems GraphQL Solves",
+          "id": "2rlmLn_yQQV-7DpX1qT98"
+        },
+        {
+          "label": "What is GraphQL",
+          "id": "cMfsRtvzvDZZJ0TqeUOxm"
+        },
+        {
+          "label": "Thinking in Graphs",
+          "id": "J5mU0v491qrm-mr1W3Msd"
+        },
+        {
+          "label": "GraphQL on Frontend",
+          "id": "6r9XbwlBtHmJrhviG2cTD"
+        },
+        {
+          "label": "GraphQL on Backend",
+          "id": "ODQ8zrHc2rsc8PN-APKvz"
+        }
+      ]
+    },
+    {
+      "topic": "GraphQL Queries",
+      "items": [
+        {
+          "label": "Variables",
+          "id": "YZaFEK547FYricfOuANvH"
+        },
+        {
+          "label": "Aliases",
+          "id": "B77yLU4SuRChSjEbmYwc-"
+        },
+        {
+          "label": "Arguments",
+          "id": "hrpb108R8Gyu3hhzkMYzL"
+        },
+        {
+          "label": "Directives",
+          "id": "MnmwccPahqPCzOhqjfbsY"
+        },
+        {
+          "label": "Fragments",
+          "id": "CehwjrCG_wbUU-TFNCuJn"
+        },
+        {
+          "label": "Fields",
+          "id": "Pc9H7AcoqJQkWnuhbytyD"
+        },
+        {
+          "label": "What are Queries?",
+          "id": "2SU4dcaz7zwGsF7g8FjmI"
+        }
+      ]
+    },
+    {
+      "topic": "Mutations",
+      "items": [
+        {
+          "label": "Multiple Fields in Mutation",
+          "id": "AySlY8AyI6jE-cy-qKKOU"
+        },
+        {
+          "label": "Operation Name",
+          "id": "q9TYEygvUyHourdZIvk8G"
+        },
+        {
+          "label": "What are Mutations?",
+          "id": "9Q2pGidY-rfkltHq3vChp"
+        }
+      ]
+    },
+    {
+      "topic": "Subscriptions",
+      "items": [
+        {
+          "label": "What are Subscriptions",
+          "id": "RlBc-hWEUOPaEQLTgJa-K"
+        },
+        {
+          "label": "Event Based Subscriptions",
+          "id": "kJMyRhasBKfBypent3GxK"
+        },
+        {
+          "label": "Live Queries",
+          "id": "CHdzww8_TNfeM6Bp1oTPI"
+        },
+        {
+          "label": "@defer / @stream directives",
+          "id": "t6XxFB_lx27kS4FE2_GMH"
+        }
+      ]
+    },
+    {
+      "topic": "Schema",
+      "items": []
+    },
+    {
+      "topic": "Validation",
+      "items": []
+    },
+    {
+      "topic": "Execution",
+      "items": []
+    },
+    {
+      "topic": "Serving over Internet",
+      "items": []
+    },
+    {
+      "topic": "Pagination",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "@defer / @stream directives",
+    "Aliases",
+    "Apollo Client",
+    "Apollo Server",
+    "Arguments",
+    "Asynchronous",
+    "Authorization",
+    "Batching",
+    "Caching",
+    "Directives",
+    "Enums",
+    "Event Based Subscriptions",
+    "Fields",
+    "Fragments",
+    "GraphQL Go",
+    "GraphQL Java",
+    "GraphQL Over HTTP Spec",
+    "GraphQL Yoga",
+    "GraphQL on Backend",
+    "GraphQL on Frontend",
+    "GraphQL.js",
+    "Graphene",
+    "Interfaces",
+    "Lists",
+    "Live Queries",
+    "Multiple Fields in Mutation",
+    "Objects",
+    "Operation Name",
+    "Problems GraphQL Solves",
+    "Producing the Result",
+    "Realtime",
+    "Relay",
+    "Resolvers",
+    "Root Fields",
+    "Scalar Coercion",
+    "Scalars",
+    "Specification",
+    "Synchronous",
+    "Thinking in Graphs",
+    "Type System",
+    "Unions",
+    "Urql",
+    "Validation",
+    "Variables",
+    "What are Mutations?",
+    "What are Queries?",
+    "What are Subscriptions",
+    "What is GraphQL",
+    "graphql-http",
+    "mercurius"
+  ],
+  "source": "https://roadmap.sh/graphql",
+  "created_at": "2025-06-23T12:40:47.808Z",
+  "updated_at": "2026-02-26T08:43:56.741Z"
+}

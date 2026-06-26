@@ -1,0 +1,204 @@
+{
+  "slug": "ux-design",
+  "title": "UX Design",
+  "description": "Step by step guide to becoming a UX Designer in 2026",
+  "type": "role",
+  "total_topics": 10,
+  "total_subtopics": 84,
+  "learning_sequence": [
+    {
+      "topic": "Human Decision Making",
+      "items": [
+        {
+          "label": "Behavioral Science",
+          "id": "D553-nVELaB5gdxtoKSVc"
+        },
+        {
+          "label": "Persuasive Technology",
+          "id": "K22gvF9DLt0Ikc80yZLCb"
+        },
+        {
+          "label": "Nudge Theory",
+          "id": "6ffY5wO-XhkiDJJ5YcI0x"
+        },
+        {
+          "label": "Behavioral Economics",
+          "id": "_lv6GJ0wlMfhJ7PHRGQ_V"
+        },
+        {
+          "label": "Behavior Design",
+          "id": "zYCBEUqZVlvjlAKnh5cPQ"
+        },
+        {
+          "label": "BJ Fogg's Behavior Model",
+          "id": "2NlgbLeLBYwZX2u2rKkIO"
+        },
+        {
+          "label": "CREATE Action Funnel",
+          "id": "kcG4IpneJzA6di0uqTiwb"
+        },
+        {
+          "label": "Spectrum of Thinking Interventions",
+          "id": "0Df110GZcDw5wbAe1eKoA"
+        },
+        {
+          "label": "Dual Process Theory",
+          "id": "kWA8CvocP1pkom2N7O4gb"
+        }
+      ]
+    },
+    {
+      "topic": "Behavior Change Strategies",
+      "items": [
+        {
+          "label": "BJ Fogg's Behavior Grid",
+          "id": "lRBC8VYJPsR65LHDuuIsL"
+        }
+      ]
+    },
+    {
+      "topic": "Support Conscious Action",
+      "items": [
+        {
+          "label": "Educate & Encourage User",
+          "id": "SLXjoYL-lhPef8s9V3jpf"
+        }
+      ]
+    },
+    {
+      "topic": "Cheating",
+      "items": [
+        {
+          "label": "Defaulting",
+          "id": "IpKCXqf_PkxIllwmiIZsq"
+        },
+        {
+          "label": "Making it Incidental",
+          "id": "Ix5Fll_dAINWLxVF2DXFI"
+        },
+        {
+          "label": "Automate the Act of Repetition",
+          "id": "ZufrLRNkMoJ4e2T-vWxCR"
+        }
+      ]
+    },
+    {
+      "topic": "Understanding the Product",
+      "items": []
+    },
+    {
+      "topic": "Prototyping",
+      "items": [
+        {
+          "label": "Good Layout Rules",
+          "id": "90_M5qABC1vZ1nsXVyqFJ"
+        }
+      ]
+    },
+    {
+      "topic": "UX Best Practices",
+      "items": []
+    },
+    {
+      "topic": "Measuring the Impact",
+      "items": []
+    },
+    {
+      "topic": "Make or Change Habits",
+      "items": []
+    },
+    {
+      "topic": "Conceptual Design",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "Adobe XD",
+    "Automate the Act of Repetition",
+    "Avoid Choice Overload",
+    "Avoid Cognitive Overhead",
+    "Avoid Direct Payments",
+    "BJ Fogg's Behavior Grid",
+    "BJ Fogg's Behavior Model",
+    "Balsamiq",
+    "Be Authentic and Personal",
+    "Behavior Change Games",
+    "Behavior Design",
+    "Behavioral Economics",
+    "Behavioral Science",
+    "Business Model Canvas",
+    "Business Model Inspirator",
+    "Business Process Model & Notation (BPMN)",
+    "CREATE Action Funnel",
+    "Call to Action",
+    "Clear the Page of Distractions",
+    "Competitor Analysis",
+    "Create User Personas",
+    "Crowd Out Old Habit with New Behavior",
+    "Cue Routine Reward Model",
+    "Customer Experience Map by Mel Edwards",
+    "Decision-Making Support",
+    "Default Everything",
+    "Defaulting",
+    "Deploy Peer Comparisons",
+    "Deploy Social Proof",
+    "Deploy Strong Authority on Subject",
+    "Dual Process Theory",
+    "Educate & Encourage User",
+    "Elicit Implementation Intentions",
+    "Event-driven Process Chain Model (EPC)",
+    "Figma",
+    "Five Forces Model",
+    "Frame Text to Avoid Temporal Myopia",
+    "Gamification",
+    "Gather Lessons, Prioritize & Integrate",
+    "Goal Trackers",
+    "Good Layout Rules",
+    "Help User think about their Action",
+    "Help user Avoiding the Cue",
+    "How-to-Tips",
+    "In general, keep it short and simple",
+    "Incremental A/B Testing",
+    "Lean Canvas",
+    "Lessen the Burden of Action / Info",
+    "Leverage Loss-Aversion",
+    "Make Commitment to Friends",
+    "Make Reward Scarce",
+    "Make UI Professional and Beautiful",
+    "Make it Clear, Where to Act",
+    "Make it easy to understand and complete",
+    "Make progress meaningful to reward user",
+    "Make progress visible to user",
+    "Make successful completion clearly visible",
+    "Making it Incidental",
+    "Mindfulness to Avoid Acting on the Cue",
+    "Multivariate Testing",
+    "Nir Eyal's Hook Model",
+    "Nudge Theory",
+    "Persuasive Technology",
+    "Planners",
+    "Prime User-Relevant Associations",
+    "Remind of Prior Commitment to Act",
+    "Reminders",
+    "Reminders & Planning Prompts",
+    "Replace the Routine",
+    "SWOT Analysis",
+    "Simple Flowchart",
+    "Sketch",
+    "Social Sharing",
+    "Spectrum of Thinking Interventions",
+    "Status Reports",
+    "Target Action",
+    "Target Actor",
+    "Target Outcome",
+    "Tell User what the Action is and ask for it",
+    "Tutorials",
+    "Use Competition",
+    "Use Consciousness to Interfere",
+    "Use Peer Comparisons",
+    "User Stories"
+  ],
+  "source": "https://roadmap.sh/ux-design",
+  "created_at": "2025-05-14T10:07:04.233Z",
+  "updated_at": "2026-05-14T07:23:02.614Z"
+}

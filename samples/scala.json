@@ -1,0 +1,409 @@
+{
+  "slug": "scala",
+  "title": "Scala",
+  "description": "Step-by-step guide to become a Scala developer in 2026",
+  "type": "skill",
+  "total_topics": 32,
+  "total_subtopics": 133,
+  "learning_sequence": [
+    {
+      "topic": "Setting Up Scala",
+      "items": []
+    },
+    {
+      "topic": "Introduction",
+      "items": [
+        {
+          "label": "Docs",
+          "id": "I_Bs6mryYyEAnwT_oPQ5A"
+        },
+        {
+          "label": "Courses",
+          "id": "yzVo7NtvU5HdGqg7T7XAh"
+        }
+      ]
+    },
+    {
+      "topic": "Variables & Constants",
+      "items": []
+    },
+    {
+      "topic": "Data Structures",
+      "items": [
+        {
+          "label": "Object",
+          "id": "_Ggnf67Ye0kFvroqqSg_D"
+        }
+      ]
+    },
+    {
+      "topic": "Working with Strings",
+      "items": []
+    },
+    {
+      "topic": "Pattern Matching",
+      "items": []
+    },
+    {
+      "topic": "Laziness",
+      "items": [
+        {
+          "label": "Lazy vals",
+          "id": "iMe2czy5d7uNpB2Uv2KTK"
+        },
+        {
+          "label": "by-name Parameters",
+          "id": "_GMHFAt8BulTAb9msdUb9"
+        },
+        {
+          "label": "Lazy Collections",
+          "id": "kRdh-HUAWJi7d8gdynGUS"
+        }
+      ]
+    },
+    {
+      "topic": "Scope & Visibility",
+      "items": [
+        {
+          "label": "private / protected",
+          "id": "mHdNAYbL4yCZZYv0Z_s1w"
+        }
+      ]
+    },
+    {
+      "topic": "Error Handling",
+      "items": [
+        {
+          "label": "Option",
+          "id": "PPrcoA800FmTFT48H789J"
+        }
+      ]
+    },
+    {
+      "topic": "Recursion",
+      "items": [
+        {
+          "label": "Early returns",
+          "id": "votWwsha27Bt9i5GhHRvA"
+        },
+        {
+          "label": "Tail Recursion",
+          "id": "qEdusMVJk68GRdH-vP6ts"
+        },
+        {
+          "label": "Trampolines",
+          "id": "VV-Drj_JlIppItHq4PRFc"
+        }
+      ]
+    },
+    {
+      "topic": "Ecosystems",
+      "items": [
+        {
+          "label": "Cats",
+          "id": "5A-62SFAXUd4OAEGd_RRz"
+        },
+        {
+          "label": "Li Haoyi",
+          "id": "OYiz0dgiVjYilNRSjh9la"
+        },
+        {
+          "label": "Akka / Pekko",
+          "id": "vsfwt3tvLDhJoRyA82bM1"
+        },
+        {
+          "label": "No Ecosystem",
+          "id": "1pq3RFK0DokxqYAuwfdF8"
+        }
+      ]
+    },
+    {
+      "topic": "Build Tools",
+      "items": []
+    },
+    {
+      "topic": "Platforms",
+      "items": [
+        {
+          "label": "JVM",
+          "id": "Gy7AaiqSL_38yB73C5W5B"
+        }
+      ]
+    },
+    {
+      "topic": "Type System",
+      "items": [
+        {
+          "label": "Variance",
+          "id": "upZK3qxWKokNL3tlFKhK6"
+        },
+        {
+          "label": "Context Bounds",
+          "id": "96F_G2PY8VG_Et9g4DFX2"
+        }
+      ]
+    },
+    {
+      "topic": "Macros",
+      "items": []
+    },
+    {
+      "topic": "Backend",
+      "items": [
+        {
+          "label": "sttp",
+          "id": "Igr2iwZBn3qO6X5ol3YMt"
+        },
+        {
+          "label": "Play",
+          "id": "VDbh6YkcPssmp2hcZdOt1"
+        },
+        {
+          "label": "AkkaHTTP",
+          "id": "82TpZ2W8LJBEEEjTo8_kD"
+        }
+      ]
+    },
+    {
+      "topic": "Concurrency",
+      "items": []
+    },
+    {
+      "topic": "GUI",
+      "items": []
+    },
+    {
+      "topic": "Effect Systems",
+      "items": [
+        {
+          "label": "Cats Effect",
+          "id": "GJVtKkllXuiMqUb3K7mUc"
+        },
+        {
+          "label": "ZIO",
+          "id": "y4ulspoL7KKUilPG98KWd"
+        }
+      ]
+    },
+    {
+      "topic": "Testing",
+      "items": []
+    },
+    {
+      "topic": "Data Handling",
+      "items": []
+    },
+    {
+      "topic": "Distributed Computing",
+      "items": [
+        {
+          "label": "Spark",
+          "id": "z6TGywyQRmvbZaHnF_-eQ"
+        }
+      ]
+    },
+    {
+      "topic": "Video game Engines",
+      "items": [
+        {
+          "label": "Indigo",
+          "id": "XUg4x7MQTvXzmDkgkET7S"
+        },
+        {
+          "label": "CosPlay",
+          "id": "Rz9OCeWj0y2cwfLrGuXqR"
+        }
+      ]
+    },
+    {
+      "topic": "Macros & the Type System",
+      "items": [
+        {
+          "label": "Monocle",
+          "id": "DHdpzJxOlUnRRx5WhhWHi"
+        },
+        {
+          "label": "Shapeless",
+          "id": "TwS5Ms3BlAsR6E9aI81aF"
+        },
+        {
+          "label": "Scalameta",
+          "id": "sJqixwq4_tCCRBE3XKNuw"
+        }
+      ]
+    },
+    {
+      "topic": "Referencial Transparency",
+      "items": [
+        {
+          "label": "Pure Functions",
+          "id": "glMo7kvwKxS3M6pBrGhNn"
+        }
+      ]
+    },
+    {
+      "topic": "Operators",
+      "items": []
+    },
+    {
+      "topic": "Conditionals",
+      "items": []
+    },
+    {
+      "topic": "Loops",
+      "items": []
+    },
+    {
+      "topic": "Try/Catch",
+      "items": []
+    },
+    {
+      "topic": "Monads",
+      "items": []
+    },
+    {
+      "topic": "Typeclasses",
+      "items": []
+    },
+    {
+      "topic": "Capabilities",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "Akka",
+    "Akka & Peko Streams",
+    "Akka / Pekko",
+    "AkkaHTTP",
+    "Anonymous Func / Lambda",
+    "Array",
+    "Books",
+    "Booleans",
+    "Calico",
+    "Capture Checking",
+    "Case Classes",
+    "Case Objects",
+    "Category Theory",
+    "Cats",
+    "Cats Effect",
+    "Chimney",
+    "Circe",
+    "Class",
+    "Context Bounds",
+    "Conversions",
+    "CosPlay",
+    "Courses",
+    "Docs",
+    "Doobie",
+    "Early returns",
+    "Either",
+    "Emacs",
+    "Enums",
+    "FS2",
+    "Float",
+    "Funcs returning Funcs",
+    "Functions & Methods",
+    "Gatling",
+    "Gears",
+    "GraalVM Native Image",
+    "Gradle",
+    "Implicit Parameter",
+    "Indigo",
+    "Integers",
+    "IntelliJ IDEA",
+    "Iterators",
+    "JUnit",
+    "JVM",
+    "JavaFX",
+    "Jsoniter",
+    "Kyo",
+    "Laminar",
+    "Lazy Collections",
+    "Lazy vals",
+    "LazyList",
+    "Li Haoyi",
+    "LibGDX w/ Scala",
+    "List",
+    "Magnolia",
+    "Map",
+    "Maven",
+    "Method Calls",
+    "Mill",
+    "Monocle",
+    "Mutable Collections",
+    "No Ecosystem",
+    "Nothing",
+    "Object",
+    "Option",
+    "Ox",
+    "Pekko",
+    "Play",
+    "PlayJSON",
+    "Pure Functions",
+    "Quill",
+    "Range",
+    "React.js",
+    "Regex",
+    "Scala Native",
+    "Scala on Android",
+    "Scala.js",
+    "ScalaCLI",
+    "ScalaFX",
+    "ScalaTest",
+    "Scalameta",
+    "Scalatra",
+    "ScalikeJDBC",
+    "Sealed Traits",
+    "Seq",
+    "Set",
+    "Shapeless",
+    "Slick",
+    "Slinky",
+    "Spark",
+    "Strings",
+    "Sublime",
+    "Tail Recursion",
+    "Tapir",
+    "Total/Partial Funcs",
+    "Trait",
+    "Trampolines",
+    "Try",
+    "Type Hierarchy",
+    "Type Parameters",
+    "Unit",
+    "VS Code",
+    "Variance",
+    "Vector",
+    "Views",
+    "Vim",
+    "YouTube",
+    "ZIO",
+    "ZIO Streams",
+    "ZIO Test",
+    "Zed",
+    "apply Method",
+    "by-name Parameters",
+    "collect / collectFirst",
+    "filter",
+    "find",
+    "flatMap",
+    "foldLeft",
+    "for comprehension",
+    "foreach",
+    "http4s",
+    "mUnit",
+    "map",
+    "package",
+    "private / protected",
+    "sbt",
+    "scala-android-plugin",
+    "specs2",
+    "sttp",
+    "uPickle",
+    "uTest",
+    "unapply Method"
+  ],
+  "source": "https://roadmap.sh/scala",
+  "created_at": "2026-03-11T11:30:14.516Z",
+  "updated_at": "2026-03-19T14:05:02.831Z"
+}

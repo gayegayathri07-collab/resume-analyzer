@@ -1,0 +1,303 @@
+{
+  "slug": "ruby",
+  "title": "Ruby",
+  "description": "Step by step guide to becoming a Ruby developer in 2026",
+  "type": "skill",
+  "total_topics": 19,
+  "total_subtopics": 83,
+  "learning_sequence": [
+    {
+      "topic": "Concurrency",
+      "items": [
+        {
+          "label": "Threads",
+          "id": "xJ_F95dKmaRKE42yQ2R-r"
+        },
+        {
+          "label": "Concurrent Ruby",
+          "id": "toevE0eM7c5f_zeSaVjdr"
+        },
+        {
+          "label": "Ractors",
+          "id": "H4Cz_4xcMJmU0UwvEhNIn"
+        }
+      ]
+    },
+    {
+      "topic": "Setting things Up",
+      "items": [
+        {
+          "label": "Managers",
+          "id": "RnKFjcscp8nqwesQ06YWU"
+        },
+        {
+          "label": "Installers",
+          "id": "zY4gsqXOOT3yp9ad9-T5a"
+        },
+        {
+          "label": "Package Managers",
+          "id": "cRQjwGKIG7CmbDOwj7dfU"
+        }
+      ]
+    },
+    {
+      "topic": "Data Types",
+      "items": [
+        {
+          "label": "Integers",
+          "id": "_-bUq5jtewDmsmnzYw1-q"
+        },
+        {
+          "label": "Strings",
+          "id": "F-0Rxwu_RcNF_NOoFHoo7"
+        },
+        {
+          "label": "Arrays",
+          "id": "2QHXNKV0tETI5FroFNylt"
+        },
+        {
+          "label": "Symbols",
+          "id": "U-V-MNSnIL17Imug_iFvE"
+        }
+      ]
+    },
+    {
+      "topic": "Type Casting",
+      "items": []
+    },
+    {
+      "topic": "Operators",
+      "items": [
+        {
+          "label": "Logical",
+          "id": "vLgIRI5GD9ANBjYJoZmid"
+        },
+        {
+          "label": "Assignment",
+          "id": "NpHLz4I9wwwXX-KBrjdgU"
+        },
+        {
+          "label": "Ranges",
+          "id": "OHq_172eTWaVlxES7Ccfc"
+        },
+        {
+          "label": "Comparison",
+          "id": "HiDx1OWbSDJJb7APHwG34"
+        },
+        {
+          "label": "Arithmetic",
+          "id": "I708SVAEVSpdHzwxoHhgD"
+        }
+      ]
+    },
+    {
+      "topic": "Conditional Statements",
+      "items": [
+        {
+          "label": "if, elsif, else",
+          "id": "cVSN9992bpxZwZ9JC1HHg"
+        },
+        {
+          "label": "unless",
+          "id": "MrPUYjPaz2F7c77GoPmue"
+        }
+      ]
+    },
+    {
+      "topic": "Loops & Enumerations",
+      "items": [
+        {
+          "label": "while",
+          "id": "xO2RCVIxZprDgEW4-O9n9"
+        },
+        {
+          "label": "for",
+          "id": "VlhY73X3c0PnA1uYjbfZH"
+        },
+        {
+          "label": "break",
+          "id": "0gjDinuRDgPV9iTm39ZnS"
+        }
+      ]
+    },
+    {
+      "topic": "Enumerable",
+      "items": [
+        {
+          "label": "Fetching",
+          "id": "PQX6c9h1O_p-ExDvC88zl"
+        },
+        {
+          "label": "Searching & Filtering",
+          "id": "Zil-9cf_-g1H5VUF52bxo"
+        },
+        {
+          "label": "Sorting",
+          "id": "knmTmlDbyRwZKxuIIVbwn"
+        },
+        {
+          "label": "Iterating",
+          "id": "frFY2AeO2BQF6I0CmTLkV"
+        },
+        {
+          "label": "Querying",
+          "id": "ZQuUDWqbNUxOYc-Fkk2pI"
+        }
+      ]
+    },
+    {
+      "topic": "Handling exceptions",
+      "items": [
+        {
+          "label": "begin, rescue, ensure",
+          "id": "-2BSGoXGMMP50en_NnQ97"
+        }
+      ]
+    },
+    {
+      "topic": "Interactive Ruby (irb)",
+      "items": []
+    },
+    {
+      "topic": "Metaprogramming",
+      "items": [
+        {
+          "label": "Ruby DSL",
+          "id": "aU4XniRWyGKQxGnrxYKyE"
+        },
+        {
+          "label": "method_missing",
+          "id": "pBbtuN36wqgXz4Oua0ukX"
+        },
+        {
+          "label": "define_method",
+          "id": "iwLZktEcLmnahj4o-IgWB"
+        },
+        {
+          "label": "send",
+          "id": "5uayAWgKAYW_mJiMxuXmK"
+        }
+      ]
+    },
+    {
+      "topic": "Constants & Variables",
+      "items": []
+    },
+    {
+      "topic": "Naming conventions",
+      "items": []
+    },
+    {
+      "topic": "puts, print, p",
+      "items": []
+    },
+    {
+      "topic": "Comments",
+      "items": []
+    },
+    {
+      "topic": "Introduction",
+      "items": []
+    },
+    {
+      "topic": "File I/O",
+      "items": []
+    },
+    {
+      "topic": "Regex",
+      "items": []
+    },
+    {
+      "topic": "Date & Time",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "Arithmetic",
+    "Arrays",
+    "Assignment",
+    "Attributes accessors",
+    "Blocks",
+    "Booleans",
+    "Bundler",
+    "Chaining Methods",
+    "Closures",
+    "Comparison",
+    "Concurrent Ruby",
+    "Defining Classes",
+    "Defining methods",
+    "Fetching",
+    "Fibers",
+    "Floats",
+    "Hashes",
+    "Inheritance",
+    "Installers",
+    "Instance variables",
+    "Integers",
+    "Iterating",
+    "Lambdas",
+    "Logical",
+    "Managers",
+    "Method Lookup",
+    "Method Parameters",
+    "Minitest",
+    "Modules & Mixins",
+    "Monkey Patching",
+    "Package Managers",
+    "Procs",
+    "Pry",
+    "Querying",
+    "RDoc",
+    "RSpec",
+    "RVM",
+    "Rack",
+    "Ractors",
+    "Ranges",
+    "Rbenv",
+    "Recursion",
+    "Refinements",
+    "RuboCop",
+    "Ruby DSL",
+    "Ruby on Rails",
+    "RubyGems",
+    "RubyMine",
+    "Scope",
+    "Search Algorithms",
+    "Searching & Filtering",
+    "Sinatra",
+    "Singleton Classes",
+    "Sorting",
+    "Sorting Algorithms",
+    "Stacks & queues",
+    "Standard",
+    "Strings",
+    "Symbols",
+    "Test::Unit",
+    "Threads",
+    "VS Code",
+    "YARD",
+    "begin, rescue, ensure",
+    "break",
+    "byebug",
+    "case",
+    "debug",
+    "define_method",
+    "do/while",
+    "each",
+    "for",
+    "if, elsif, else",
+    "irb",
+    "method_missing",
+    "next",
+    "nil",
+    "redo",
+    "send",
+    "times",
+    "unless",
+    "until",
+    "while"
+  ],
+  "source": "https://roadmap.sh/ruby",
+  "created_at": "2026-01-12T11:15:31.802Z",
+  "updated_at": "2026-02-26T08:24:17.062Z"
+}

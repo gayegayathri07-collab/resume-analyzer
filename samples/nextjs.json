@@ -1,0 +1,271 @@
+{
+  "slug": "nextjs",
+  "title": "Next.js",
+  "description": "Learn everything you need to master Next.js",
+  "type": "skill",
+  "total_topics": 32,
+  "total_subtopics": 62,
+  "learning_sequence": [
+    {
+      "topic": "Introduction",
+      "items": [
+        {
+          "label": "JavaScript Basics",
+          "id": "DlUQkDRPUcjC3pO4P5zCQ"
+        },
+        {
+          "label": "SPA vs SSR",
+          "id": "ch5gUr8xeCIp-i48N5qew"
+        },
+        {
+          "label": "Why React",
+          "id": "ey6z7Y4WtNtQJ50n-3j5P"
+        },
+        {
+          "label": "Why Frontend Frameworks",
+          "id": "rJ3vuI58Z9u2SKTDgpTE2"
+        }
+      ]
+    },
+    {
+      "topic": "Rendering Strategies",
+      "items": []
+    },
+    {
+      "topic": "React Frameworks",
+      "items": []
+    },
+    {
+      "topic": "create-next-app",
+      "items": []
+    },
+    {
+      "topic": "Types of routers",
+      "items": []
+    },
+    {
+      "topic": "Error States",
+      "items": []
+    },
+    {
+      "topic": "Routing Patterns",
+      "items": []
+    },
+    {
+      "topic": "API Endpoints",
+      "items": [
+        {
+          "label": "Static vs Dynamic",
+          "id": "hQHvu7MzNwA2lL9ADm5YQ"
+        }
+      ]
+    },
+    {
+      "topic": "Structuring Routes",
+      "items": []
+    },
+    {
+      "topic": "Middleware",
+      "items": [
+        {
+          "label": "Setting Headers",
+          "id": "XwDF-Kt9K5smm3ruxlkR2"
+        },
+        {
+          "label": "Using Cookies",
+          "id": "8kUhcd2-BlqOKInEuSI95"
+        },
+        {
+          "label": "Route Matcher",
+          "id": "Sn-8ztsjjtUxD_SP6w3cS"
+        },
+        {
+          "label": "Use cases",
+          "id": "54Cc_GdL327tzkdYBA305"
+        }
+      ]
+    },
+    {
+      "topic": "Internationalization",
+      "items": []
+    },
+    {
+      "topic": "Fetching Locations",
+      "items": []
+    },
+    {
+      "topic": "Caching Data",
+      "items": [
+        {
+          "label": "Memoization in Fetch",
+          "id": "UZCMVpg5YIDxu-AMah3S-"
+        }
+      ]
+    },
+    {
+      "topic": "Data Fetching Patterns",
+      "items": [
+        {
+          "label": "Parallel vs Sequential",
+          "id": "SjJQ7ceU6vBhlhrN8hcvy"
+        }
+      ]
+    },
+    {
+      "topic": "Server Actions",
+      "items": []
+    },
+    {
+      "topic": "Composition",
+      "items": []
+    },
+    {
+      "topic": "Custom Server",
+      "items": []
+    },
+    {
+      "topic": "Deployment Options",
+      "items": [
+        {
+          "label": "Docker Container",
+          "id": "y5_zX209AaHOf_wQibo12"
+        },
+        {
+          "label": "Static Export",
+          "id": "evmzZ6F7TWgYhdaahnZHY"
+        },
+        {
+          "label": "Adapters",
+          "id": "fXXlJ6oN_YPWVr-fqEar3"
+        },
+        {
+          "label": "Node.js Server",
+          "id": "Okw_IjU2iRSvSQVdKeeCo"
+        }
+      ]
+    },
+    {
+      "topic": "Loading and Streaming",
+      "items": []
+    },
+    {
+      "topic": "Routing Terminology",
+      "items": []
+    },
+    {
+      "topic": "Rendering Pages",
+      "items": []
+    },
+    {
+      "topic": "Layouts and Templates",
+      "items": []
+    },
+    {
+      "topic": "Next.js Routing Basics",
+      "items": []
+    },
+    {
+      "topic": "Handling Sensitive Data",
+      "items": []
+    },
+    {
+      "topic": "Client Rendered",
+      "items": []
+    },
+    {
+      "topic": "Server Rendered",
+      "items": []
+    },
+    {
+      "topic": "Global CSS",
+      "items": []
+    },
+    {
+      "topic": "Setting things Up",
+      "items": []
+    },
+    {
+      "topic": "Environment Variables",
+      "items": []
+    },
+    {
+      "topic": "Markdown and MDX",
+      "items": []
+    },
+    {
+      "topic": "Preparing for Production",
+      "items": []
+    },
+    {
+      "topic": "Runtimes and Types",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "Adapters",
+    "Analytics",
+    "App",
+    "CSR",
+    "CSS Modules",
+    "CSS in JS",
+    "Caching",
+    "Client",
+    "Cypress",
+    "Docker Container",
+    "ESLint",
+    "Edge",
+    "Fonts",
+    "Images",
+    "Instrumentation",
+    "Intercepting Routes",
+    "JavaScript Basics",
+    "Jest",
+    "Lazy Loading",
+    "Memoization in Fetch",
+    "Memory Usage",
+    "Metadata",
+    "Next.js",
+    "Node.js",
+    "Node.js Server",
+    "OpenTelemetry",
+    "Package Bundling",
+    "Pages",
+    "Parallel Routes",
+    "Parallel vs Sequential",
+    "Playwright",
+    "Preloading Data",
+    "Prettier",
+    "React Cache",
+    "Reditects",
+    "Remix",
+    "Revalidating Cached Data",
+    "Revalidation Errors",
+    "Route Matcher",
+    "SPA",
+    "SPA vs SSR",
+    "SSG",
+    "SSR",
+    "Sass",
+    "Scripts",
+    "Server",
+    "Setting Headers",
+    "Static Assets",
+    "Static Export",
+    "Static vs Dynamic",
+    "Streaming",
+    "Tailwind CSS",
+    "Third Party Libraries",
+    "TypeScript",
+    "Use cases",
+    "Using Cookies",
+    "Videos",
+    "Vitest",
+    "Why Frontend Frameworks",
+    "Why Next.js",
+    "Why React",
+    "Why use App Router?"
+  ],
+  "source": "https://roadmap.sh/nextjs",
+  "created_at": "2025-08-25T14:25:33.893Z",
+  "updated_at": "2026-02-25T22:37:15.247Z"
+}

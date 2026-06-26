@@ -1,0 +1,96 @@
+{
+  "slug": "prompt-engineering",
+  "title": "Prompt Engineering",
+  "description": "Step by step guide to learning Prompt Engineering in 2026",
+  "type": "skill",
+  "total_topics": 7,
+  "total_subtopics": 40,
+  "learning_sequence": [
+    {
+      "topic": "Introduction",
+      "items": [
+        {
+          "label": "LLMs and how they work?",
+          "id": "74JxgfJ_1qmVNZ_QRp9Ne"
+        },
+        {
+          "label": "What is a Prompt?",
+          "id": "i4ijY3T5gLgNz0XqRipXe"
+        },
+        {
+          "label": "What is Prompt Engineering?",
+          "id": "43drPbTwPqJQPyzwYUdBT"
+        }
+      ]
+    },
+    {
+      "topic": "Repetition Penalties",
+      "items": []
+    },
+    {
+      "topic": "Structured Outputs",
+      "items": []
+    },
+    {
+      "topic": "AI Red Teaming",
+      "items": []
+    },
+    {
+      "topic": "Sampling Parameters",
+      "items": []
+    },
+    {
+      "topic": "Output Control",
+      "items": []
+    },
+    {
+      "topic": "Automatic Prompt Engineering",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "AI vs AGI",
+    "Agents",
+    "Anthropic",
+    "Calibrating LLMs",
+    "Chain of Thought (CoT) Prompting",
+    "Context Window",
+    "Contextual Prompting",
+    "Fine-Tuning vs Prompt Engg.",
+    "Frequency Penalty",
+    "Google",
+    "Hallucination",
+    "LLM",
+    "LLM Self Evaluation",
+    "LLMs and how they work?",
+    "Max Tokens",
+    "Meta",
+    "Model Weights / Parameters",
+    "One-Shot / Few-Shot Prompting",
+    "OpenAI",
+    "Presence Penalty",
+    "Prompt Debiasing",
+    "Prompt Ensembling",
+    "Prompt Injection",
+    "Prompt Tuning",
+    "RAG",
+    "ReAct Prompting",
+    "Role Prompting",
+    "Self-Consistency Prompting",
+    "Step-back Prompting",
+    "Stop Sequences",
+    "System Prompting",
+    "Temperature",
+    "Tokens",
+    "Top-K",
+    "Top-P",
+    "Tree of Thoughts (ToT) Prompting",
+    "What is Prompt Engineering?",
+    "What is a Prompt?",
+    "Zero-Shot Prompting",
+    "xAI"
+  ],
+  "source": "https://roadmap.sh/prompt-engineering",
+  "created_at": "2025-05-19T15:38:56.166Z",
+  "updated_at": "2026-04-29T07:36:03.435Z"
+}

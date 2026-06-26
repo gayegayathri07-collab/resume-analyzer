@@ -296,7 +296,15 @@ function App() {
             <Suggestions suggestions={result.suggestions} />
             <Roadmap roadmap={result.roadmap} />
             <SkillRoadmap skill_improvement={result.skill_improvement} />
-            <SampleRoadmaps roadmaps={result.sample_roadmaps || []} />
+            {result.sample_roadmaps && result.sample_roadmaps.length > 0 && (
+              <div className="space-y-4">
+                <h2 className="text-lg font-semibold text-white">Sample Roadmaps from roadmap.sh</h2>
+                <p className="text-sm text-gray-500 -mt-3">
+                  Explore career roadmaps to plan your learning journey
+                </p>
+                <SampleRoadmaps roadmaps={result.sample_roadmaps} />
+              </div>
+            )}
           </div>
         )}
       </main>

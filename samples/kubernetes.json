@@ -1,0 +1,204 @@
+{
+  "slug": "kubernetes",
+  "title": "Kubernetes",
+  "description": "Step by step guide to learning Kubernetes in 2026",
+  "type": "skill",
+  "total_topics": 14,
+  "total_subtopics": 53,
+  "learning_sequence": [
+    {
+      "topic": "Introduction",
+      "items": [
+        {
+          "label": "Overview of Kubernetes",
+          "id": "qLeEEwBvlGt1fP5Qcreah"
+        },
+        {
+          "label": "Why use Kubernetes?",
+          "id": "q-Ky0ietZGpyUcBQfh-BJ"
+        },
+        {
+          "label": "Key Concepts and Terminologies",
+          "id": "9oo2fxTM2_p0VYPBroqxa"
+        },
+        {
+          "label": "Kubernetes Alternatives",
+          "id": "3fzuXKH7az_LVnmnoXB1p"
+        }
+      ]
+    },
+    {
+      "topic": "Setting up Kubernetes",
+      "items": [
+        {
+          "label": "Deploying your First Application",
+          "id": "zrbSJa3k7a3TE0aYbWi9c"
+        },
+        {
+          "label": "Choosing a Managed Provider",
+          "id": "qSatCdBTDXPu-IFWzUI99"
+        },
+        {
+          "label": "Installing a Local Cluster",
+          "id": "YaIs8lquWIe1D7RCUBZmC"
+        }
+      ]
+    },
+    {
+      "topic": "Running Applications",
+      "items": [
+        {
+          "label": "Deployments",
+          "id": "TUGQX7y1gs-aKPge2F1NU"
+        },
+        {
+          "label": "Pods",
+          "id": "-d2PIXm0V_Iehe8cws8zK"
+        },
+        {
+          "label": "Jobs",
+          "id": "r3fzAN5DzratAKnnT8hzb"
+        }
+      ]
+    },
+    {
+      "topic": "Services and Networking",
+      "items": [
+        {
+          "label": "External Access to Services",
+          "id": "jUOlITLqnIvSu97I_3nBz"
+        }
+      ]
+    },
+    {
+      "topic": "Configuration Management",
+      "items": [
+        {
+          "label": "Using Secrets for Sensitive Data",
+          "id": "S0CwGC2gMG-SqnLNldqBD"
+        }
+      ]
+    },
+    {
+      "topic": "Resource Management",
+      "items": []
+    },
+    {
+      "topic": "Security",
+      "items": [
+        {
+          "label": "Container and Pod Security",
+          "id": "i7qxaFhFHPfe3fGEgsbcE"
+        }
+      ]
+    },
+    {
+      "topic": "Monitoring and Logging",
+      "items": [
+        {
+          "label": "Resource Health",
+          "id": "pDjNsK5vI9FmKZbQm0lDP"
+        },
+        {
+          "label": "Traces",
+          "id": "ldYTEPt_hI4PXxr3tgJi5"
+        },
+        {
+          "label": "Observability Engines",
+          "id": "FANswgUhUb5Iuah2fni3L"
+        }
+      ]
+    },
+    {
+      "topic": "Autoscaling",
+      "items": [
+        {
+          "label": "Horizontal Pod Autoscaler (HPA)",
+          "id": "044IUUCgZP4oQ9UxUG2iy"
+        }
+      ]
+    },
+    {
+      "topic": "Scheduling",
+      "items": [
+        {
+          "label": "Basics",
+          "id": "70lTSIVh0AD6M8fMMuWzY"
+        }
+      ]
+    },
+    {
+      "topic": "Containers",
+      "items": []
+    },
+    {
+      "topic": "Storage and Volumes",
+      "items": []
+    },
+    {
+      "topic": "Deployment Patterns",
+      "items": []
+    },
+    {
+      "topic": "Advanced Topics",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "Adding and Managing Worker Nodes",
+    "Assigning Quotas to Namespaces",
+    "Basics",
+    "Blue-Green Deployments",
+    "CI / CD Integration",
+    "CSI Drivers",
+    "Canary Deployments",
+    "Choosing a Managed Provider",
+    "Cluster Autoscaling",
+    "Container and Pod Security",
+    "Creating Custom Controllers",
+    "Custom Resource Definitions (CRDs)",
+    "Custom Schedulers and Extenders",
+    "Deploying your First Application",
+    "Deployments",
+    "Evictions",
+    "External Access to Services",
+    "GitOps",
+    "Helm Charts",
+    "Horizontal Pod Autoscaler (HPA)",
+    "Injecting Pod Config with ConfigMaps",
+    "Installing a Local Cluster",
+    "Installing the Control Plane",
+    "Jobs",
+    "Key Concepts and Terminologies",
+    "Kubernetes Alternatives",
+    "Kubernetes Extensions and APIs",
+    "Load Balancing",
+    "Logs",
+    "Metrics",
+    "Monitoring & Optimizing Resource Usage",
+    "Multi-Cluster Management",
+    "Network Security",
+    "Networking & Pod-to-Pod Communication",
+    "Observability Engines",
+    "Overview of Kubernetes",
+    "Pod Priorities",
+    "Pods",
+    "ReplicaSets",
+    "Resource Health",
+    "Role Based Access Control (RBAC)",
+    "Rolling Updates / Rollbacks",
+    "Setting Resource Requests and Limits",
+    "Should you manage your own Cluster?",
+    "Stateful Applications",
+    "StatefulSets",
+    "Taints and Tolerations",
+    "Topology Spread Constraints",
+    "Traces",
+    "Using Secrets for Sensitive Data",
+    "Vertical Pod Autoscaler (VPA)",
+    "Why use Kubernetes?"
+  ],
+  "source": "https://roadmap.sh/kubernetes",
+  "created_at": "2025-06-03T11:07:43.855Z",
+  "updated_at": "2026-03-17T16:01:20.453Z"
+}

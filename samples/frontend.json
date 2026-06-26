@@ -1,0 +1,389 @@
+{
+  "slug": "frontend",
+  "title": "Frontend",
+  "description": "Step by step guide to becoming a modern frontend developer in 2026",
+  "type": "role",
+  "total_topics": 37,
+  "total_subtopics": 83,
+  "learning_sequence": [
+    {
+      "topic": "Internet",
+      "items": [
+        {
+          "label": "How does the internet work?",
+          "id": "yCnn-NfSxIybUQ2iTuUGq"
+        },
+        {
+          "label": "What is HTTP?",
+          "id": "R12sArWVpbIs_PHxBqVaR"
+        },
+        {
+          "label": "What is Domain Name?",
+          "id": "ZhSuu2VArnzPDp6dPQQSC"
+        },
+        {
+          "label": "What is hosting?",
+          "id": "aqMaEY8gkKMikiqleV5EP"
+        },
+        {
+          "label": "DNS and how it works?",
+          "id": "hkxw9jPGYphmjhTjw8766"
+        },
+        {
+          "label": "Browsers and how they work?",
+          "id": "P82WFaTPgQEPNp5IIuZ1Y"
+        }
+      ]
+    },
+    {
+      "topic": "Web Components",
+      "items": [
+        {
+          "label": "HTML Templates",
+          "id": "Hk8AVonOd693_y1sykPqd"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "items": []
+    },
+    {
+      "topic": "Version Control",
+      "items": [
+        {
+          "label": "Git",
+          "id": "R_I4SGYqLk5zze5I1zS_E"
+        }
+      ]
+    },
+    {
+      "topic": "VCS Hosting",
+      "items": [
+        {
+          "label": "GitHub",
+          "id": "qmTVMJDsEhNIkiwE_UTYu"
+        }
+      ]
+    },
+    {
+      "topic": "Package Managers",
+      "items": []
+    },
+    {
+      "topic": "CSS Frameworks",
+      "items": [
+        {
+          "label": "Tailwind",
+          "id": "eghnfG4p7i-EDWfp3CQXC"
+        }
+      ]
+    },
+    {
+      "topic": "Module Bundlers",
+      "items": [
+        {
+          "label": "Vite",
+          "id": "0Awx3zEI5_gYEIrD7IVX6"
+        }
+      ]
+    },
+    {
+      "topic": "Web Security",
+      "items": [
+        {
+          "label": "OWASP Risks",
+          "id": "JanR7I_lNnUCXhCMGLdn-"
+        }
+      ]
+    },
+    {
+      "topic": "SSR",
+      "items": []
+    },
+    {
+      "topic": "SSG",
+      "items": [
+        {
+          "label": "Astro",
+          "id": "iUxXq7beg55y76dkwhM13"
+        }
+      ]
+    },
+    {
+      "topic": "Performance",
+      "items": [
+        {
+          "label": "DevTools Usage",
+          "id": "JWU9jc12_ewaIKt3qWLcp"
+        },
+        {
+          "label": "Lighthouse",
+          "id": "dz7_QXoO7X0WmS5xuAhhJ"
+        },
+        {
+          "label": "Service Workers",
+          "id": "66ya3WdtlkjQyBTc3Lein"
+        },
+        {
+          "label": "Streamed Responses",
+          "id": "FyNXhHq1VIASNq-LI7JIu"
+        },
+        {
+          "label": "Cache-Control",
+          "id": "tWDmeXItfQDxB8Jij_V4L"
+        }
+      ]
+    },
+    {
+      "topic": "PWAs",
+      "items": []
+    },
+    {
+      "topic": "Type Checkers",
+      "items": []
+    },
+    {
+      "topic": "Mobile Apps",
+      "items": [
+        {
+          "label": "React Native",
+          "id": "dsTegXTyupjS8iU6I7Xiv"
+        }
+      ]
+    },
+    {
+      "topic": "Desktop Apps",
+      "items": [
+        {
+          "label": "Electron",
+          "id": "mQHpSyMR4Rra4mqAslgiS"
+        },
+        {
+          "label": "Tauri",
+          "id": "GJctl0tVXe4B70s35RkLT"
+        },
+        {
+          "label": "Flutter",
+          "id": "2MRvAK9G9RGM_auWytcKh"
+        }
+      ]
+    },
+    {
+      "topic": "Implementing AI",
+      "items": [
+        {
+          "label": "Gemini",
+          "id": "Bic4PHhz-YqzPWRimJO83"
+        },
+        {
+          "label": "OpenAI",
+          "id": "-ye5ZtYFDoYGpj-UJaBP8"
+        },
+        {
+          "label": "Anthropic",
+          "id": "Lw2nR7x8PYgq1P5CxPAxi"
+        }
+      ]
+    },
+    {
+      "topic": "Skills",
+      "items": []
+    },
+    {
+      "topic": "Prompting Techniques",
+      "items": []
+    },
+    {
+      "topic": "Learn a Framework",
+      "items": []
+    },
+    {
+      "topic": "Learn the Basics",
+      "items": [
+        {
+          "label": "How LLMs work",
+          "id": "yKNdBbahm_h81xdMDT-qx"
+        }
+      ]
+    },
+    {
+      "topic": "AI Assisted Coding",
+      "items": [
+        {
+          "label": "Cursor",
+          "id": "CKlkVK_7GZ7xzIUHJqZr8"
+        },
+        {
+          "label": "Antigravity",
+          "id": "E7-LveK7jO2npxVTLUDfw"
+        },
+        {
+          "label": "Claude Code",
+          "id": "RcC1fVuePQZ59AsJfeTdR"
+        },
+        {
+          "label": "Copilot",
+          "id": "HQrxxDxKN8gizvXRU5psW"
+        }
+      ]
+    },
+    {
+      "topic": "Linters & Formatters",
+      "items": [
+        {
+          "label": "Biome",
+          "id": "UvCVChB6NZ_yUg0RdIJ2o"
+        }
+      ]
+    },
+    {
+      "topic": "Auth Strategies",
+      "items": []
+    },
+    {
+      "topic": "Testing",
+      "items": [
+        {
+          "label": "Vitest",
+          "id": "hVQ89f6G0LXEgHIOKHDYq"
+        }
+      ]
+    },
+    {
+      "topic": "Web APIs",
+      "items": []
+    },
+    {
+      "topic": "Deployment",
+      "items": []
+    },
+    {
+      "topic": "Design Systems",
+      "items": []
+    },
+    {
+      "topic": "GraphQL",
+      "items": [
+        {
+          "label": "Apollo",
+          "id": "5eUbDdOTOfaOhUlZAmmXW"
+        }
+      ]
+    },
+    {
+      "topic": "Accessibility",
+      "items": []
+    },
+    {
+      "topic": "HTML",
+      "items": []
+    },
+    {
+      "topic": "CSS",
+      "items": []
+    },
+    {
+      "topic": "Vue.js",
+      "items": []
+    },
+    {
+      "topic": "React",
+      "items": []
+    },
+    {
+      "topic": "SvelteKit",
+      "items": []
+    },
+    {
+      "topic": "Agents",
+      "items": []
+    },
+    {
+      "topic": "MCP",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "AI vs Traditional Coding",
+    "Angular",
+    "Anthropic",
+    "Antigravity",
+    "Apollo",
+    "Applications",
+    "Astro",
+    "Biome",
+    "Browsers and how they work?",
+    "Bun",
+    "CORS",
+    "CSP",
+    "Cache-Control",
+    "Claude Code",
+    "Cloudflare",
+    "Code Reviews",
+    "Copilot",
+    "Cursor",
+    "Custom Elements",
+    "Cypress",
+    "DNS and how it works?",
+    "DevTools Usage",
+    "Docs Generation",
+    "ESLint",
+    "Electron",
+    "Eleventy",
+    "Flutter",
+    "Gemini",
+    "Git",
+    "GitHub",
+    "GitHub Pages",
+    "GitLab",
+    "HTML Templates",
+    "HTTPS",
+    "How LLMs work",
+    "How does the internet work?",
+    "Ionic",
+    "Jest",
+    "Lighthouse",
+    "Netlify",
+    "Next.js",
+    "Nuxt.js",
+    "OWASP Risks",
+    "OpenAI",
+    "Parcel",
+    "Playwright",
+    "Prettier",
+    "Railway",
+    "React",
+    "React Native",
+    "Refactoring",
+    "Relay Modern",
+    "Render",
+    "Rolldown",
+    "Rollup",
+    "SWC",
+    "Service Workers",
+    "Shadow DOM",
+    "Solid JS",
+    "Streamed Responses",
+    "Svelte",
+    "Tailwind",
+    "Tanstack Start",
+    "Tauri",
+    "Vercel",
+    "Vite",
+    "Vitest",
+    "Vue.js",
+    "Vuepress",
+    "What is Domain Name?",
+    "What is HTTP?",
+    "What is hosting?",
+    "esbuild",
+    "npm",
+    "pnpm",
+    "react-router",
+    "yarn"
+  ],
+  "source": "https://roadmap.sh/frontend",
+  "created_at": "2025-05-14T10:07:03.551Z",
+  "updated_at": "2026-06-08T07:39:29.714Z"
+}

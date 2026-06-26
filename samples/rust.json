@@ -1,0 +1,281 @@
+{
+  "slug": "rust",
+  "title": "Rust",
+  "description": "Step by step guide to becoming a Rust developer in 2026",
+  "type": "skill",
+  "total_topics": 23,
+  "total_subtopics": 99,
+  "learning_sequence": [
+    {
+      "topic": "Introduction",
+      "items": []
+    },
+    {
+      "topic": "Language Basics",
+      "items": []
+    },
+    {
+      "topic": "Error Handling",
+      "items": [
+        {
+          "label": "Propagating Errors and `?` Operator",
+          "id": "pTC1ucmErVnMbNFnYLJK7"
+        },
+        {
+          "label": "Custom Error Types and Traits",
+          "id": "LwqOxYY9E9MUDgz2M40uV"
+        },
+        {
+          "label": "Option and Result Enumerations",
+          "id": "wQHkBydWsiGEOZMdKmz40"
+        }
+      ]
+    },
+    {
+      "topic": "Modules & Crates",
+      "items": [
+        {
+          "label": "Dependency Management with Cargo",
+          "id": "PkePVzV-b1pgFJP5xID5_"
+        },
+        {
+          "label": "Code Organization & Namespacing",
+          "id": "c_SdccEXEJyh4ymWzvCeX"
+        },
+        {
+          "label": "Publishing on Crates.io",
+          "id": "Op0-bdMV3kE9Be6Ot1aC6"
+        }
+      ]
+    },
+    {
+      "topic": "Testing",
+      "items": []
+    },
+    {
+      "topic": "Concurrency & Parallelism",
+      "items": []
+    },
+    {
+      "topic": "Traits & Generics",
+      "items": [
+        {
+          "label": "Trait Bounds and Associated Types",
+          "id": "pRDgDtRIVpNM2CdhSOS3Q"
+        },
+        {
+          "label": "Trait Definitions & Implementations",
+          "id": "_EicstELZcdesHiXFWJGu"
+        },
+        {
+          "label": "Generics & Type-Level Programming",
+          "id": "_hxwo_iAdOwlWBltv7i6i"
+        }
+      ]
+    },
+    {
+      "topic": "Macros & Metaprogramming",
+      "items": [
+        {
+          "label": "Domain Specific Languages (DSLs)",
+          "id": "Kb7KF7JCMaWFz-GuaQmQV"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "items": [
+        {
+          "label": "Leptos",
+          "id": "n5t3MUqmvrcr36VIIOw0u"
+        },
+        {
+          "label": "Axum",
+          "id": "duQ1RO1lqq793mfb5w31P"
+        },
+        {
+          "label": "Rocket",
+          "id": "ApjwY_70OGG_dNIC85oBD"
+        }
+      ]
+    },
+    {
+      "topic": "Asynchronous Programming",
+      "items": []
+    },
+    {
+      "topic": "Networking",
+      "items": []
+    },
+    {
+      "topic": "Serialization / Deserialization",
+      "items": []
+    },
+    {
+      "topic": "Database and ORM",
+      "items": []
+    },
+    {
+      "topic": "Cryptography",
+      "items": []
+    },
+    {
+      "topic": "CLI Utilities",
+      "items": []
+    },
+    {
+      "topic": "Game Development",
+      "items": []
+    },
+    {
+      "topic": "GUI Development",
+      "items": []
+    },
+    {
+      "topic": "Embedded and Systems",
+      "items": []
+    },
+    {
+      "topic": "WebAssembly (WASM)",
+      "items": [
+        {
+          "label": "wasmer",
+          "id": "iyFHvZj_ntr_dX6WlL4E1"
+        },
+        {
+          "label": "wasm-pack",
+          "id": "TSlj7mMUB5CDTy8uMFzKV"
+        },
+        {
+          "label": "wasm-bindgen",
+          "id": "SUtBBqqDeR_yAkr669ZvE"
+        }
+      ]
+    },
+    {
+      "topic": "Debugging",
+      "items": []
+    },
+    {
+      "topic": "Documenting with `rustdoc`",
+      "items": []
+    },
+    {
+      "topic": "Performance and Profiling",
+      "items": [
+        {
+          "label": "Criterion.rs",
+          "id": "clQ26LFV_9AdQ4evnaxUK"
+        }
+      ]
+    },
+    {
+      "topic": "Lifetimes & Borrow Checker",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "Actix",
+    "Arc",
+    "Array",
+    "Atomic Operations & Memory Barriers",
+    "Axum",
+    "BTreeMap",
+    "BTreeSet",
+    "Binary Heap",
+    "Boolean",
+    "Borrowing, References and Slices",
+    "Box",
+    "Channels",
+    "Character",
+    "Code Organization & Namespacing",
+    "Control Flow and Constructs",
+    "Covariant & Contravariant Lifetimes",
+    "Criterion.rs",
+    "Custom Error Types and Traits",
+    "Declarative Macros with macro_rules!",
+    "Deep Dive: Stack vs Heap",
+    "Dependency Management with Cargo",
+    "Diesel",
+    "Domain Specific Languages (DSLs)",
+    "Enums",
+    "Explicit Lifetime Annotations",
+    "Floats",
+    "Functions and Method Syntax",
+    "Futures and Async/Await Paradigm",
+    "GPUI",
+    "Generics & Type-Level Programming",
+    "Hashmap",
+    "Hashset",
+    "IDEs and Rust Toolchains",
+    "Impl Blocks",
+    "Installing Rust and Cargo",
+    "Integers",
+    "Leptos",
+    "Lifetime Elision Rules",
+    "LinkedList",
+    "Loco",
+    "Mocking & Property Based Testing",
+    "Mutex",
+    "Option and Result Enumerations",
+    "Ownsership Rules & Memory Safety",
+    "Pattern Matching & Destructuring",
+    "Procedural Macros & Custom Derive",
+    "Propagating Errors and `?` Operator",
+    "Publishing on Crates.io",
+    "Queue",
+    "RC",
+    "Rocket",
+    "Rust REPL (Rust Playground)",
+    "RwLock",
+    "Serde",
+    "Stack",
+    "String",
+    "Structs",
+    "Threads, Channels and Message Passing",
+    "Tokio",
+    "Trait Bounds and Associated Types",
+    "Trait Definitions & Implementations",
+    "Traits",
+    "Tuple",
+    "Unit & Integration Testing",
+    "Variables, DataTypes and Constants",
+    "Vector",
+    "What is Rust?",
+    "Why use Rust?",
+    "async-std",
+    "bevy",
+    "clap",
+    "embedded-hal",
+    "fyrox",
+    "ggez",
+    "gtk-rs",
+    "hyper",
+    "json-rust",
+    "macroquad",
+    "nrf-hal",
+    "quinn",
+    "relm",
+    "reqwest",
+    "ring",
+    "rppal",
+    "rusqlite",
+    "rust-crypto",
+    "rust-gdb",
+    "rust-lldb",
+    "smol",
+    "sodiumoxide",
+    "sqlx",
+    "structopt",
+    "tauri",
+    "termion",
+    "toml-rust",
+    "wasm-bindgen",
+    "wasm-pack",
+    "wasmer",
+    "wgpu-rs"
+  ],
+  "source": "https://roadmap.sh/rust",
+  "created_at": "2025-06-16T17:33:41.560Z",
+  "updated_at": "2026-03-16T09:18:50.547Z"
+}

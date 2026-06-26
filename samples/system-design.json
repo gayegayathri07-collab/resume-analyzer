@@ -1,0 +1,347 @@
+{
+  "slug": "system-design",
+  "title": "System Design",
+  "description": "Everything you need to know about designing large-scale systems in 2026",
+  "type": "skill",
+  "total_topics": 27,
+  "total_subtopics": 120,
+  "learning_sequence": [
+    {
+      "topic": "Introduction",
+      "items": [
+        {
+          "label": "What is System Design?",
+          "id": "idLHBxhvcIqZTqmh_E8Az"
+        },
+        {
+          "label": "How to approach System Design?",
+          "id": "os3Pa6W9SSNEzgmlBbglQ"
+        }
+      ]
+    },
+    {
+      "topic": "Consistency Patterns",
+      "items": [
+        {
+          "label": "Eventual Consistency",
+          "id": "rRDGVynX43inSeQ9lR_FS"
+        },
+        {
+          "label": "Weak Consistency",
+          "id": "EKD5AikZtwjtsEYRPJhQ2"
+        },
+        {
+          "label": "Strong Consistency",
+          "id": "JjB7eB8gdRCAYf5M0RcT7"
+        }
+      ]
+    },
+    {
+      "topic": "Availability Patterns",
+      "items": []
+    },
+    {
+      "topic": "Background Jobs",
+      "items": [
+        {
+          "label": "Event-Driven",
+          "id": "NEsPjQifNDlZJE-2YLVl1"
+        },
+        {
+          "label": "Schedule Driven",
+          "id": "zoViI4kzpKIxpU20T89K_"
+        }
+      ]
+    },
+    {
+      "topic": "Domain Name System",
+      "items": []
+    },
+    {
+      "topic": "Content Delivery Networks",
+      "items": [
+        {
+          "label": "Pull CDNs",
+          "id": "HkXiEMLqxJoQyAHav3ccL"
+        },
+        {
+          "label": "Push CDNs",
+          "id": "uIerrf_oziiLg-KEyz8WM"
+        }
+      ]
+    },
+    {
+      "topic": "Load Balancers",
+      "items": [
+        {
+          "label": "LB vs Reverse Proxy",
+          "id": "ocdcbhHrwjJX0KWgmsOL6"
+        },
+        {
+          "label": "Load Balancing Algorithms",
+          "id": "urSjLyLTE5IIz0TFxMBWL"
+        },
+        {
+          "label": "Layer 7 Load Balancing",
+          "id": "e69-JVbDj7dqV_p1j1kML"
+        },
+        {
+          "label": "Layer 4 Load Balancing",
+          "id": "MpM9rT1-_LGD7YbnBjqOk"
+        },
+        {
+          "label": "Horizontal Scaling",
+          "id": "IkUCfSWNY-02wg2WCo1c6"
+        }
+      ]
+    },
+    {
+      "topic": "Application Layer",
+      "items": [
+        {
+          "label": "Service Discovery",
+          "id": "Nt0HUWLOl4O77elF8Is1S"
+        }
+      ]
+    },
+    {
+      "topic": "Databases",
+      "items": [
+        {
+          "label": "SQL vs NoSQL",
+          "id": "KLnpMR2FxlQkCHZP6-tZm"
+        }
+      ]
+    },
+    {
+      "topic": "Caching",
+      "items": []
+    },
+    {
+      "topic": "Asynchronism",
+      "items": [
+        {
+          "label": "Task Queues",
+          "id": "a9wGW_H1HpvvdYCXoS-Rf"
+        },
+        {
+          "label": "Message Queues",
+          "id": "37X1_9eCmkZkz5RDudE5N"
+        },
+        {
+          "label": "Back Pressure",
+          "id": "YiYRZFE_zwPMiCZxz9FnP"
+        }
+      ]
+    },
+    {
+      "topic": "Idempotent Operations",
+      "items": []
+    },
+    {
+      "topic": "Communication",
+      "items": [
+        {
+          "label": "UDP",
+          "id": "LC5aTmUKNiw9RuSUt3fSE"
+        }
+      ]
+    },
+    {
+      "topic": "Performance Antipatterns",
+      "items": []
+    },
+    {
+      "topic": "Monitoring",
+      "items": [
+        {
+          "label": "Security Monitoring",
+          "id": "I_NfmDcBph8-oyFVFTknL"
+        },
+        {
+          "label": "Health Monitoring",
+          "id": "hkjYvLoVt9xKDzubm0Jy3"
+        },
+        {
+          "label": "Availability Monitoring",
+          "id": "rVrwaioGURvrqNBufF2dj"
+        },
+        {
+          "label": "Performance Monitoring",
+          "id": "x1i3qWFtNNjd00-kAvFHw"
+        },
+        {
+          "label": "Usage Monitoring",
+          "id": "eSZq74lROh5lllLyTBK5a"
+        },
+        {
+          "label": "Instrumentation",
+          "id": "Q0fKphqmPwjTD0dhqiP6K"
+        },
+        {
+          "label": "Visualization & Alerts",
+          "id": "IwMOTpsYHApdvHZOhXtIw"
+        }
+      ]
+    },
+    {
+      "topic": "Cloud Design Patterns",
+      "items": []
+    },
+    {
+      "topic": "Reliability Patterns",
+      "items": []
+    },
+    {
+      "topic": "Performance vs Scalability",
+      "items": []
+    },
+    {
+      "topic": "Latency vs Throughput",
+      "items": []
+    },
+    {
+      "topic": "Availability vs Consistency",
+      "items": []
+    },
+    {
+      "topic": "Messaging",
+      "items": []
+    },
+    {
+      "topic": "Data Management",
+      "items": []
+    },
+    {
+      "topic": "Design & Implementation",
+      "items": []
+    },
+    {
+      "topic": "Availability",
+      "items": []
+    },
+    {
+      "topic": "High Availability",
+      "items": []
+    },
+    {
+      "topic": "Resiliency",
+      "items": []
+    },
+    {
+      "topic": "Security",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "Ambassador",
+    "Anti-Corruption Layer",
+    "Application Caching",
+    "Async Request Reply",
+    "Availability Monitoring",
+    "Availability in Numbers",
+    "Back Pressure",
+    "Backends for Frontend",
+    "Bulkhead",
+    "Busy Database",
+    "Busy Frontend",
+    "CAP Theorem",
+    "CDN Caching",
+    "CQRS",
+    "Cache Aside",
+    "Cache-Aside",
+    "Chatty I/O",
+    "Choreography",
+    "Circuit Breaker",
+    "Claim Check",
+    "Client Caching",
+    "Compensating Transaction",
+    "Competing Consumers",
+    "Compute Resource Consolidation",
+    "Database Caching",
+    "Denormalization",
+    "Deployment Stamps",
+    "Document Store",
+    "Event Sourcing",
+    "Event-Driven",
+    "Eventual Consistency",
+    "External Config Store",
+    "Extraneous Fetching",
+    "Fail-Over",
+    "Federated Identity",
+    "Federation",
+    "Gatekeeper",
+    "Gateway Aggregation",
+    "Gateway Offloading",
+    "Gateway Routing",
+    "Geodes",
+    "Graph Databases",
+    "GraphQL",
+    "HTTP",
+    "Health Endpoint Monitoring",
+    "Health Monitoring",
+    "Horizontal Scaling",
+    "How to approach System Design?",
+    "Improper Instantiation",
+    "Index Table",
+    "Instrumentation",
+    "Key-Value Store",
+    "LB vs Reverse Proxy",
+    "Layer 4 Load Balancing",
+    "Layer 7 Load Balancing",
+    "Leader Election",
+    "Load Balancing Algorithms",
+    "Materialized View",
+    "Message Queues",
+    "Microservices",
+    "Monolithic Persistence",
+    "No Caching",
+    "Noisy Neighbor",
+    "Performance Monitoring",
+    "Pipes & Filters",
+    "Pipes and Filters",
+    "Priority Queue",
+    "Publisher/Subscriber",
+    "Pull CDNs",
+    "Push CDNs",
+    "Queue-Based Load Leveling",
+    "REST",
+    "RPC",
+    "Refresh Ahead",
+    "Replication",
+    "Retry",
+    "Retry Storm",
+    "Returning Results",
+    "SQL Tuning",
+    "SQL vs NoSQL",
+    "Schedule Driven",
+    "Scheduler Agent Supervisor",
+    "Scheduling Agent Supervisor",
+    "Security Monitoring",
+    "Sequential Convoy",
+    "Service Discovery",
+    "Sharding",
+    "Sidecar",
+    "Static Content Hosting",
+    "Strangler Fig",
+    "Strong Consistency",
+    "Synchronous I/O",
+    "TCP",
+    "Task Queues",
+    "Throttling",
+    "UDP",
+    "Usage Monitoring",
+    "Valet Key",
+    "Visualization & Alerts",
+    "Weak Consistency",
+    "Web Server Caching",
+    "What is System Design?",
+    "Wide Column Store",
+    "Write-behind",
+    "Write-through",
+    "gRPC"
+  ],
+  "source": "https://roadmap.sh/system-design",
+  "created_at": "2025-05-14T10:07:04.091Z",
+  "updated_at": "2026-03-03T10:30:08.690Z"
+}

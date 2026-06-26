@@ -1,0 +1,305 @@
+{
+  "slug": "css",
+  "title": "CSS",
+  "description": "Step by step guide to learning CSS in 2026",
+  "type": "skill",
+  "total_topics": 33,
+  "total_subtopics": 71,
+  "learning_sequence": [
+    {
+      "topic": "Introduction",
+      "items": [
+        {
+          "label": "Frontend development",
+          "id": "zW49OvVO-kLh0M4JCE4_w"
+        }
+      ]
+    },
+    {
+      "topic": "CSS Basics",
+      "items": [
+        {
+          "label": "Inline CSS",
+          "id": "B0JUjbCN35MMGtFb5sCyB"
+        },
+        {
+          "label": "Internal CSS",
+          "id": "gARjh5W-R_93_WeS8xxwe"
+        },
+        {
+          "label": "External CSS",
+          "id": "kis-VQIdFVywHhBPr8tLY"
+        },
+        {
+          "label": "Cascading order",
+          "id": "Y4ODIPSKsWg0k1K5rHVh7"
+        }
+      ]
+    },
+    {
+      "topic": "CSS Units",
+      "items": [
+        {
+          "label": "Absolute vs Relative",
+          "id": "l7bBJLtKWkrzSfSPkZlBI"
+        }
+      ]
+    },
+    {
+      "topic": "Simple selectors",
+      "items": [
+        {
+          "label": "element",
+          "id": "FKQcANNYYf-kYQj-kyKL_"
+        }
+      ]
+    },
+    {
+      "topic": "Combinator selectors",
+      "items": []
+    },
+    {
+      "topic": "Text Styling",
+      "items": [
+        {
+          "label": "Text Decoration",
+          "id": "AUzbo8UwpL-XxvhMCvtoe"
+        },
+        {
+          "label": "Text Transform",
+          "id": "v0IUvnrLv3OiBQ-NkM9Lv"
+        },
+        {
+          "label": "Text Alignment",
+          "id": "SABFbvM47j1cYCyeNfMZR"
+        },
+        {
+          "label": "Color",
+          "id": "lo6OuD5hsZ7_r01jp-u0U"
+        },
+        {
+          "label": "Text Spacing",
+          "id": "U3oH6TFRezkciuROAU0wd"
+        },
+        {
+          "label": "Line Height",
+          "id": "aB04IOoWwIxm7BvwfgTYj"
+        },
+        {
+          "label": "Text Shadows",
+          "id": "Mq4Oo9cCWqkPGHkgpNRTz"
+        }
+      ]
+    },
+    {
+      "topic": "Background",
+      "items": [
+        {
+          "label": "Background Image",
+          "id": "d-rp-EHKyHnzuIHWHOc7C"
+        },
+        {
+          "label": "Background Gradient",
+          "id": "_9QA5_mLJ8_eiQN0ucIkQ"
+        },
+        {
+          "label": "Background Color",
+          "id": "ATd9RE303X79aAmqvwS08"
+        },
+        {
+          "label": "Background Position",
+          "id": "BBpeQcb7Y21C7-r3PFIMW"
+        },
+        {
+          "label": "Background Attachment",
+          "id": "6i0Zl05VMzUsh47cuUH4-"
+        }
+      ]
+    },
+    {
+      "topic": "Display",
+      "items": [
+        {
+          "label": "inline-block",
+          "id": "cQ4FdKzwvMu5FD0Xk-U73"
+        }
+      ]
+    },
+    {
+      "topic": "Images and Filters",
+      "items": []
+    },
+    {
+      "topic": "Pseudo Classes",
+      "items": []
+    },
+    {
+      "topic": "Pseudo Elements",
+      "items": []
+    },
+    {
+      "topic": "Position",
+      "items": []
+    },
+    {
+      "topic": "CSS Variables",
+      "items": []
+    },
+    {
+      "topic": "CSS Functions",
+      "items": []
+    },
+    {
+      "topic": "Rules",
+      "items": []
+    },
+    {
+      "topic": "Comments",
+      "items": []
+    },
+    {
+      "topic": "Attribute selectors",
+      "items": []
+    },
+    {
+      "topic": "Padding",
+      "items": []
+    },
+    {
+      "topic": "Border",
+      "items": []
+    },
+    {
+      "topic": "Margin",
+      "items": []
+    },
+    {
+      "topic": "Box Shadows",
+      "items": []
+    },
+    {
+      "topic": "CSS Specificity",
+      "items": []
+    },
+    {
+      "topic": "Media Queries",
+      "items": []
+    },
+    {
+      "topic": "Container Queries",
+      "items": []
+    },
+    {
+      "topic": "Responsive typography",
+      "items": []
+    },
+    {
+      "topic": "Box Model",
+      "items": []
+    },
+    {
+      "topic": "Width / Height",
+      "items": []
+    },
+    {
+      "topic": "Outline",
+      "items": []
+    },
+    {
+      "topic": "Opacity",
+      "items": []
+    },
+    {
+      "topic": "Tables",
+      "items": []
+    },
+    {
+      "topic": "Z-Index / Stacking Context",
+      "items": []
+    },
+    {
+      "topic": "Flow Layout",
+      "items": []
+    },
+    {
+      "topic": "Lists",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "Absolute",
+    "Absolute vs Relative",
+    "Accessibility",
+    "BEM",
+    "Background Attachment",
+    "Background Color",
+    "Background Gradient",
+    "Background Image",
+    "Background Position",
+    "CSS",
+    "CSS Modules",
+    "CSS-in-JS",
+    "Cascading order",
+    "Color",
+    "Declaration",
+    "Direction",
+    "External CSS",
+    "Fixed",
+    "Flexbox",
+    "Floating Elements",
+    "Font Shorthand",
+    "Font Size",
+    "Font Style",
+    "Font Variant",
+    "Font Weight",
+    "Font families",
+    "Frontend development",
+    "Google Fonts",
+    "Grid",
+    "HTML",
+    "Inline CSS",
+    "Internal CSS",
+    "JavaScript",
+    "Keyframe Animations",
+    "Line Height",
+    "Multicolumn layout",
+    "Named Colors",
+    "Next Sibling",
+    "Performance",
+    "PostCSS",
+    "Properties & Values",
+    "Relative",
+    "Sass",
+    "Selector",
+    "Static",
+    "Sticky",
+    "Subsequent Sibling",
+    "Text Alignment",
+    "Text Decoration",
+    "Text Shadows",
+    "Text Spacing",
+    "Text Transform",
+    "Transforms",
+    "Transitions",
+    "Units with functions",
+    "block",
+    "child",
+    "class",
+    "descendant",
+    "element",
+    "grouping",
+    "hex",
+    "hsl",
+    "id",
+    "inline",
+    "inline-block",
+    "none",
+    "rgb",
+    "rgba, hsla",
+    "universal",
+    "visibility"
+  ],
+  "source": "https://roadmap.sh/css",
+  "created_at": "2025-09-24T15:27:18.982Z",
+  "updated_at": "2026-02-26T08:29:32.677Z"
+}

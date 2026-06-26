@@ -1,0 +1,288 @@
+{
+  "slug": "postgresql-dba",
+  "title": "PostgreSQL",
+  "description": "Step by step guide to becoming a modern PostgreSQL DB Administrator in 2026",
+  "type": "role",
+  "total_topics": 15,
+  "total_subtopics": 155,
+  "learning_sequence": [
+    {
+      "topic": "Introduction",
+      "items": [
+        {
+          "label": "PostgreSQL vs NoSQL Databases",
+          "id": "D0doJTtLu-1MmFOfavCXN"
+        },
+        {
+          "label": "What are Relational Databases?",
+          "id": "soar-NBWCr4xVKj7ttfnc"
+        },
+        {
+          "label": "RDBMS Benefits and Limitations",
+          "id": "p3AmRr_y_ZBKzAU5eh7OU"
+        },
+        {
+          "label": "PostgreSQL vs Other RDBMS",
+          "id": "IAKERTzTpTds5kZLMCapM"
+        }
+      ]
+    },
+    {
+      "topic": "Basic RDBMS Concepts",
+      "items": []
+    },
+    {
+      "topic": "Object Model",
+      "items": []
+    },
+    {
+      "topic": "Installation and Setup",
+      "items": []
+    },
+    {
+      "topic": "Learn SQL",
+      "items": []
+    },
+    {
+      "topic": "Configuring",
+      "items": [
+        {
+          "label": "Reporting Logging & Statistics",
+          "id": "507TY35b8iExakbBMrHgZ"
+        }
+      ]
+    },
+    {
+      "topic": "Security",
+      "items": [
+        {
+          "label": "Authentication Models",
+          "id": "gb75xOcAr-q8TcA6_l1GZ"
+        },
+        {
+          "label": "Roles",
+          "id": "l0lpaPy12JFCJ-RRYVSqz"
+        },
+        {
+          "label": "SSL Settings",
+          "id": "EKwO6edtFnUw8cPCcVwKJ"
+        }
+      ]
+    },
+    {
+      "topic": "Infrastructure Skills",
+      "items": []
+    },
+    {
+      "topic": "Schema Design Patterns / Anti-patterns",
+      "items": []
+    },
+    {
+      "topic": "Indexes and their Usecases",
+      "items": [
+        {
+          "label": "B-Tree",
+          "id": "jihXOJq9zYlDOpvJvpFO-"
+        },
+        {
+          "label": "GiST",
+          "id": "2chGkn5Y_WTjYllpgL0LJ"
+        },
+        {
+          "label": "SP-GiST",
+          "id": "LT5qRETR3pAI8Tk6k5idg"
+        }
+      ]
+    },
+    {
+      "topic": "Get Involved in Development",
+      "items": [
+        {
+          "label": "Mailing Lists",
+          "id": "8H7hJhGKxr1nrjkHv9Xao"
+        },
+        {
+          "label": "Reviewing Patches",
+          "id": "Jy0G0ZnHPOM8hba_PbwuA"
+        },
+        {
+          "label": "Writing Patches",
+          "id": "eQzMU_KyQmHJQ6gzyk0-1"
+        }
+      ]
+    },
+    {
+      "topic": "Relational Model",
+      "items": []
+    },
+    {
+      "topic": "High Level Database Concepts",
+      "items": []
+    },
+    {
+      "topic": "Learn to Automate",
+      "items": []
+    },
+    {
+      "topic": "SQL Query Patterns / Anti-patterns",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "ACID",
+    "Adding Extra Extensions",
+    "Advanced Topics",
+    "Aggregate and Window functions",
+    "Ansible",
+    "Any Programming Language",
+    "Attributes",
+    "Authentication Models",
+    "B-Tree",
+    "BRIN",
+    "Backup Validation Procedures",
+    "Buffer Management",
+    "Bulk Loading / Processing Data",
+    "CTE",
+    "Checkpoints / Background Writer",
+    "Chef",
+    "Columns",
+    "Connect using `psql`",
+    "Constraints",
+    "Consul",
+    "Core Dumps",
+    "Data Partitioning",
+    "Data Types",
+    "Databases",
+    "Default Privileges",
+    "Depesz",
+    "Deployment in Cloud",
+    "Domains",
+    "EXPLAIN",
+    "Etcd",
+    "Filtering Data",
+    "For Schemas",
+    "ForTables",
+    "GIN",
+    "GiST",
+    "Golden Signals",
+    "Grant / Revoke",
+    "Grouping",
+    "HAProxy",
+    "HTAP",
+    "Hash",
+    "Helm",
+    "Import / Export Using `COPY`",
+    "Joining Tables",
+    "KeepAlived",
+    "Lateral Join",
+    "Lock Management",
+    "Logical Replication",
+    "MVCC",
+    "Mailing Lists",
+    "Migration Related Tools",
+    "Modifying Data",
+    "NULL",
+    "Normalization / Normal Forms",
+    "OLAP",
+    "OLTP",
+    "Object Privileges",
+    "Operators",
+    "PEV2",
+    "PL/pgSQL",
+    "Package Managers",
+    "Patroni",
+    "Patroni Alternatives",
+    "Patterns / Antipatterns",
+    "Per-User, Per-Database Setting",
+    "PgBouncer",
+    "PgBouncer Alternatives",
+    "PgQ",
+    "Physical Storage and File Layout",
+    "PostgreSQL Anonymizer",
+    "PostgreSQL vs NoSQL Databases",
+    "PostgreSQL vs Other RDBMS",
+    "Practical Patterns / Antipatterns",
+    "Procedures and Functions",
+    "Processes & Memory Architecture",
+    "Prometheus",
+    "Puppet",
+    "Queries",
+    "Query Planner",
+    "Query Processing",
+    "Querying Data",
+    "RDBMS Benefits and Limitations",
+    "RED",
+    "Recursive CTE",
+    "Relations",
+    "Replication",
+    "Reporting Logging & Statistics",
+    "Resource Usage",
+    "Resource Usage / Provisioning / Capacity Planning",
+    "Reviewing Patches",
+    "Roles",
+    "Row-Level Security",
+    "Rows",
+    "SELinux",
+    "SP-GiST",
+    "SSL Settings",
+    "Salt",
+    "Schemas",
+    "Set Operations",
+    "Sharding Patterns",
+    "Shell Scripts",
+    "Simple Stateful Setup",
+    "Storage Parameters",
+    "Streaming Replication",
+    "Subqueries",
+    "System Catalog",
+    "Tables",
+    "Tensor",
+    "Transactions",
+    "Triggers",
+    "Tuples",
+    "USE",
+    "Using Docker",
+    "Using Logical Replication",
+    "Using `pg_ctl`",
+    "Using `pg_ctlcluster`",
+    "Using `pg_upgrade`",
+    "Using `systemd`",
+    "Vacuum Processing",
+    "Vacuums",
+    "WAL-G",
+    "What are Relational Databases?",
+    "Write-ahead Log",
+    "Writing Patches",
+    "Zabbix",
+    "awk",
+    "barman",
+    "check_pgactivity",
+    "check_pgbackrest",
+    "ebpf",
+    "explain.dalibo.com",
+    "gdb",
+    "grep",
+    "iotop",
+    "perf-tools",
+    "pgBadger",
+    "pgCluu",
+    "pg_basebackup",
+    "pg_dump",
+    "pg_dumpall",
+    "pg_hba.conf",
+    "pg_probackup",
+    "pg_restore",
+    "pg_stat_activity",
+    "pg_stat_statements",
+    "pgbackrest",
+    "pgcenter",
+    "sed",
+    "strace",
+    "sysstat",
+    "temBoard",
+    "top"
+  ],
+  "source": "https://roadmap.sh/postgresql-dba",
+  "created_at": "2025-05-14T10:07:03.903Z",
+  "updated_at": "2026-01-06T16:31:51.969Z"
+}

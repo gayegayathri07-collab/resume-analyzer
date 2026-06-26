@@ -1,0 +1,256 @@
+{
+  "slug": "python",
+  "title": "Python",
+  "description": "Step by step guide to becoming a Python developer in 2026",
+  "type": "skill",
+  "total_topics": 21,
+  "total_subtopics": 62,
+  "learning_sequence": [
+    {
+      "topic": "Learn the Basics",
+      "items": [
+        {
+          "label": "Basic Syntax",
+          "id": "6xRncUs3_vxVbDur567QA"
+        },
+        {
+          "label": "Variables and Data Types",
+          "id": "dEFLBGpiH6nbSMeR7ecaT"
+        },
+        {
+          "label": "Conditionals",
+          "id": "NP1kjSk0ujU0Gx-ajNHlR"
+        },
+        {
+          "label": "Loops",
+          "id": "Dvy7BnNzK55qbh_SgOk8m"
+        },
+        {
+          "label": "Type Casting",
+          "id": "R9DQNc0AyAQ2HLpP4HOk6"
+        },
+        {
+          "label": "Exceptions",
+          "id": "fNTb9y3zs1HPYclAmu_Wv"
+        },
+        {
+          "label": "Functions, Builtin Functions",
+          "id": "-DJgS6l2qngfwurExlmmT"
+        },
+        {
+          "label": "Lists",
+          "id": "UT_SR7G-LYtzqooWrEtF1"
+        },
+        {
+          "label": "Dictionaries",
+          "id": "bc9CL_HMT-R6nXO1eR-gP"
+        },
+        {
+          "label": "Working with Strings",
+          "id": "Sg5w8zO2Ji-uDJKEoWey9"
+        },
+        {
+          "label": "Operators",
+          "id": "so95CO6Qw3I0S98ISENS-"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures & Algorithms",
+      "items": [
+        {
+          "label": "Arrays and Linked Lists",
+          "id": "OPD4WdMO7q4gRZMcRCQh1"
+        }
+      ]
+    },
+    {
+      "topic": "Object Oriented Programming",
+      "items": []
+    },
+    {
+      "topic": "Learn a Framework",
+      "items": []
+    },
+    {
+      "topic": "Concurrency",
+      "items": [
+        {
+          "label": "Multiprocessing",
+          "id": "HSY5OUc_M5S6OcFXPRtkx"
+        }
+      ]
+    },
+    {
+      "topic": "Static Typing",
+      "items": [
+        {
+          "label": "Pydantic",
+          "id": "W3VALz5evFo1qqkQbMN1R"
+        }
+      ]
+    },
+    {
+      "topic": "Code Formatting",
+      "items": [
+        {
+          "label": "yapf",
+          "id": "tsh_vbhzKz1-H9Vh69tsK"
+        },
+        {
+          "label": "black",
+          "id": "DS6nuAUhUYcqiJDmQisKM"
+        },
+        {
+          "label": "ruff",
+          "id": "6cB0pvUO1-gvCtgqozP-Q"
+        }
+      ]
+    },
+    {
+      "topic": "Testing",
+      "items": [
+        {
+          "label": "tox",
+          "id": "jPFOiwbqfaGshaGDBWb5x"
+        },
+        {
+          "label": "unittest / pyUnit",
+          "id": "b4he_RO17C3ScNeUd6v2b"
+        },
+        {
+          "label": "doctest",
+          "id": "aVclygxoA9ePU5IxaORSH"
+        },
+        {
+          "label": "pytest",
+          "id": "3FDwJpesfelEyJrNWtm0V"
+        }
+      ]
+    },
+    {
+      "topic": "File Handling",
+      "items": [
+        {
+          "label": "glob",
+          "id": "bqnwMKY4R0rirup3q_hb_"
+        }
+      ]
+    },
+    {
+      "topic": "Modules",
+      "items": []
+    },
+    {
+      "topic": "Lambdas",
+      "items": []
+    },
+    {
+      "topic": "Decorators",
+      "items": []
+    },
+    {
+      "topic": "Iterators",
+      "items": []
+    },
+    {
+      "topic": "Regular Expressions",
+      "items": []
+    },
+    {
+      "topic": "Package Managers",
+      "items": []
+    },
+    {
+      "topic": "List Comprehensions",
+      "items": []
+    },
+    {
+      "topic": "Generator Expressions",
+      "items": []
+    },
+    {
+      "topic": "Paradigms",
+      "items": []
+    },
+    {
+      "topic": "Context Manager",
+      "items": []
+    },
+    {
+      "topic": "Common Packages",
+      "items": []
+    },
+    {
+      "topic": "Variable Scope",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "Arrays and Linked Lists",
+    "Asynchrony",
+    "Basic Syntax",
+    "Binary Search Tree",
+    "Builtin",
+    "Classes",
+    "Conda",
+    "Conditionals",
+    "Custom",
+    "Dictionaries",
+    "Django",
+    "Encapsulation",
+    "Exceptions",
+    "Fast API",
+    "Flask",
+    "Functions, Builtin Functions",
+    "GIL",
+    "HashMaps",
+    "Heaps, Stacks and Queues",
+    "Inheritance",
+    "Lists",
+    "Loops",
+    "Methods",
+    "Multiprocessing",
+    "Operators",
+    "Pip",
+    "Pipenv",
+    "Plotly Dash",
+    "Poetry",
+    "PyPI",
+    "Pydantic",
+    "Pyramid",
+    "Recursion",
+    "Sanic",
+    "Sets",
+    "Sorting Algorithms",
+    "Sphinx",
+    "Threading",
+    "Tornado",
+    "Tuples",
+    "Type Casting",
+    "Variables and Data Types",
+    "Working with Strings",
+    "aiohttp",
+    "black",
+    "doctest",
+    "gevent",
+    "glob",
+    "mypy",
+    "pdm",
+    "pyenv",
+    "pyproject.toml",
+    "pyre",
+    "pyright",
+    "pytest",
+    "ruff",
+    "tox",
+    "typing",
+    "unittest / pyUnit",
+    "uv",
+    "virtualenv",
+    "yapf"
+  ],
+  "source": "https://roadmap.sh/python",
+  "created_at": "2025-05-14T10:07:03.997Z",
+  "updated_at": "2026-06-18T09:35:32.422Z"
+}

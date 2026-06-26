@@ -1,0 +1,460 @@
+{
+  "slug": "golang",
+  "title": "Go",
+  "description": "Step by step guide to becoming a Go developer in 2026",
+  "type": "skill",
+  "total_topics": 36,
+  "total_subtopics": 136,
+  "learning_sequence": [
+    {
+      "topic": "Introduction to Go",
+      "items": [
+        {
+          "label": "Why use Go",
+          "id": "4PrkkoZ5fY-oow0O-bVhu"
+        },
+        {
+          "label": "Setting up the Environment",
+          "id": "J5mU0v491qrm-mr1W3Msd"
+        },
+        {
+          "label": "Hello World in Go",
+          "id": "PHHviBSqhYDSNuHBFbw3l"
+        }
+      ]
+    },
+    {
+      "topic": "Variables & Constants",
+      "items": [
+        {
+          "label": "var vs :=",
+          "id": "pJUkMcrUvcxuR_w89-eEq"
+        }
+      ]
+    },
+    {
+      "topic": "Data Types",
+      "items": []
+    },
+    {
+      "topic": "Commands & Docs",
+      "items": []
+    },
+    {
+      "topic": "Slices",
+      "items": [
+        {
+          "label": "Capacity and Growth",
+          "id": "qUykEUH1-9Dzotc_ltV3g"
+        },
+        {
+          "label": "make()",
+          "id": "PWrfmYnOJRlwgdFat91bC"
+        },
+        {
+          "label": "Slice to Array Conversion",
+          "id": "j0zmfpaufr5TAZa_Bh8Vu"
+        },
+        {
+          "label": "Array to Slice Conversion",
+          "id": "s1E4PQVVSlBeyNn7xBikW"
+        }
+      ]
+    },
+    {
+      "topic": "Maps",
+      "items": [
+        {
+          "label": "Comma-Ok Idiom",
+          "id": "dMdOz2kUc8If3LcLZEfYf"
+        }
+      ]
+    },
+    {
+      "topic": "Structs",
+      "items": [
+        {
+          "label": "Embedding Structs",
+          "id": "XLj16RmCe4-nKHW52Ebhf"
+        },
+        {
+          "label": "Struct Tags & JSON",
+          "id": "SW2uMlhfC-dnQakShs2km"
+        }
+      ]
+    },
+    {
+      "topic": "Conditionals",
+      "items": []
+    },
+    {
+      "topic": "Loops",
+      "items": [
+        {
+          "label": "for range",
+          "id": "j0w6e8Pksh30PKDvXj3yk"
+        },
+        {
+          "label": "Iterating Maps",
+          "id": "Q6ic-AGG_gnXEOdmqom89"
+        },
+        {
+          "label": "Iterating Strings",
+          "id": "PC-azlCZ6wDCn1_nRyhUn"
+        },
+        {
+          "label": "continue",
+          "id": "BRKryB5HawXyXeBWM4QqU"
+        },
+        {
+          "label": "goto (discouraged)",
+          "id": "O29VoTfPiU8GZ_c16ZJIp"
+        }
+      ]
+    },
+    {
+      "topic": "Functions",
+      "items": []
+    },
+    {
+      "topic": "Pointers",
+      "items": [
+        {
+          "label": "Pointers Basics",
+          "id": "P0fUxEbb3bVYg35VWyg8R"
+        },
+        {
+          "label": "Pointers with Structs",
+          "id": "NfYlEY8f_YPITT6Exp3Iw"
+        },
+        {
+          "label": "With Maps & Slices",
+          "id": "oAvCO3GOKktkbmPahkPlT"
+        }
+      ]
+    },
+    {
+      "topic": "Value Receivers",
+      "items": []
+    },
+    {
+      "topic": "Interfaces",
+      "items": [
+        {
+          "label": "Type Switch",
+          "id": "6r9XbwlBtHmJrhviG2cTD"
+        },
+        {
+          "label": "Type Assertions",
+          "id": "4EJ4WnH2HA3ci2uoqmNex"
+        },
+        {
+          "label": "Embedding Interfaces",
+          "id": "wK7GNTbOsMNs0N_1N4-dU"
+        },
+        {
+          "label": "Empty Interfaces",
+          "id": "ueJ7ndK2SKniDVjN2aUlO"
+        },
+        {
+          "label": "Interfaces Basics",
+          "id": "nkONsPlFYCMqzWHTm_EPB"
+        }
+      ]
+    },
+    {
+      "topic": "Generics",
+      "items": [
+        {
+          "label": "Type Inference",
+          "id": "36gt0FmNDxuIIV47aqBeH"
+        }
+      ]
+    },
+    {
+      "topic": "Modules & Dependencies",
+      "items": [
+        {
+          "label": "go mod tidy",
+          "id": "6rwVq1bMSHoGatEfm9hkp"
+        },
+        {
+          "label": "go mod vendor",
+          "id": "jOiAk5coeDNVXP2QiwQis"
+        },
+        {
+          "label": "go mod init",
+          "id": "zWXJOXo8dRnuTvYlWOL6r"
+        }
+      ]
+    },
+    {
+      "topic": "`context` Package",
+      "items": [
+        {
+          "label": "Common Usecases",
+          "id": "gChqUzY3SbPJH0H0jcoAp"
+        }
+      ]
+    },
+    {
+      "topic": "Concurrency Patterns",
+      "items": []
+    },
+    {
+      "topic": "Race Detection",
+      "items": []
+    },
+    {
+      "topic": "Standard Library",
+      "items": [
+        {
+          "label": "I/O & File Handling",
+          "id": "7SYEXD5r9WKEDfecQdO5d"
+        }
+      ]
+    },
+    {
+      "topic": "Building CLIs",
+      "items": [
+        {
+          "label": "bubbletea",
+          "id": "x9hDkF73rmvbewrgRgyOv"
+        },
+        {
+          "label": "urfave/cli",
+          "id": "bmNLSk-XuK2EuLxPR1Sxh"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "items": [
+        {
+          "label": "net/http (standard)",
+          "id": "NMLmbKjfMSqz-Iz2CooCl"
+        },
+        {
+          "label": "gRPC & Protocol Buffers",
+          "id": "tBY6UB3gWZAxHPCFHoU_d"
+        }
+      ]
+    },
+    {
+      "topic": "ORMs & DB Access",
+      "items": [
+        {
+          "label": "pgx",
+          "id": "cOj6klfBzTQQ8G75umLQZ"
+        }
+      ]
+    },
+    {
+      "topic": "Logging",
+      "items": [
+        {
+          "label": "Zerolog",
+          "id": "TR7N68_evDMu3qWHbGJcz"
+        }
+      ]
+    },
+    {
+      "topic": "Realtime Communication",
+      "items": [
+        {
+          "label": "Melody",
+          "id": "N0EG-7sU9lGFwgidXuPkV"
+        }
+      ]
+    },
+    {
+      "topic": "Publishing Modules",
+      "items": []
+    },
+    {
+      "topic": "`sync` Package",
+      "items": []
+    },
+    {
+      "topic": "Arrays",
+      "items": []
+    },
+    {
+      "topic": "Strings",
+      "items": []
+    },
+    {
+      "topic": "Methods vs Functions",
+      "items": []
+    },
+    {
+      "topic": "Pointer Receivers",
+      "items": []
+    },
+    {
+      "topic": "Packages",
+      "items": []
+    },
+    {
+      "topic": "Package Import Rules",
+      "items": []
+    },
+    {
+      "topic": "Using 3rd Party Packages",
+      "items": []
+    },
+    {
+      "topic": "Goroutines",
+      "items": []
+    },
+    {
+      "topic": "Channels",
+      "items": []
+    },
+    {
+      "topic": "Worker Pools",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "Anonymous Functions",
+    "Array to Slice Conversion",
+    "Benchmarks",
+    "Boolean",
+    "Buffered vs Unbuffered",
+    "Build Constraints & Tags",
+    "Build Tags",
+    "Building Executables",
+    "CGO Basics",
+    "Call by Value",
+    "Capacity and Growth",
+    "Centrifugo",
+    "Closures",
+    "Cobra",
+    "Comma-Ok Idiom",
+    "Common Usecases",
+    "Compiler & Linker Flags",
+    "Complex Numbers",
+    "Coverage",
+    "Cross-compilation",
+    "Deadlines & Cancellations",
+    "Embedding Interfaces",
+    "Embedding Structs",
+    "Empty Interfaces",
+    "Error Handling Basics",
+    "Escape Analysis",
+    "Floating Points",
+    "Functions Basics",
+    "GORM",
+    "Garbage Collection",
+    "Generic Functions",
+    "Generic Types / Interfaces",
+    "Hello World in Go",
+    "History of Go",
+    "I/O & File Handling",
+    "Integers (Signed, Unsigned)",
+    "Interfaces Basics",
+    "Interpreted String Literals",
+    "Iterating Maps",
+    "Iterating Strings",
+    "Melody",
+    "Memory Management",
+    "Memory Mgmt. in Depth",
+    "Mocks and Stubs",
+    "Multiple Return Values",
+    "Mutexes",
+    "Named Return Values",
+    "Plugins & Dynamic Loading",
+    "Pointers Basics",
+    "Pointers with Structs",
+    "Race Detector",
+    "Raw String Literals",
+    "Reflection",
+    "Runes",
+    "Scope and Shadowing",
+    "Select Statement",
+    "Sentinel Errors",
+    "Setting up the Environment",
+    "Slice to Array Conversion",
+    "Stack Traces & Debugging",
+    "Struct Tags & JSON",
+    "Table-driven Tests",
+    "Type Assertions",
+    "Type Constraints",
+    "Type Conversion",
+    "Type Inference",
+    "Type Switch",
+    "Unsafe Package",
+    "Variadic Functions",
+    "WaitGroups",
+    "Why Generics?",
+    "Why use Go",
+    "With Maps & Slices",
+    "Wrapping/Unwrapping Errors",
+    "Zap",
+    "Zero Values",
+    "Zerolog",
+    "`error` interface",
+    "`go` command",
+    "`httptest` for HTTP Tests",
+    "`panic` and `recover`",
+    "`testing` package basics",
+    "beego",
+    "break",
+    "bubbletea",
+    "bufio",
+    "const and iota",
+    "continue",
+    "echo",
+    "encoding/json",
+    "errors.New",
+    "fan-in",
+    "fan-out",
+    "fiber",
+    "flag",
+    "fmt.Errorf",
+    "for loop",
+    "for range",
+    "gRPC & Protocol Buffers",
+    "gin",
+    "go build",
+    "go clean",
+    "go doc",
+    "go fmt",
+    "go generate",
+    "go install",
+    "go mod",
+    "go mod init",
+    "go mod tidy",
+    "go mod vendor",
+    "go run",
+    "go test",
+    "go version",
+    "go vet",
+    "go:embed for embedding",
+    "goimports",
+    "golangci-lint",
+    "goto (discouraged)",
+    "govulncheck",
+    "if",
+    "if-else",
+    "make()",
+    "net/http (standard)",
+    "os",
+    "pgx",
+    "pipeline",
+    "pprof",
+    "regexp",
+    "revive",
+    "slog",
+    "staticcheck",
+    "switch",
+    "time",
+    "trace",
+    "urfave/cli",
+    "var vs :="
+  ],
+  "source": "https://roadmap.sh/golang",
+  "created_at": "2025-07-15T11:32:38.321Z",
+  "updated_at": "2026-01-06T16:31:57.237Z"
+}

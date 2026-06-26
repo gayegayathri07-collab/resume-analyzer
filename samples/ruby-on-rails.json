@@ -1,0 +1,270 @@
+{
+  "slug": "ruby-on-rails",
+  "title": "Ruby on Rails",
+  "description": "Step-by-step guide to become a Ruby on Rails Developer in 2026",
+  "type": "skill",
+  "total_topics": 24,
+  "total_subtopics": 74,
+  "learning_sequence": [
+    {
+      "topic": "Assets Pipeline",
+      "items": [
+        {
+          "label": "Advanced Asset Management",
+          "id": "8Jbs2XpIL-Nd-tr2f0AJ8"
+        }
+      ]
+    },
+    {
+      "topic": "Action Views",
+      "items": [
+        {
+          "label": "Rendering Views",
+          "id": "WJmDAayQ6SMNuUWsMzhnJ"
+        }
+      ]
+    },
+    {
+      "topic": "Introduction",
+      "items": [
+        {
+          "label": "How the web works",
+          "id": "3YcOhdk9w24f5x0WattyB"
+        },
+        {
+          "label": "Why Web Frameworks?",
+          "id": "VCufea-9vs4DfzB815IT5"
+        },
+        {
+          "label": "MVC architecture",
+          "id": "wHKlT_wCIrpSvULvXCufr"
+        },
+        {
+          "label": "Rails & Frontend",
+          "id": "jKADWbGXSL5yGzsLqSJG9"
+        }
+      ]
+    },
+    {
+      "topic": "Controllers",
+      "items": [
+        {
+          "label": "Creating Controllers",
+          "id": "tSdMmh2SG1Qul5PWCaCKa"
+        },
+        {
+          "label": "Controller Actions",
+          "id": "Cm0tEnjeqQzQORowsdEjk"
+        },
+        {
+          "label": "(Strong) Parameters",
+          "id": "cUYKqkqvg2u3Z4KOtAE9m"
+        },
+        {
+          "label": "Controller Callbacks (filters)",
+          "id": "oHdgQvPSEs-l3EzNRd8q2"
+        },
+        {
+          "label": "Sessions",
+          "id": "mJ5wZPg770fDlJ-V9x75t"
+        }
+      ]
+    },
+    {
+      "topic": "Active Record",
+      "items": []
+    },
+    {
+      "topic": "Databases",
+      "items": [
+        {
+          "label": "Migrations",
+          "id": "gJYuVgBvJeXL72NsRubLm"
+        },
+        {
+          "label": "Transactions",
+          "id": "yrW99MwJNCBMinYUXm1B_"
+        },
+        {
+          "label": "PostgreSQL",
+          "id": "TRTR2JyyfqICTm3kbyIgu"
+        },
+        {
+          "label": "MariaDB",
+          "id": "Jf7W0Sw5azZZ6VGb9oaYq"
+        }
+      ]
+    },
+    {
+      "topic": "Authorization",
+      "items": [
+        {
+          "label": "Pundit",
+          "id": "dTU2RPkJcZaPRuSHPod71"
+        }
+      ]
+    },
+    {
+      "topic": "Logging",
+      "items": []
+    },
+    {
+      "topic": "Testing",
+      "items": []
+    },
+    {
+      "topic": "Deployment",
+      "items": [
+        {
+          "label": "Kamal",
+          "id": "ih8oOhO49tg1wUUiusIA-"
+        }
+      ]
+    },
+    {
+      "topic": "Pagination",
+      "items": [
+        {
+          "label": "Pagy",
+          "id": "BFmYL2UyuCXdFCeMKtDZk"
+        }
+      ]
+    },
+    {
+      "topic": "Authentication",
+      "items": [
+        {
+          "label": "Devise",
+          "id": "deKkp0TGU3Dj0zxUn9VI4"
+        }
+      ]
+    },
+    {
+      "topic": "Background Jobs",
+      "items": []
+    },
+    {
+      "topic": "Setting up Ruby on Rails",
+      "items": []
+    },
+    {
+      "topic": "Request Reponse Flow",
+      "items": []
+    },
+    {
+      "topic": "Security",
+      "items": []
+    },
+    {
+      "topic": "Rails Internationalization",
+      "items": []
+    },
+    {
+      "topic": "Routing Fundamentals",
+      "items": []
+    },
+    {
+      "topic": "Models",
+      "items": []
+    },
+    {
+      "topic": "Caching",
+      "items": []
+    },
+    {
+      "topic": "Debugging",
+      "items": []
+    },
+    {
+      "topic": "Storage",
+      "items": []
+    },
+    {
+      "topic": "Plugins & Engines",
+      "items": []
+    },
+    {
+      "topic": "Mailbox & Mailer",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "(Strong) Parameters",
+    "Advanced Asset Management",
+    "Aggregations",
+    "Basic Queries",
+    "Callbacks",
+    "CanCanCan",
+    "Capybara",
+    "Conditions",
+    "Constraints",
+    "Controller Actions",
+    "Controller Callbacks (filters)",
+    "Cookies",
+    "Create an App",
+    "Creating Controllers",
+    "Creating Models",
+    "Customizing Routes",
+    "Data Types",
+    "Devise",
+    "ERB Templates",
+    "Factory Bot",
+    "Form Elements",
+    "Form Validation",
+    "Gemfile",
+    "Helpers",
+    "Hotwire",
+    "How the web works",
+    "Inspecting Routes",
+    "Joins",
+    "Kamal",
+    "Kaminari",
+    "Layouts & yield",
+    "MVC architecture",
+    "MariaDB",
+    "Migrations",
+    "Minitest",
+    "Model Methods",
+    "Model Relationships",
+    "MySQL",
+    "Named Routes",
+    "Nested Forms",
+    "Nested Routes",
+    "Non-RESTful Routes",
+    "Ordering",
+    "Pagy",
+    "Partials",
+    "Phlex",
+    "PostgreSQL",
+    "Pundit",
+    "Query Optimization",
+    "RESTful Routes",
+    "RSpec",
+    "Rails & Frontend",
+    "Rails Command Line",
+    "Rails Generators",
+    "Rails Logger",
+    "Raw SQL",
+    "Redirects",
+    "Rendering Views",
+    "SQLite",
+    "Scopes",
+    "Sessions",
+    "Transactions",
+    "Validations",
+    "ViewComponent",
+    "Why Web Frameworks?",
+    "app",
+    "bin",
+    "config",
+    "db",
+    "debug",
+    "form_for",
+    "form_with",
+    "pry",
+    "public"
+  ],
+  "source": "https://roadmap.sh/ruby-on-rails",
+  "created_at": "2026-01-23T14:57:31.276Z",
+  "updated_at": "2026-02-26T08:23:04.930Z"
+}

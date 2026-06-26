@@ -1,0 +1,196 @@
+{
+  "slug": "spring-boot",
+  "title": "Spring Boot",
+  "description": "Step by step guide to becoming a Spring Boot developer in 2026",
+  "type": "skill",
+  "total_topics": 11,
+  "total_subtopics": 35,
+  "learning_sequence": [
+    {
+      "topic": "Introduction",
+      "items": [
+        {
+          "label": "Spring AOP",
+          "id": "wV1_I_4czMIxpBionvLs4"
+        },
+        {
+          "label": "Spring MVC",
+          "id": "QiNWE4sMTao3cVzjt3yPp"
+        },
+        {
+          "label": "Spring IOC",
+          "id": "PlUU_vzFQ3Xx6Z5XREIYP"
+        },
+        {
+          "label": "Dependency Injection",
+          "id": "C2EQ5J1aJYF9e9Rr2KysT"
+        },
+        {
+          "label": "Configuration",
+          "id": "OB--nMudscm0p6RqqfA7T"
+        },
+        {
+          "label": "Annotations",
+          "id": "HdCpfGMrMaXxk5QrtYn3X"
+        },
+        {
+          "label": "Spring Bean Scope",
+          "id": "KdN62IpNgPFMndXfLaYa1"
+        },
+        {
+          "label": "Why use Spring?",
+          "id": "WGf3W6bdWL0rK0o6O28G2"
+        },
+        {
+          "label": "Architecture",
+          "id": "yuXN-rD4AyyPYUYOR50L_"
+        },
+        {
+          "label": "Terminology",
+          "id": "WrUCyVfFNUpHB8jyjjKna"
+        }
+      ]
+    },
+    {
+      "topic": "Spring Security",
+      "items": [
+        {
+          "label": "Authentication",
+          "id": "ssdk2iAt4avhc8B5tnIzQ"
+        },
+        {
+          "label": "Authorization",
+          "id": "c7w7Z3Coa81FKa_yAKTse"
+        },
+        {
+          "label": "OAuth2",
+          "id": "p7t3RlIIm9U08GFC6azff"
+        },
+        {
+          "label": "JWT Authentication",
+          "id": "1My7mbdwAbRcJoiA50pWW"
+        }
+      ]
+    },
+    {
+      "topic": "Embedded Server",
+      "items": []
+    },
+    {
+      "topic": "Hibernate",
+      "items": [
+        {
+          "label": "Entity Lifecycle",
+          "id": "Ijmy0J3VyaeTGXtu2VkkQ"
+        }
+      ]
+    },
+    {
+      "topic": "Spring Data",
+      "items": [
+        {
+          "label": "Spring Data JPA",
+          "id": "6u08QN-pUeFm3o0h5Scfm"
+        }
+      ]
+    },
+    {
+      "topic": "Microservices",
+      "items": [
+        {
+          "label": "Spring Cloud",
+          "id": "VWNDYSw83Vzi2UPQprJ5z"
+        }
+      ]
+    },
+    {
+      "topic": "Spring MVC",
+      "items": [
+        {
+          "label": "Servlet",
+          "id": "35NTx2eO1j02sjy4m6DPq"
+        },
+        {
+          "label": "JSP Files",
+          "id": "Lz0GPMiYzb30iFJdv1dL6"
+        },
+        {
+          "label": "Architecture",
+          "id": "_vS_zdJZegZS6MIKAFyg8"
+        },
+        {
+          "label": "Components",
+          "id": "sgA06Tu9Y4cEHtfI8CyLL"
+        }
+      ]
+    },
+    {
+      "topic": "Testing",
+      "items": [
+        {
+          "label": "Mock MVC",
+          "id": "5d1BERqTKNJMKiBcqa8Ie"
+        },
+        {
+          "label": "@SpringBootTest Annotation",
+          "id": "p91CaVPh5GMzFU0yEU_hl"
+        },
+        {
+          "label": "@MockBean Annotation",
+          "id": "i77NTa0hpGGBjmql9u_CT"
+        }
+      ]
+    },
+    {
+      "topic": "Spring Boot Starters",
+      "items": []
+    },
+    {
+      "topic": "Autoconfiguration",
+      "items": []
+    },
+    {
+      "topic": "Actuators",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "@MockBean Annotation",
+    "@SpringBootTest Annotation",
+    "Annotations",
+    "Architecture",
+    "Authentication",
+    "Authorization",
+    "Cloud Config",
+    "Components",
+    "Configuration",
+    "Dependency Injection",
+    "Entity Lifecycle",
+    "Eureka",
+    "JPA Test",
+    "JSP Files",
+    "JWT Authentication",
+    "Micrometer",
+    "Mock MVC",
+    "OAuth2",
+    "Relationships",
+    "Servlet",
+    "Spring AOP",
+    "Spring Bean Scope",
+    "Spring Cloud",
+    "Spring Cloud Circuit Breaker",
+    "Spring Cloud Gateway",
+    "Spring Cloud Open Feign",
+    "Spring Data JDBC",
+    "Spring Data JPA",
+    "Spring Data MongoDB",
+    "Spring IOC",
+    "Spring MVC",
+    "Terminology",
+    "Transactions",
+    "Why use Spring?"
+  ],
+  "source": "https://roadmap.sh/spring-boot",
+  "created_at": "2025-06-24T10:33:16.865Z",
+  "updated_at": "2026-03-17T15:55:08.992Z"
+}

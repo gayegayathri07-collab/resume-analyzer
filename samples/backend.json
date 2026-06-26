@@ -1,0 +1,386 @@
+{
+  "slug": "backend",
+  "title": "Backend",
+  "description": "Step by step guide to becoming a modern backend developer in 2026",
+  "type": "role",
+  "total_topics": 23,
+  "total_subtopics": 132,
+  "learning_sequence": [
+    {
+      "topic": "Introduction",
+      "items": [
+        {
+          "label": "How does the internet work?",
+          "id": "yCnn-NfSxIybUQ2iTuUGq"
+        },
+        {
+          "label": "What is HTTP?",
+          "id": "R12sArWVpbIs_PHxBqVaR"
+        },
+        {
+          "label": "What is Domain Name?",
+          "id": "ZhSuu2VArnzPDp6dPQQSC"
+        },
+        {
+          "label": "What is hosting?",
+          "id": "aqMaEY8gkKMikiqleV5EP"
+        },
+        {
+          "label": "DNS and how it works?",
+          "id": "hkxw9jPGYphmjhTjw8766"
+        },
+        {
+          "label": "Browsers and how they work?",
+          "id": "P82WFaTPgQEPNp5IIuZ1Y"
+        }
+      ]
+    },
+    {
+      "topic": "Version Control Systems",
+      "items": [
+        {
+          "label": "Git",
+          "id": "_I1E__wCIVrhjMk6IMieE"
+        }
+      ]
+    },
+    {
+      "topic": "Repo Hosting Services",
+      "items": [
+        {
+          "label": "GitHub",
+          "id": "ptD8EVqwFUYr4W5A_tABY"
+        }
+      ]
+    },
+    {
+      "topic": "Relational Databases",
+      "items": [
+        {
+          "label": "PostgreSQL",
+          "id": "FihTrMO56kj9jT8O_pO2T"
+        },
+        {
+          "label": "SQLite",
+          "id": "kdulE3Z_BdbtRmq6T2KmR"
+        },
+        {
+          "label": "Oracle",
+          "id": "h1SAjQltHtztSt8QmRgab"
+        }
+      ]
+    },
+    {
+      "topic": "Learn about APIs",
+      "items": [
+        {
+          "label": "Open API Specs",
+          "id": "9cD5ag1L0GqHx4_zxc5JX"
+        }
+      ]
+    },
+    {
+      "topic": "More about Databases",
+      "items": [
+        {
+          "label": "Transactions",
+          "id": "rq_y_OBMD9AH_4aoecvAi"
+        }
+      ]
+    },
+    {
+      "topic": "Testing",
+      "items": [
+        {
+          "label": "Integration Testing",
+          "id": "381Kw1IMRv7CJp-Uf--qd"
+        },
+        {
+          "label": "Unit Testing",
+          "id": "3OYm6b9f6WOrKi4KTOZYK"
+        },
+        {
+          "label": "Functional Testing",
+          "id": "NAGisfq2CgeK3SsuRjnMw"
+        }
+      ]
+    },
+    {
+      "topic": "Architectural Patterns",
+      "items": [
+        {
+          "label": "Microservices",
+          "id": "K55h3aqOGe6-hgVhiFisT"
+        },
+        {
+          "label": "Serverless",
+          "id": "nkmIv3dNwre4yrULMgTh3"
+        },
+        {
+          "label": "Service Mesh",
+          "id": "n14b7sfTOwsjKTpFC9EZ2"
+        },
+        {
+          "label": "Twelve Factor Apps",
+          "id": "8DmabQJXlrT__COZrDVTV"
+        }
+      ]
+    },
+    {
+      "topic": "Search Engines",
+      "items": []
+    },
+    {
+      "topic": "Real-Time Data",
+      "items": [
+        {
+          "label": "WebSockets",
+          "id": "sVuIdAe08IWJVqAt4z-ag"
+        },
+        {
+          "label": "Long / Short Polling",
+          "id": "osvajAJlwGI3XnX0fE-kA"
+        }
+      ]
+    },
+    {
+      "topic": "Scaling Databases",
+      "items": [
+        {
+          "label": "CAP Theorem",
+          "id": "LAdKDJ4LcMaDWqslMvE8X"
+        },
+        {
+          "label": "Sharding Strategies",
+          "id": "zWstl08R4uzqve4BdYurp"
+        },
+        {
+          "label": "Data Replication",
+          "id": "wrl7HHWXOaxoKVlNZxZ6d"
+        },
+        {
+          "label": "Database Indexes",
+          "id": "y-xkHFE9YzhNIX3EiWspL"
+        }
+      ]
+    },
+    {
+      "topic": "NoSQL Databases",
+      "items": []
+    },
+    {
+      "topic": "Integration Patterns",
+      "items": [
+        {
+          "label": "Streaming",
+          "id": "9f-aWi3_7USy4XpNzrTL6"
+        },
+        {
+          "label": "Structured Outputs",
+          "id": "GMxPmyatxYmIPRFHfRAnr"
+        },
+        {
+          "label": "Function Calling",
+          "id": "Uve-UObgOBfrd-cLayVWe"
+        }
+      ]
+    },
+    {
+      "topic": "Learn about Web Servers",
+      "items": []
+    },
+    {
+      "topic": "Learn the Basics",
+      "items": [
+        {
+          "label": "How LLMs work",
+          "id": "tUNP5VRKvrPcufPDPPEo8"
+        },
+        {
+          "label": "AI vs Traditional Coding",
+          "id": "IZKl6PxbvgNkryAkdy3-p"
+        },
+        {
+          "label": "Embeddings",
+          "id": "Ofv__kXuBk-Vv2jVhaFss"
+        },
+        {
+          "label": "Vectors",
+          "id": "yKNdBbahm_h81xdMDT-qx"
+        }
+      ]
+    },
+    {
+      "topic": "Applications",
+      "items": [
+        {
+          "label": "Code Reviews",
+          "id": "0TMdly8yiqnNR8sx36iqc"
+        }
+      ]
+    },
+    {
+      "topic": "AI Assisted Coding",
+      "items": []
+    },
+    {
+      "topic": "Message Brokers",
+      "items": []
+    },
+    {
+      "topic": "Pick a Backend Language",
+      "items": []
+    },
+    {
+      "topic": "Caching",
+      "items": []
+    },
+    {
+      "topic": "CI / CD",
+      "items": []
+    },
+    {
+      "topic": "Building For Scale",
+      "items": []
+    },
+    {
+      "topic": "Frontend Basics",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "ACID",
+    "AI vs Traditional Coding",
+    "AWS Neptune",
+    "Agents",
+    "Anthropic",
+    "Antigravity",
+    "Apache",
+    "Authentication",
+    "Backpressure",
+    "Basic Authentication",
+    "Browsers and how they work?",
+    "C#",
+    "CAP Theorem",
+    "CORS",
+    "CSP",
+    "CSS",
+    "Caddy",
+    "Cassandra",
+    "Circuit Breaker",
+    "Claude Code",
+    "ClickHouse",
+    "Code Reviews",
+    "Cookie Based Auth",
+    "Copilot",
+    "CouchDB",
+    "Cursor",
+    "DGraph",
+    "DNS and how it works?",
+    "Data Replication",
+    "Database Indexes",
+    "Documentation Generation",
+    "DynamoDB",
+    "Elasticsearch",
+    "Embeddings",
+    "Failure Modes",
+    "Firebase",
+    "Function Calling",
+    "Functional Testing",
+    "Gemini",
+    "Git",
+    "GitHub",
+    "GitLab",
+    "Go",
+    "Graceful Degradation",
+    "GraphQL",
+    "HTML",
+    "HTTP Caching",
+    "HTTPS",
+    "How LLMs work",
+    "How does the internet work?",
+    "Influx DB",
+    "Instrumentation",
+    "Integration Testing",
+    "JSON APIs",
+    "JWT",
+    "Java",
+    "JavaScript",
+    "Kafka",
+    "LXC",
+    "Loadshifting",
+    "Long / Short Polling",
+    "MCP",
+    "MD5",
+    "MS IIS",
+    "MS SQL",
+    "MariaDB",
+    "Memcached",
+    "Microservices",
+    "Migrations",
+    "MongoDB",
+    "Monitoring",
+    "Monolith",
+    "MySQL",
+    "N+1 Problem",
+    "Neo4j",
+    "Nginx",
+    "Normalization",
+    "OAuth",
+    "ORMs",
+    "OWASP Risks",
+    "Observability",
+    "Open API Specs",
+    "OpenAI",
+    "OpenID",
+    "Oracle",
+    "PHP",
+    "PostgreSQL",
+    "Profiling Performance",
+    "Prompting Techniques",
+    "Python",
+    "RAGs",
+    "REST",
+    "RabbitMQ",
+    "Redis",
+    "Refactoring",
+    "RethinkDB",
+    "Ruby",
+    "Rust",
+    "SAML",
+    "SHA",
+    "SOA",
+    "SOAP",
+    "SQLite",
+    "SSL/TLS",
+    "ScyllaDB",
+    "Server Security",
+    "Server Sent Events",
+    "Serverless",
+    "Service Mesh",
+    "Sharding Strategies",
+    "Skills",
+    "Solr",
+    "Streaming",
+    "Structured Outputs",
+    "Telemetry",
+    "Throttling",
+    "TimescaleDB",
+    "Token Authentication",
+    "Transactions",
+    "Twelve Factor Apps",
+    "Unit Testing",
+    "Vectors",
+    "Web Security",
+    "WebSockets",
+    "What is Domain Name?",
+    "What is HTTP?",
+    "What is hosting?",
+    "bcrypt",
+    "gRPC",
+    "scrypt"
+  ],
+  "source": "https://roadmap.sh/backend",
+  "created_at": "2025-05-14T10:07:03.584Z",
+  "updated_at": "2026-02-07T16:58:57.293Z"
+}

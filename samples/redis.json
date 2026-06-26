@@ -1,0 +1,249 @@
+{
+  "slug": "redis",
+  "title": "Redis",
+  "description": "Step by step guide to learn Redis in 2026",
+  "type": "skill",
+  "total_topics": 29,
+  "total_subtopics": 133,
+  "learning_sequence": [
+    {
+      "topic": "What is Redis?",
+      "items": []
+    },
+    {
+      "topic": "Strings",
+      "items": []
+    },
+    {
+      "topic": "Lists",
+      "items": []
+    },
+    {
+      "topic": "Sets",
+      "items": []
+    },
+    {
+      "topic": "Hashes",
+      "items": []
+    },
+    {
+      "topic": "Sorted Sets",
+      "items": []
+    },
+    {
+      "topic": "Atomicity in Redis",
+      "items": []
+    },
+    {
+      "topic": "Pipelining",
+      "items": []
+    },
+    {
+      "topic": "Batch Operations",
+      "items": []
+    },
+    {
+      "topic": "Bitmaps",
+      "items": []
+    },
+    {
+      "topic": "HyperLogLog",
+      "items": []
+    },
+    {
+      "topic": "Streams",
+      "items": []
+    },
+    {
+      "topic": "Geospatial Indexes",
+      "items": []
+    },
+    {
+      "topic": "Pub/Sub",
+      "items": []
+    },
+    {
+      "topic": "Transactions",
+      "items": []
+    },
+    {
+      "topic": "Lua Scripting",
+      "items": []
+    },
+    {
+      "topic": "Persistence Options",
+      "items": []
+    },
+    {
+      "topic": "Clustering",
+      "items": []
+    },
+    {
+      "topic": "Authentication",
+      "items": []
+    },
+    {
+      "topic": "Redis Modules",
+      "items": [
+        {
+          "label": "RedisJSON",
+          "id": "jicsfYw56VrbRUt7M8c85"
+        }
+      ]
+    },
+    {
+      "topic": "Backup and Recovery",
+      "items": []
+    },
+    {
+      "topic": "Upgrading Redis",
+      "items": []
+    },
+    {
+      "topic": "Disaster Recovery",
+      "items": []
+    },
+    {
+      "topic": "Redis Enterprise",
+      "items": []
+    },
+    {
+      "topic": "Replication Basics",
+      "items": []
+    },
+    {
+      "topic": "Redis Sentinel",
+      "items": []
+    },
+    {
+      "topic": "Network Security",
+      "items": []
+    },
+    {
+      "topic": "SSL/TLS Encryption",
+      "items": []
+    },
+    {
+      "topic": "redis.conf",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "AOF rewrite & compaction",
+    "APPEND",
+    "Active-Active geo Distribution",
+    "BITCOUNT",
+    "BITOP",
+    "BITPOS",
+    "Basic Commands / SET, GET",
+    "Cache",
+    "Caching",
+    "Configuring Save Interval",
+    "Connecting using Redis CLI",
+    "DECR",
+    "DEL",
+    "Data Persistence Options",
+    "EVAL",
+    "EVALSHA",
+    "EXEC",
+    "Expiration",
+    "GEOADD",
+    "GEOSEARCH",
+    "GET",
+    "GETBIT",
+    "HDEL",
+    "HEXISTS",
+    "HGET",
+    "HGETALL",
+    "HSET",
+    "High Performance and Scalability",
+    "How AOF Works?",
+    "How RDB Works?",
+    "Hybrid Persistence",
+    "INCR",
+    "INFO",
+    "In-memory Data Structure Store",
+    "Key-value Database",
+    "LINDEX",
+    "LLEN",
+    "LMOVE",
+    "LPOP",
+    "LPUSH",
+    "LRANGE",
+    "Leaderboards and Counters",
+    "MONITOR",
+    "MULTI",
+    "Max Memory Policy",
+    "Memory Management",
+    "Message Broker",
+    "Monitoring",
+    "More Commands",
+    "Naming Conventions",
+    "No Persistence Option",
+    "Optimistic Locking",
+    "Overview of Data Types",
+    "PFADD",
+    "PFCOUNT",
+    "PFMERGE",
+    "PUBLISH",
+    "Pre-compiled Binaries",
+    "Pub/Sub Messaging",
+    "RDB vs AOF Tradeoffs",
+    "RPOP",
+    "RPUSH",
+    "Real-time Analytics",
+    "Redis on Flash",
+    "Redis vs SQL/NoSQL DBs",
+    "RedisBloom",
+    "RedisCommander",
+    "RedisInsight",
+    "RedisJSON",
+    "RedisTimeSeries",
+    "Retrieval by Pattern",
+    "Rich Data Structures",
+    "SADD",
+    "SCARD",
+    "SDIFF",
+    "SET",
+    "SETBIT",
+    "SINTER",
+    "SISMEMBER",
+    "SMEMBERS",
+    "SREM",
+    "STRLEN",
+    "SUBSCRIBE",
+    "SUNION",
+    "Search",
+    "Security and Compliance",
+    "Session Management",
+    "Setting and Getting Keys",
+    "Slow Log Analysis",
+    "Starting the Server",
+    "TTL",
+    "Truncation / Corruption",
+    "UNSUBSCRIBE",
+    "Usecases",
+    "Usecases / Best Practices",
+    "Using Docker",
+    "Using Package Managers",
+    "WATCH",
+    "When to choose Redis?",
+    "When to consider enterprise?",
+    "XADD",
+    "XLEN",
+    "XRANGE",
+    "XREAD",
+    "ZADD",
+    "ZCOUNT",
+    "ZINCRBY",
+    "ZRANGE",
+    "ZRANGEBYSCORE",
+    "ZRANK",
+    "ZREM",
+    "expire",
+    "redis-benchmark"
+  ],
+  "source": "https://roadmap.sh/redis",
+  "created_at": "2025-05-14T10:07:04.412Z",
+  "updated_at": "2026-03-20T12:21:44.235Z"
+}

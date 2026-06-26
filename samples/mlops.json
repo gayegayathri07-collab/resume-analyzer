@@ -1,0 +1,161 @@
+{
+  "slug": "mlops",
+  "title": "MLOps",
+  "description": "Step by step guide to learn MLOps in 2026",
+  "type": "role",
+  "total_topics": 13,
+  "total_subtopics": 49,
+  "learning_sequence": [
+    {
+      "topic": "Orchestration & Deployment",
+      "items": [
+        {
+          "label": "Airflow",
+          "id": "AjZHJcxUY29WZbCvr3zrs"
+        },
+        {
+          "label": "KubeFlow",
+          "id": "QEayqA8zYsJn0rQYz-4zv"
+        }
+      ]
+    },
+    {
+      "topic": "What is MLOps?",
+      "items": [
+        {
+          "label": "MLOps Principles",
+          "id": "iTsEHVCo6KGq7H2HMgy5S"
+        },
+        {
+          "label": "MLOps Components",
+          "id": "l1xasxQy2vAY34NWaqKEe"
+        }
+      ]
+    },
+    {
+      "topic": "Programming Fundamentals",
+      "items": []
+    },
+    {
+      "topic": "Version Control Systems",
+      "items": []
+    },
+    {
+      "topic": "CI/CD",
+      "items": [
+        {
+          "label": "GItLab",
+          "id": "mu56TlVkhhgVzzESDRobc"
+        },
+        {
+          "label": "GitHub Actions",
+          "id": "SCn-6w1UEQwoLQ_dOPpL5"
+        }
+      ]
+    },
+    {
+      "topic": "Machine Learning Fundamentals",
+      "items": []
+    },
+    {
+      "topic": "Cloud Computing",
+      "items": [
+        {
+          "label": "Cloud-native ML Services",
+          "id": "kbfucfIO5KCsuv3jKbHTa"
+        }
+      ]
+    },
+    {
+      "topic": "Containerization",
+      "items": []
+    },
+    {
+      "topic": "Monitoring & Observability",
+      "items": []
+    },
+    {
+      "topic": "Explainable AI",
+      "items": []
+    },
+    {
+      "topic": "Edge AI",
+      "items": [
+        {
+          "label": "TFLite",
+          "id": "YFo3NnwVst5EBTtLR-cJ1"
+        },
+        {
+          "label": "PyTorch Mobile",
+          "id": "qyNOEqp7hW_P7-Isz_v4o"
+        },
+        {
+          "label": "Jetson",
+          "id": "Wpv_zRshtTFXNqp1S7m0F"
+        }
+      ]
+    },
+    {
+      "topic": "Data Engineering Fundamentals",
+      "items": []
+    },
+    {
+      "topic": "Infrastructure as Code",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "AWS / Azure / GCP",
+    "Airflow",
+    "Ansible",
+    "Bash",
+    "CI/CD",
+    "CML",
+    "Cloud-native ML Services",
+    "DVC",
+    "Data Ingestion Architecture",
+    "Data Lakes & Warehouses",
+    "Data Lineage",
+    "Data Pipelines",
+    "Deep Learning",
+    "Docker",
+    "Experiment Tracking",
+    "Flink",
+    "GItLab",
+    "Git",
+    "GitHub",
+    "GitHub Actions",
+    "Go",
+    "Grafana",
+    "Jenkins",
+    "Jetson",
+    "Kafka",
+    "KubeFlow",
+    "Kubernetes",
+    "LIME",
+    "MLFlow",
+    "MLOps Components",
+    "MLOps Principles",
+    "Machine Learning",
+    "Maths & Statistics",
+    "Model Evaluation",
+    "Model Training & Serving",
+    "Monitoring & Observability",
+    "Orchestration",
+    "Prometheus",
+    "PyTorch",
+    "PyTorch Mobile",
+    "Python",
+    "SHAP",
+    "SQL",
+    "Scikit-learn",
+    "Spark",
+    "TFLite",
+    "TensorFlow",
+    "Terraform",
+    "Version Control"
+  ],
+  "source": "https://roadmap.sh/mlops",
+  "created_at": "2025-05-14T10:07:04.347Z",
+  "updated_at": "2026-01-24T13:19:27.128Z"
+}

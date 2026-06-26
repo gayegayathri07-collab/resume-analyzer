@@ -1,0 +1,344 @@
+{
+  "slug": "python-data-analysis",
+  "title": "Python for Data Analysis",
+  "description": "Step-by-step guide to master Python for Data Analysis in 2026",
+  "type": "skill",
+  "total_topics": 19,
+  "total_subtopics": 92,
+  "learning_sequence": [
+    {
+      "topic": "Functions & Methods",
+      "items": [
+        {
+          "label": "Defining Functions",
+          "id": "0XtKHqPS6AfhQvhH5cu7Q"
+        },
+        {
+          "label": "args & kwargs",
+          "id": "7ukR74cN6lHbvhs4mFn6R"
+        },
+        {
+          "label": "Lambda Functions",
+          "id": "AzsZhpK-wuWtafVFJMhdY"
+        },
+        {
+          "label": "Built-in Functions",
+          "id": "KtV5Jl-hOcUS5L-15BUDD"
+        }
+      ]
+    },
+    {
+      "topic": "NumPy",
+      "items": [
+        {
+          "label": "Arrays & ndarray",
+          "id": "qiUPTXFgfukxlPhnv76jo"
+        },
+        {
+          "label": "Array Operations",
+          "id": "qOZ-T7zaPjvIT222rSV4o"
+        },
+        {
+          "label": "Indexing & Slicing",
+          "id": "mAOljEWt_0Hb9jLBKuc-H"
+        },
+        {
+          "label": "Linear Algebra Basics",
+          "id": "xHDrwKDE_mrSihCsPQMBF"
+        },
+        {
+          "label": "Random Module",
+          "id": "XizmE-QroU4GJbjvqNYxe"
+        }
+      ]
+    },
+    {
+      "topic": "Reading Web Data",
+      "items": [
+        {
+          "label": "APIs with requests",
+          "id": "10c4tiBOR68J3qa55LcJS"
+        },
+        {
+          "label": "BeautifulSoup",
+          "id": "w4K_ffCUbzhGxWyoKsspu"
+        }
+      ]
+    },
+    {
+      "topic": "Matplotlib",
+      "items": [
+        {
+          "label": "Plot Categories",
+          "id": "5HEYmbVJ6Z7lvgqalVjxW"
+        },
+        {
+          "label": "Subplots and figures",
+          "id": "GRg7HyeVuSwkKD5bCOFiY"
+        },
+        {
+          "label": "Customizing Plots",
+          "id": "JTYST4p4O9RQbCzxsoQhA"
+        },
+        {
+          "label": "Saving figures",
+          "id": "mElhFGGT2GnLg2AkJFETN"
+        }
+      ]
+    },
+    {
+      "topic": "Dashboards",
+      "items": [
+        {
+          "label": "Dash",
+          "id": "-dsafcJlA16H_ji0zQvKy"
+        },
+        {
+          "label": "Power BI / Tableau",
+          "id": "EHVXO79NGpLC1i8x4Y7g1"
+        }
+      ]
+    },
+    {
+      "topic": "Big Data Tools",
+      "items": [
+        {
+          "label": "Dask",
+          "id": "ApowKoA3C1B8oUr4-sltZ"
+        },
+        {
+          "label": "PySpark",
+          "id": "XTXm8aIDbRkTXoAck_m3I"
+        }
+      ]
+    },
+    {
+      "topic": "Introduction",
+      "items": [
+        {
+          "label": "Printing Variables",
+          "id": "icVUQgedEGcaPpJSV8JdI"
+        },
+        {
+          "label": "Operators",
+          "id": "so95CO6Qw3I0S98ISENS-"
+        },
+        {
+          "label": "Loops",
+          "id": "Dvy7BnNzK55qbh_SgOk8m"
+        }
+      ]
+    },
+    {
+      "topic": "Environment Setup",
+      "items": []
+    },
+    {
+      "topic": "SQL Fundamentals",
+      "items": [
+        {
+          "label": "SQLAlchemy",
+          "id": "k63rFXaVDUX2ZOVI_O9WG"
+        },
+        {
+          "label": "Pandas",
+          "id": "cD139cRk1xj2ip-o_078l"
+        }
+      ]
+    },
+    {
+      "topic": "Pandas",
+      "items": [
+        {
+          "label": "Polars",
+          "id": "18eitPvBQKdeM3K33d59g"
+        }
+      ]
+    },
+    {
+      "topic": "Reading Local Files",
+      "items": [
+        {
+          "label": "CSV",
+          "id": "nDUOJPCEzkCxX8B63HBP3"
+        },
+        {
+          "label": "JSON",
+          "id": "VEetEvKGNzAO9QdZY2g86"
+        }
+      ]
+    },
+    {
+      "topic": "Data Cleaning",
+      "items": []
+    },
+    {
+      "topic": "Exploratory Data Analysis",
+      "items": []
+    },
+    {
+      "topic": "Seaborn",
+      "items": [
+        {
+          "label": "Distribution plots",
+          "id": "Xq7Ho2kWg5AtZK0G6z02U"
+        },
+        {
+          "label": "Categorical Plots",
+          "id": "Dj8Ar4-NQ5mQQhNHmQJVy"
+        },
+        {
+          "label": "Regression Plots",
+          "id": "PcGJMkmZrl4xc2ADT9dF3"
+        },
+        {
+          "label": "Heatmaps",
+          "id": "Bk3z1CHnrnV6ii2Y0BF8G"
+        },
+        {
+          "label": "Customizing Plots",
+          "id": "j4UHICw-niFv1RRlC-vk1"
+        }
+      ]
+    },
+    {
+      "topic": "Interactive Visualization",
+      "items": [
+        {
+          "label": "Plotly",
+          "id": "J_u8yvrHEWKKmVsVgPN7L"
+        }
+      ]
+    },
+    {
+      "topic": "Statistics & ML",
+      "items": [
+        {
+          "label": "SciPy",
+          "id": "YxA0ms9vkufKGOguRNK1B"
+        },
+        {
+          "label": "Scikit-learn",
+          "id": "npndQC8OIfP1wwn_iswPy"
+        }
+      ]
+    },
+    {
+      "topic": "Data Pipelines",
+      "items": [
+        {
+          "label": "Airflow",
+          "id": "LERo7-ggtfZ-KZyNdBwt6"
+        }
+      ]
+    },
+    {
+      "topic": "OOP for Data Analysis",
+      "items": []
+    },
+    {
+      "topic": "Geospatial Analysis",
+      "items": [
+        {
+          "label": "GeoPandas",
+          "id": "-Bxn2sj2NjHLhRZrPIi0n"
+        }
+      ]
+    }
+  ],
+  "subtopics_list": [
+    "APIs with requests",
+    "Airflow",
+    "Arithmetic",
+    "Array Operations",
+    "Arrays & ndarray",
+    "BeautifulSoup",
+    "Booleans",
+    "Boxplot",
+    "Built-in Functions",
+    "CSV",
+    "Casting Types",
+    "Categorical Plots",
+    "Comparison",
+    "Conditionals",
+    "Correlation & Covariance",
+    "Correlation Matrix",
+    "Cross-tabulation",
+    "Customizing Plots",
+    "Dash",
+    "Dask",
+    "Defining Functions",
+    "Dictionaries",
+    "Distribution plots",
+    "Dropping vs. Imputing",
+    "DuckDB",
+    "Encoding Categories",
+    "Excel",
+    "Filtering & Querying",
+    "Floats",
+    "Forward / Backward Fill",
+    "GeoPandas",
+    "Google Colab",
+    "Groupby & Aggregation",
+    "Heatmaps",
+    "Histogram",
+    "IQR",
+    "Indexing & Slicing",
+    "Integers",
+    "JSON",
+    "JupyterLab",
+    "Lambda Functions",
+    "Linear Algebra Basics",
+    "List Comprehensions",
+    "Lists",
+    "Logical",
+    "Loops",
+    "Mean, Median, Mode",
+    "Merging & Joining",
+    "Null",
+    "Operators",
+    "Pandas",
+    "Pandas String Methods",
+    "Parquet",
+    "Parsing Dates",
+    "Plot Categories",
+    "Plotly",
+    "Polars",
+    "Power BI / Tableau",
+    "Printing Variables",
+    "PySpark",
+    "Random Module",
+    "Reading Data",
+    "Regression Plots",
+    "Reshaping",
+    "SQLAlchemy",
+    "Saving figures",
+    "Scatterplot",
+    "SciPy",
+    "Scikit-learn",
+    "Series and DataFrame",
+    "Sets",
+    "Streamlit",
+    "Strings",
+    "Subplots and figures",
+    "Tuples",
+    "Type Casting",
+    "VS Code",
+    "Variance & Std. Deviation",
+    "Visual Inspection",
+    "Working with Strings",
+    "Z-score",
+    "args & kwargs",
+    "conda",
+    "isnull, isna",
+    "pip",
+    "re",
+    "scrapy",
+    "sqlite3",
+    "strip, replace, split",
+    "virtualenv / venv"
+  ],
+  "source": "https://roadmap.sh/python-data-analysis",
+  "created_at": "2026-06-09T15:30:22.073Z",
+  "updated_at": "2026-06-18T12:14:35.925Z"
+}

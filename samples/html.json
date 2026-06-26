@@ -1,0 +1,277 @@
+{
+  "slug": "html",
+  "title": "HTML",
+  "description": "Step by step guide to learning HTML in 2026",
+  "type": "skill",
+  "total_topics": 15,
+  "total_subtopics": 73,
+  "learning_sequence": [
+    {
+      "topic": "Introduction",
+      "items": [
+        {
+          "label": "What are markup languages?",
+          "id": "4gst44L8-ps9YFMHzucfN"
+        },
+        {
+          "label": "Frontend Development",
+          "id": "Xy15NSxlS0QXYNzEvgocK"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Tags",
+      "items": [
+        {
+          "label": "!DOCTYPE",
+          "id": "VscH3rVqpX29vaKmdCMop"
+        },
+        {
+          "label": "html",
+          "id": "fP2cPskF9KzppZUhfyB8U"
+        },
+        {
+          "label": "head",
+          "id": "Ufgy4-kC2drCov4MqEhjy"
+        }
+      ]
+    },
+    {
+      "topic": "How the web works",
+      "items": [
+        {
+          "label": "What is HTTP?",
+          "id": "nXRjahYSDqfEqY26yfLEt"
+        },
+        {
+          "label": "Domain names",
+          "id": "oRjacb1OqAlsP-YB16Nuy"
+        },
+        {
+          "label": "Hosting",
+          "id": "t9KmPbRh6pkfouPi1mBqJ"
+        },
+        {
+          "label": "DNS",
+          "id": "0Q41Bm_TZqsC7X-MH8uFe"
+        },
+        {
+          "label": "Browsers",
+          "id": "4gvPprSH7hRS4gtXNMcCF"
+        },
+        {
+          "label": "What is SEO?",
+          "id": "6vGbvRsmQgOpRh8JJ3RF_"
+        }
+      ]
+    },
+    {
+      "topic": "Textual Tags",
+      "items": [
+        {
+          "label": "h1 to h6",
+          "id": "AmIRWclu6IYViWHXnGA8U"
+        },
+        {
+          "label": "p",
+          "id": "czmIvZYONFDxB2UNpT8U1"
+        },
+        {
+          "label": "br",
+          "id": "cBKw3jiAvdXVwUryV1aJl"
+        },
+        {
+          "label": "pre",
+          "id": "-2BvwJsqa5K8Tb8oSDUC8"
+        },
+        {
+          "label": "mark",
+          "id": "9S2IUUWVv_Q7ZfD7VqfhH"
+        },
+        {
+          "label": "sup",
+          "id": "o1rSXBsjhD-sN0FdOK_dm"
+        },
+        {
+          "label": "Links",
+          "id": "wmAps9IeAvOxcqBqgUAXN"
+        }
+      ]
+    },
+    {
+      "topic": "Grouping text",
+      "items": []
+    },
+    {
+      "topic": "Standard attributes",
+      "items": [
+        {
+          "label": "Data Attributes",
+          "id": "7iDMmYQ-2Q6hrrFnUgRuP"
+        },
+        {
+          "label": "style",
+          "id": "GpaI2IDHDOZjyT3AZMbYD"
+        },
+        {
+          "label": "class",
+          "id": "R0mDuO5V5NJI8Yupc_i8i"
+        }
+      ]
+    },
+    {
+      "topic": "Lists and Types",
+      "items": [
+        {
+          "label": "Ordered lists",
+          "id": "ePOzN3Sh5tCYlAbsweWU0"
+        }
+      ]
+    },
+    {
+      "topic": "Table Tag",
+      "items": []
+    },
+    {
+      "topic": "Embedding Media",
+      "items": [
+        {
+          "label": "Video",
+          "id": "mWc4HuNQACXGpJjEPa79j"
+        },
+        {
+          "label": "Images",
+          "id": "94HB2gvHgcEIeFQTlbVDu"
+        },
+        {
+          "label": "iframe",
+          "id": "W0pWVr4cdxSan9Ceu5t7i"
+        }
+      ]
+    },
+    {
+      "topic": "Using Forms",
+      "items": [
+        {
+          "label": "Labels and Inputs",
+          "id": "9R5WYPxlChmz6bevJUwsT"
+        },
+        {
+          "label": "File Uploads",
+          "id": "-UlDLjC8VsrKB9yexMtlr"
+        },
+        {
+          "label": "Form Validation",
+          "id": "6NvYDlYYLZzf4IHXu0dWs"
+        },
+        {
+          "label": "Limitations",
+          "id": "HxgDw9gh1vHiMIMyZW8H2"
+        }
+      ]
+    },
+    {
+      "topic": "Semantic Markup",
+      "items": []
+    },
+    {
+      "topic": "Styling Basics",
+      "items": [
+        {
+          "label": "Inline CSS",
+          "id": "ievbuvgPKo261hM-9F117"
+        }
+      ]
+    },
+    {
+      "topic": "Including JavaScript",
+      "items": []
+    },
+    {
+      "topic": "Accessibility",
+      "items": []
+    },
+    {
+      "topic": "Basics of SEO",
+      "items": []
+    }
+  ],
+  "subtopics_list": [
+    "!DOCTYPE",
+    "Audio",
+    "Browsers",
+    "CSP",
+    "CSS",
+    "Case Insensitivity",
+    "DNS",
+    "Data Attributes",
+    "Definition lists",
+    "Domain names",
+    "External CSS",
+    "File Uploads",
+    "Form Validation",
+    "Frontend Development",
+    "HTML",
+    "HTML Comments",
+    "HTML Entities",
+    "Hosting",
+    "Images",
+    "Inline CSS",
+    "Internal CSS",
+    "JavaScript",
+    "Labels and Inputs",
+    "Limitations",
+    "Links",
+    "Nested lists",
+    "Ordered lists",
+    "Priority Hints",
+    "Tags and Attributes",
+    "Unordered lists",
+    "Video",
+    "What are markup languages?",
+    "What is HTTP?",
+    "What is SEO?",
+    "Whitespaces",
+    "abbr",
+    "address",
+    "article",
+    "aside",
+    "b / strong",
+    "blockquote",
+    "body",
+    "br",
+    "cite",
+    "class",
+    "del",
+    "dfn",
+    "div",
+    "footer",
+    "h1 to h6",
+    "head",
+    "header",
+    "hr",
+    "html",
+    "i / em",
+    "id",
+    "iframe",
+    "img vs figure",
+    "ins",
+    "main",
+    "mark",
+    "meta",
+    "nav",
+    "p",
+    "pre",
+    "q",
+    "s",
+    "section",
+    "span",
+    "style",
+    "sub",
+    "sup",
+    "title"
+  ],
+  "source": "https://roadmap.sh/html",
+  "created_at": "2025-09-22T18:08:45.568Z",
+  "updated_at": "2026-02-26T08:54:20.306Z"
+}
