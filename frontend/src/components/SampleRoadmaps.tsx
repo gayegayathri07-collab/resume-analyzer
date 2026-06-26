@@ -89,58 +89,59 @@ function JsonRoadmapViewer({ url: propUrl, title }: { url: string; title: string
   );
 }
 
-const FLOW_COLORS = [
-  { bg: 'from-cyan-600/20 to-cyan-800/10', border: 'border-cyan-700/50', text: 'text-cyan-300', label: 'from-cyan-600 to-cyan-700' },
-  { bg: 'from-blue-600/20 to-blue-800/10', border: 'border-blue-700/50', text: 'text-blue-300', label: 'from-blue-600 to-blue-700' },
-  { bg: 'from-violet-600/20 to-violet-800/10', border: 'border-violet-700/50', text: 'text-violet-300', label: 'from-violet-600 to-violet-700' },
-  { bg: 'from-purple-600/20 to-purple-800/10', border: 'border-purple-700/50', text: 'text-purple-300', label: 'from-purple-600 to-purple-700' },
-  { bg: 'from-pink-600/20 to-pink-800/10', border: 'border-pink-700/50', text: 'text-pink-300', label: 'from-pink-600 to-pink-700' },
-  { bg: 'from-rose-600/20 to-rose-800/10', border: 'border-rose-700/50', text: 'text-rose-300', label: 'from-rose-600 to-rose-700' },
-  { bg: 'from-orange-600/20 to-orange-800/10', border: 'border-orange-700/50', text: 'text-orange-300', label: 'from-orange-600 to-orange-700' },
-  { bg: 'from-amber-600/20 to-amber-800/10', border: 'border-amber-700/50', text: 'text-amber-300', label: 'from-amber-600 to-amber-700' },
-  { bg: 'from-emerald-600/20 to-emerald-800/10', border: 'border-emerald-700/50', text: 'text-emerald-300', label: 'from-emerald-600 to-emerald-700' },
-  { bg: 'from-teal-600/20 to-teal-800/10', border: 'border-teal-700/50', text: 'text-teal-300', label: 'from-teal-600 to-teal-700' },
+const GRADIENT_COLORS = [
+  { dot: 'bg-cyan-400', line: 'bg-cyan-600/30', border: 'border-cyan-700/40', glow: 'shadow-cyan-500/10', badge: 'bg-cyan-500/10 text-cyan-300 border-cyan-700/40' },
+  { dot: 'bg-blue-400', line: 'bg-blue-600/30', border: 'border-blue-700/40', glow: 'shadow-blue-500/10', badge: 'bg-blue-500/10 text-blue-300 border-blue-700/40' },
+  { dot: 'bg-violet-400', line: 'bg-violet-600/30', border: 'border-violet-700/40', glow: 'shadow-violet-500/10', badge: 'bg-violet-500/10 text-violet-300 border-violet-700/40' },
+  { dot: 'bg-purple-400', line: 'bg-purple-600/30', border: 'border-purple-700/40', glow: 'shadow-purple-500/10', badge: 'bg-purple-500/10 text-purple-300 border-purple-700/40' },
+  { dot: 'bg-pink-400', line: 'bg-pink-600/30', border: 'border-pink-700/40', glow: 'shadow-pink-500/10', badge: 'bg-pink-500/10 text-pink-300 border-pink-700/40' },
+  { dot: 'bg-emerald-400', line: 'bg-emerald-600/30', border: 'border-emerald-700/40', glow: 'shadow-emerald-500/10', badge: 'bg-emerald-500/10 text-emerald-300 border-emerald-700/40' },
+  { dot: 'bg-orange-400', line: 'bg-orange-600/30', border: 'border-orange-700/40', glow: 'shadow-orange-500/10', badge: 'bg-orange-500/10 text-orange-300 border-orange-700/40' },
+  { dot: 'bg-rose-400', line: 'bg-rose-600/30', border: 'border-rose-700/40', glow: 'shadow-rose-500/10', badge: 'bg-rose-500/10 text-rose-300 border-rose-700/40' },
+  { dot: 'bg-teal-400', line: 'bg-teal-600/30', border: 'border-teal-700/40', glow: 'shadow-teal-500/10', badge: 'bg-teal-500/10 text-teal-300 border-teal-700/40' },
+  { dot: 'bg-amber-400', line: 'bg-amber-600/30', border: 'border-amber-700/40', glow: 'shadow-amber-500/10', badge: 'bg-amber-500/10 text-amber-300 border-amber-700/40' },
 ];
 
 function Flowchart({ data }: { data: { topic: string; items: { label: string }[] }[] }) {
   return (
-    <div className="flex gap-0 min-w-max">
+    <div className="relative">
       {data.map((topic, idx) => {
-        const color = FLOW_COLORS[idx % FLOW_COLORS.length];
+        const color = GRADIENT_COLORS[idx % GRADIENT_COLORS.length];
         return (
-          <div key={idx} className="flex items-start">
-            <div className={`w-56 shrink-0 rounded-xl border ${color.border} bg-gradient-to-b ${color.bg} p-3.5`}>
-              <div className={`text-[10px] font-semibold uppercase tracking-wider ${color.text} mb-1.5`}>
-                <span className={`inline-block px-1.5 py-0.5 rounded bg-gradient-to-r ${color.label} text-white`}>
-                  Step {idx + 1}
-                </span>
-              </div>
-              <h4 className="text-sm font-semibold text-white mb-2 leading-snug">{topic.topic}</h4>
-              {topic.items.length > 0 && (
-                <div className="flex flex-wrap gap-1">
-                  {topic.items.slice(0, 6).map((item, j) => (
-                    <span
-                      key={j}
-                      className="text-[10px] px-1.5 py-0.5 rounded-md bg-gray-900/60 text-gray-400 border border-gray-700/50"
-                    >
-                      {item.label}
-                    </span>
-                  ))}
-                  {topic.items.length > 6 && (
-                    <span className="text-[10px] px-1.5 py-0.5 text-gray-600">
-                      +{topic.items.length - 6}
-                    </span>
-                  )}
-                </div>
+          <div key={idx} className="relative flex">
+            <div className="flex flex-col items-center mr-4 shrink-0">
+              <div className={`w-3.5 h-3.5 rounded-full ${color.dot} ring-2 ring-gray-900 z-10 shadow-lg ${color.glow}`} />
+              {idx < data.length - 1 && (
+                <div className={`w-0.5 h-full min-h-[20px] ${color.line}`} />
               )}
             </div>
-            {idx < data.length - 1 && (
-              <div className="flex items-center mx-2 mt-6">
-                <svg className="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
+            <div className={`flex-1 pb-6 ${idx === data.length - 1 ? '' : 'mb-1'}`}>
+              <div className={`bg-gray-900/80 border ${color.border} rounded-xl p-3.5 shadow-sm hover:shadow-md transition-shadow`}>
+                <div className="flex items-center gap-2 mb-2">
+                  <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${color.badge}`}>
+                    {idx + 1}
+                  </span>
+                  <h4 className="text-sm font-semibold text-white">{topic.topic}</h4>
+                </div>
+                {topic.items.length > 0 && (
+                  <div className="flex flex-wrap gap-1">
+                    {topic.items.slice(0, 10).map((item, j) => (
+                      <span
+                        key={j}
+                        className="text-[10px] px-1.5 py-0.5 rounded bg-gray-800/70 text-gray-400 border border-gray-700/50"
+                      >
+                        {item.label}
+                      </span>
+                    ))}
+                    {topic.items.length > 10 && (
+                      <span className="text-[10px] px-1.5 py-0.5 text-gray-600">
+                        +{topic.items.length - 10}
+                      </span>
+                    )}
+                  </div>
+                )}
               </div>
-            )}
+            </div>
           </div>
         );
       })}
