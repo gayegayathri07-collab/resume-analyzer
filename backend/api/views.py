@@ -38,97 +38,35 @@ def _parse_pdf_to_roadmap(text, name):
         items = chunk[:15] if chunk else ['Open the PDF to view full roadmap details']
         months.append({'month': f'Month {i + 1}', 'title': titles[i], 'items': items})
     return months
-
-
-_roadmap_cache = None
-
-def _load_all_roadmaps():
-    global _roadmap_cache
-    if _roadmap_cache is not None:
-        return _roadmap_cache
+def load_sample_roadmaps():
+    import re
     samples_dir = Path(settings.BASE_DIR).parent / 'samples'
     roadmaps = []
     seen_names = set()
     if not samples_dir.exists():
-        _roadmap_cache = []
-        return _roadmap_cache
+        return roadmaps
     for f in sorted(samples_dir.glob('*.json')):
         try:
             data = json.loads(f.read_text(encoding='utf-8'))
             name = f.stem.replace('-', ' ').replace('_', ' ').title()
             seen_names.add(name.lower())
-            subtopics = [s.lower() for s in data.get('subtopics_list', [])]
-            title_words = [name.lower()]
-            slug = data.get('slug', '').lower()
-            if slug:
-                title_words.append(slug)
-            roadmaps.append({
-                'name': name,
-                'filename': f.name,
-                'url': f'/api/samples/{f.name}',
-                'subtopics': subtopics,
-                'keywords': title_words + subtopics,
-            })
+            roadmaps.append({'name': name, 'filename': f.name, 'url': f'/api/samples/{f.name}'})
         except Exception as e:
             print(f'Failed to load roadmap {f.name}: {e}')
     for f in sorted(samples_dir.glob('*.pdf')):
         try:
             text = extract_text_from_pdf(str(f))
+
             if 'roadmap' not in text.lower():
                 continue
+
             name = f.stem.replace('-', ' ').replace('_', ' ').title()
             if name.lower() in seen_names:
                 continue
-            words = set(re.sub(r'[^a-z0-9\s]', '', text.lower()).split())
-            roadmaps.append({
-                'name': name,
-                'filename': f.name,
-                'url': f'/api/samples/{f.name}',
-                'subtopics': [],
-                'keywords': list(words),
-            })
+            roadmaps.append({'name': name, 'filename': f.name, 'url': f'/api/samples/{f.name}'})
         except Exception as e:
             print(f'Failed to load roadmap PDF {f.name}: {e}')
-    _roadmap_cache = roadmaps
     return roadmaps
-
-
-def load_sample_roadmaps(resume_text='', matched_keywords=None):
-    all_roadmaps = _load_all_roadmaps()
-
-    if not resume_text and not matched_keywords:
-        return [{'name': r['name'], 'filename': r['filename'], 'url': r['url']} for r in all_roadmaps[:6]]
-
-    resume_lower = resume_text.lower() if resume_text else ''
-    resume_words = set(re.sub(r'[^a-z0-9\s]', ' ', resume_lower).split()) if resume_text else set()
-    resume_words.discard('')
-    if matched_keywords:
-        resume_keywords = set(k.lower() for k in matched_keywords)
-        resume_words.update(resume_keywords)
-    else:
-        resume_keywords = set()
-
-    scored = []
-    for r in all_roadmaps:
-        score = 0
-        kw = r.get('keywords', [])
-        if resume_keywords:
-            matched_kw = sum(1 for k in resume_keywords if k in kw)
-            score += matched_kw * 3
-        if resume_words:
-            matched_words = sum(1 for w in resume_words if w in kw)
-            score += matched_words
-        if score > 0:
-            scored.append((score, r))
-
-    scored.sort(key=lambda x: -x[0])
-
-    result = [{'name': r['name'], 'filename': r['filename'], 'url': r['url']} for _, r in scored[:8]]
-
-    if not result:
-        result = [{'name': r['name'], 'filename': r['filename'], 'url': r['url']} for r in all_roadmaps[:4]]
-
-    return result
 
 try:
     from supabase import create_client
@@ -225,7 +163,7 @@ def analyze_resume(request):
     result = calculate_ats_score(resume_text, job_description)
     roadmap = generate_roadmap(result['missing_keywords'], resume_text, job_description)
     skill_improvement = generate_skill_improvement_plan(resume_text, result['missing_keywords'])
-    sample_roadmaps = load_sample_roadmaps(resume_text, result['matched_keywords'])
+    sample_roadmaps = load_sample_roadmaps()
 
     analysis = {
         'id': str(uuid.uuid4()),
